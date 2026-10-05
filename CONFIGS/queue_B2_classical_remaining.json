@@ -1,0 +1,107 @@
+[
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2
+ }
+]

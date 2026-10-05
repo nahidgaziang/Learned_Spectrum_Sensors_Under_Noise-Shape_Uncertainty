@@ -1,0 +1,7 @@
+{
+ "n_configs": 24,
+ "max_Pd_at_or_below_wall": 0.053,
+ "delta50_max_N32768": 0.83,
+ "delta50_max_N8192": 1.47,
+ "delta50_shrinks_with_N_all": true
+}

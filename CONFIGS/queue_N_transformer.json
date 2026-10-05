@@ -1,0 +1,7 @@
+[
+  {"kind": "learned", "arch": "Transformer", "recipe": "WHITE", "N": 128, "sps": 8, "seed": 0},
+  {"kind": "learned", "arch": "Transformer", "recipe": "WHITE", "N": 128, "sps": 8, "seed": 1},
+  {"kind": "learned", "arch": "Transformer", "recipe": "WHITE", "N": 128, "sps": 8, "seed": 2},
+  {"kind": "learned", "arch": "Transformer", "recipe": "WHITE", "N": 128, "sps": 8, "seed": 3},
+  {"kind": "learned", "arch": "Transformer", "recipe": "WHITE", "N": 128, "sps": 8, "seed": 4}
+]

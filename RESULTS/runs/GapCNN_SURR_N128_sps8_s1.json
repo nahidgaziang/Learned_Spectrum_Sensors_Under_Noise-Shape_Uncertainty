@@ -1,0 +1,1461 @@
+{
+ "id": "GapCNN_SURR_N128_sps8_s1",
+ "config": {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "ntrain": 60000,
+  "epochs": 12,
+  "lr": 0.001,
+  "batch": 128,
+  "beta": 0.35,
+  "tag": ""
+ },
+ "date": "2026-10-01T23:26:02",
+ "code_version": "3509253+dirty",
+ "host": "<anonymised>",
+ "python": "3.12.10",
+ "torch": "2.6.0+cu124",
+ "device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+ "training": {
+  "history": [
+   {
+    "epoch": 0,
+    "train_loss": 0.4781613313147896,
+    "val_loss": 0.426167294383049
+   },
+   {
+    "epoch": 1,
+    "train_loss": 0.37944748341409784,
+    "val_loss": 0.3587454706430435
+   },
+   {
+    "epoch": 2,
+    "train_loss": 0.3559028037012669,
+    "val_loss": 0.3527453988790512
+   },
+   {
+    "epoch": 3,
+    "train_loss": 0.3458286288077371,
+    "val_loss": 0.3438023626804352
+   },
+   {
+    "epoch": 4,
+    "train_loss": 0.3397750306798701,
+    "val_loss": 0.34342505037784576
+   },
+   {
+    "epoch": 5,
+    "train_loss": 0.33176758513116,
+    "val_loss": 0.34098169207572937
+   },
+   {
+    "epoch": 6,
+    "train_loss": 0.3263424595908115,
+    "val_loss": 0.3368416875600815
+   },
+   {
+    "epoch": 7,
+    "train_loss": 0.3209422149323581,
+    "val_loss": 0.3337119370698929
+   },
+   {
+    "epoch": 8,
+    "train_loss": 0.31556336594882767,
+    "val_loss": 0.330862358212471
+   },
+   {
+    "epoch": 9,
+    "train_loss": 0.31225362033383885,
+    "val_loss": 0.3292263001203537
+   },
+   {
+    "epoch": 10,
+    "train_loss": 0.3098138756919325,
+    "val_loss": 0.32937267422676086
+   },
+   {
+    "epoch": 11,
+    "train_loss": 0.30815454264272724,
+    "val_loss": 0.3304251581430435
+   }
+  ],
+  "t_data_s": 1.595048427581787,
+  "t_train_s": 24.18571901321411,
+  "n_params": 120321,
+  "lr_used": 0.001
+ },
+ "eval": {
+  "N": 128,
+  "sps": 8,
+  "alpha": 0.05,
+  "thresholds": {
+   "nominal": 0.210781067609787,
+   "U_power": 0.25214773416519165,
+   "U_mild": 0.5124067068099976,
+   "U_receiver": 0.3371024429798126,
+   "U_broad": 0.6702582240104675,
+   "U_tilt0.5": 0.5263676643371582,
+   "U_tilt1.0": 0.7908044457435608,
+   "U_tilt2.0": 1.4384821653366089
+  },
+  "cal_q95": {
+   "white": 0.17826399207115173,
+   "white+1dB": 0.25214773416519165,
+   "white-1dB": 0.18792082369327545,
+   "ar+0.05": 0.40114355087280273,
+   "ar-0.05": -0.053795650601387024,
+   "ar+0.1": 0.5124067068099976,
+   "ar-0.1": -0.33279091119766235,
+   "ar+0.2": 0.48214828968048096,
+   "ar-0.2": -1.2622791528701782,
+   "pink": 0.6702582240104675,
+   "lpf0.9": 0.18127159774303436,
+   "lpf0.8": -0.6721636652946472,
+   "rtl1dB": 0.31129223108291626,
+   "rtl3dB": 0.3371024429798126,
+   "tilt0.5+": 0.5263676643371582,
+   "tilt0.5-": -0.08469989150762558,
+   "tilt1.0+": 0.7908044457435608,
+   "tilt1.0-": -0.42012089490890503,
+   "tilt2.0+": 1.4384821653366089,
+   "tilt2.0-": -0.8921630382537842
+  },
+  "Pf": {
+   "white": {
+    "nominal": 0.04925,
+    "U_power": 0.044,
+    "U_mild": 0.0225,
+    "U_receiver": 0.0345,
+    "U_broad": 0.01275,
+    "U_tilt0.5": 0.02125,
+    "U_tilt1.0": 0.00925,
+    "U_tilt2.0": 0.0005
+   },
+   "white+1dB": {
+    "nominal": 0.055,
+    "U_power": 0.0515,
+    "U_mild": 0.02525,
+    "U_receiver": 0.04,
+    "U_broad": 0.01325,
+    "U_tilt0.5": 0.02425,
+    "U_tilt1.0": 0.0105,
+    "U_tilt2.0": 0.00075
+   },
+   "white-1dB": {
+    "nominal": 0.05425,
+    "U_power": 0.0485,
+    "U_mild": 0.0255,
+    "U_receiver": 0.04075,
+    "U_broad": 0.01475,
+    "U_tilt0.5": 0.0245,
+    "U_tilt1.0": 0.01175,
+    "U_tilt2.0": 0.00175
+   },
+   "ar+0.05": {
+    "nominal": 0.0815,
+    "U_power": 0.074,
+    "U_mild": 0.04325,
+    "U_receiver": 0.0635,
+    "U_broad": 0.029,
+    "U_tilt0.5": 0.0415,
+    "U_tilt1.0": 0.01925,
+    "U_tilt2.0": 0.002
+   },
+   "ar-0.05": {
+    "nominal": 0.02125,
+    "U_power": 0.019,
+    "U_mild": 0.0075,
+    "U_receiver": 0.01425,
+    "U_broad": 0.004,
+    "U_tilt0.5": 0.00675,
+    "U_tilt1.0": 0.00275,
+    "U_tilt2.0": 0.0
+   },
+   "ar+0.1": {
+    "nominal": 0.10175,
+    "U_power": 0.095,
+    "U_mild": 0.054,
+    "U_receiver": 0.08025,
+    "U_broad": 0.0385,
+    "U_tilt0.5": 0.05225,
+    "U_tilt1.0": 0.0285,
+    "U_tilt2.0": 0.0045
+   },
+   "ar-0.1": {
+    "nominal": 0.00675,
+    "U_power": 0.00625,
+    "U_mild": 0.00175,
+    "U_receiver": 0.0045,
+    "U_broad": 0.00075,
+    "U_tilt0.5": 0.00175,
+    "U_tilt1.0": 0.0,
+    "U_tilt2.0": 0.0
+   },
+   "ar+0.2": {
+    "nominal": 0.07775,
+    "U_power": 0.07325,
+    "U_mild": 0.04925,
+    "U_receiver": 0.06675,
+    "U_broad": 0.0385,
+    "U_tilt0.5": 0.0485,
+    "U_tilt1.0": 0.03025,
+    "U_tilt2.0": 0.00875
+   },
+   "ar-0.2": {
+    "nominal": 0.0005,
+    "U_power": 0.00025,
+    "U_mild": 0.0,
+    "U_receiver": 0.0,
+    "U_broad": 0.0,
+    "U_tilt0.5": 0.0,
+    "U_tilt1.0": 0.0,
+    "U_tilt2.0": 0.0
+   },
+   "pink": {
+    "nominal": 0.07125,
+    "U_power": 0.06875,
+    "U_mild": 0.05375,
+    "U_receiver": 0.06325,
+    "U_broad": 0.04575,
+    "U_tilt0.5": 0.053,
+    "U_tilt1.0": 0.04075,
+    "U_tilt2.0": 0.02525
+   },
+   "lpf0.9": {
+    "nominal": 0.0505,
+    "U_power": 0.04575,
+    "U_mild": 0.0225,
+    "U_receiver": 0.03425,
+    "U_broad": 0.0135,
+    "U_tilt0.5": 0.02225,
+    "U_tilt1.0": 0.00975,
+    "U_tilt2.0": 0.00075
+   },
+   "lpf0.8": {
+    "nominal": 0.00725,
+    "U_power": 0.0065,
+    "U_mild": 0.003,
+    "U_receiver": 0.00525,
+    "U_broad": 0.0025,
+    "U_tilt0.5": 0.003,
+    "U_tilt1.0": 0.002,
+    "U_tilt2.0": 0.00025
+   },
+   "rtl1dB": {
+    "nominal": 0.06525,
+    "U_power": 0.05875,
+    "U_mild": 0.02875,
+    "U_receiver": 0.0455,
+    "U_broad": 0.018,
+    "U_tilt0.5": 0.0275,
+    "U_tilt1.0": 0.01275,
+    "U_tilt2.0": 0.001
+   },
+   "rtl3dB": {
+    "nominal": 0.0685,
+    "U_power": 0.06025,
+    "U_mild": 0.02825,
+    "U_receiver": 0.04625,
+    "U_broad": 0.021,
+    "U_tilt0.5": 0.02775,
+    "U_tilt1.0": 0.015,
+    "U_tilt2.0": 0.0015
+   },
+   "tilt0.5+": {
+    "nominal": 0.11125,
+    "U_power": 0.105,
+    "U_mild": 0.05525,
+    "U_receiver": 0.087,
+    "U_broad": 0.03625,
+    "U_tilt0.5": 0.053,
+    "U_tilt1.0": 0.0255,
+    "U_tilt2.0": 0.00325
+   },
+   "tilt0.5-": {
+    "nominal": 0.02125,
+    "U_power": 0.019,
+    "U_mild": 0.008,
+    "U_receiver": 0.01325,
+    "U_broad": 0.00525,
+    "U_tilt0.5": 0.00725,
+    "U_tilt1.0": 0.0035,
+    "U_tilt2.0": 0.0
+   },
+   "tilt1.0+": {
+    "nominal": 0.18275,
+    "U_power": 0.16975,
+    "U_mild": 0.10175,
+    "U_receiver": 0.14475,
+    "U_broad": 0.07425,
+    "U_tilt0.5": 0.098,
+    "U_tilt1.0": 0.05575,
+    "U_tilt2.0": 0.01275
+   },
+   "tilt1.0-": {
+    "nominal": 0.00725,
+    "U_power": 0.00625,
+    "U_mild": 0.002,
+    "U_receiver": 0.0045,
+    "U_broad": 0.0005,
+    "U_tilt0.5": 0.0015,
+    "U_tilt1.0": 0.0005,
+    "U_tilt2.0": 0.00025
+   },
+   "tilt2.0+": {
+    "nominal": 0.3725,
+    "U_power": 0.355,
+    "U_mild": 0.25125,
+    "U_receiver": 0.317,
+    "U_broad": 0.19675,
+    "U_tilt0.5": 0.24725,
+    "U_tilt1.0": 0.1615,
+    "U_tilt2.0": 0.04325
+   },
+   "tilt2.0-": {
+    "nominal": 0.0005,
+    "U_power": 0.0005,
+    "U_mild": 0.0,
+    "U_receiver": 0.0,
+    "U_broad": 0.0,
+    "U_tilt0.5": 0.0,
+    "U_tilt1.0": 0.0,
+    "U_tilt2.0": 0.0
+   }
+  },
+  "Pd": {
+   "-20": {
+    "white": {
+     "nominal": 0.0725,
+     "U_power": 0.0665,
+     "U_mild": 0.03225,
+     "U_receiver": 0.0535,
+     "U_broad": 0.02075,
+     "U_tilt0.5": 0.031,
+     "U_tilt1.0": 0.01325,
+     "U_tilt2.0": 0.002
+    },
+    "lpf0.8": {
+     "nominal": 0.0075,
+     "U_power": 0.0075,
+     "U_mild": 0.002,
+     "U_receiver": 0.005,
+     "U_broad": 0.0015,
+     "U_tilt0.5": 0.002,
+     "U_tilt1.0": 0.001,
+     "U_tilt2.0": 0.0
+    },
+    "rtl3dB": {
+     "nominal": 0.081,
+     "U_power": 0.0735,
+     "U_mild": 0.0405,
+     "U_receiver": 0.0575,
+     "U_broad": 0.025,
+     "U_tilt0.5": 0.04,
+     "U_tilt1.0": 0.0165,
+     "U_tilt2.0": 0.0015
+    },
+    "ar+0.1": {
+     "nominal": 0.1265,
+     "U_power": 0.1155,
+     "U_mild": 0.0655,
+     "U_receiver": 0.0975,
+     "U_broad": 0.0495,
+     "U_tilt0.5": 0.0635,
+     "U_tilt1.0": 0.036,
+     "U_tilt2.0": 0.005
+    },
+    "ar-0.1": {
+     "nominal": 0.018,
+     "U_power": 0.016,
+     "U_mild": 0.008,
+     "U_receiver": 0.0105,
+     "U_broad": 0.0045,
+     "U_tilt0.5": 0.0065,
+     "U_tilt1.0": 0.0015,
+     "U_tilt2.0": 0.0
+    },
+    "pink": {
+     "nominal": 0.072,
+     "U_power": 0.071,
+     "U_mild": 0.0575,
+     "U_receiver": 0.0665,
+     "U_broad": 0.052,
+     "U_tilt0.5": 0.0575,
+     "U_tilt1.0": 0.0475,
+     "U_tilt2.0": 0.022
+    },
+    "tilt1.0+": {
+     "nominal": 0.2315,
+     "U_power": 0.216,
+     "U_mild": 0.1375,
+     "U_receiver": 0.195,
+     "U_broad": 0.0945,
+     "U_tilt0.5": 0.134,
+     "U_tilt1.0": 0.07,
+     "U_tilt2.0": 0.014
+    },
+    "tilt1.0-": {
+     "nominal": 0.0175,
+     "U_power": 0.014,
+     "U_mild": 0.0045,
+     "U_receiver": 0.0085,
+     "U_broad": 0.0025,
+     "U_tilt0.5": 0.0045,
+     "U_tilt1.0": 0.0015,
+     "U_tilt2.0": 0.0
+    },
+    "tilt2.0-": {
+     "nominal": 0.002,
+     "U_power": 0.0015,
+     "U_mild": 0.001,
+     "U_receiver": 0.0015,
+     "U_broad": 0.001,
+     "U_tilt0.5": 0.001,
+     "U_tilt1.0": 0.0005,
+     "U_tilt2.0": 0.0
+    },
+    "tilt0.5-": {
+     "nominal": 0.0375,
+     "U_power": 0.033,
+     "U_mild": 0.0145,
+     "U_receiver": 0.026,
+     "U_broad": 0.008,
+     "U_tilt0.5": 0.0135,
+     "U_tilt1.0": 0.005,
+     "U_tilt2.0": 0.0
+    }
+   },
+   "-17": {
+    "white": {
+     "nominal": 0.12125,
+     "U_power": 0.11175,
+     "U_mild": 0.06225,
+     "U_receiver": 0.094,
+     "U_broad": 0.04075,
+     "U_tilt0.5": 0.05975,
+     "U_tilt1.0": 0.03,
+     "U_tilt2.0": 0.00325
+    },
+    "lpf0.8": {
+     "nominal": 0.014,
+     "U_power": 0.012,
+     "U_mild": 0.0065,
+     "U_receiver": 0.0095,
+     "U_broad": 0.0045,
+     "U_tilt0.5": 0.0065,
+     "U_tilt1.0": 0.003,
+     "U_tilt2.0": 0.0005
+    },
+    "rtl3dB": {
+     "nominal": 0.1185,
+     "U_power": 0.1065,
+     "U_mild": 0.051,
+     "U_receiver": 0.089,
+     "U_broad": 0.0385,
+     "U_tilt0.5": 0.05,
+     "U_tilt1.0": 0.0295,
+     "U_tilt2.0": 0.0085
+    },
+    "ar+0.1": {
+     "nominal": 0.1605,
+     "U_power": 0.1515,
+     "U_mild": 0.098,
+     "U_receiver": 0.127,
+     "U_broad": 0.0715,
+     "U_tilt0.5": 0.096,
+     "U_tilt1.0": 0.053,
+     "U_tilt2.0": 0.013
+    },
+    "ar-0.1": {
+     "nominal": 0.0355,
+     "U_power": 0.032,
+     "U_mild": 0.0125,
+     "U_receiver": 0.026,
+     "U_broad": 0.008,
+     "U_tilt0.5": 0.012,
+     "U_tilt1.0": 0.005,
+     "U_tilt2.0": 0.0005
+    },
+    "pink": {
+     "nominal": 0.074,
+     "U_power": 0.071,
+     "U_mild": 0.056,
+     "U_receiver": 0.068,
+     "U_broad": 0.048,
+     "U_tilt0.5": 0.0545,
+     "U_tilt1.0": 0.0465,
+     "U_tilt2.0": 0.025
+    },
+    "tilt1.0+": {
+     "nominal": 0.2925,
+     "U_power": 0.2745,
+     "U_mild": 0.1755,
+     "U_receiver": 0.2445,
+     "U_broad": 0.1265,
+     "U_tilt0.5": 0.169,
+     "U_tilt1.0": 0.091,
+     "U_tilt2.0": 0.023
+    },
+    "tilt1.0-": {
+     "nominal": 0.034,
+     "U_power": 0.031,
+     "U_mild": 0.0145,
+     "U_receiver": 0.024,
+     "U_broad": 0.0105,
+     "U_tilt0.5": 0.0145,
+     "U_tilt1.0": 0.0075,
+     "U_tilt2.0": 0.0
+    },
+    "tilt2.0-": {
+     "nominal": 0.005,
+     "U_power": 0.0045,
+     "U_mild": 0.002,
+     "U_receiver": 0.004,
+     "U_broad": 0.001,
+     "U_tilt0.5": 0.002,
+     "U_tilt1.0": 0.0005,
+     "U_tilt2.0": 0.0
+    },
+    "tilt0.5-": {
+     "nominal": 0.073,
+     "U_power": 0.0635,
+     "U_mild": 0.0325,
+     "U_receiver": 0.052,
+     "U_broad": 0.0175,
+     "U_tilt0.5": 0.0315,
+     "U_tilt1.0": 0.012,
+     "U_tilt2.0": 0.0025
+    }
+   },
+   "-14": {
+    "white": {
+     "nominal": 0.20725,
+     "U_power": 0.19425,
+     "U_mild": 0.11625,
+     "U_receiver": 0.16325,
+     "U_broad": 0.08125,
+     "U_tilt0.5": 0.11325,
+     "U_tilt1.0": 0.06125,
+     "U_tilt2.0": 0.012
+    },
+    "lpf0.8": {
+     "nominal": 0.014,
+     "U_power": 0.013,
+     "U_mild": 0.0075,
+     "U_receiver": 0.011,
+     "U_broad": 0.005,
+     "U_tilt0.5": 0.0075,
+     "U_tilt1.0": 0.004,
+     "U_tilt2.0": 0.0
+    },
+    "rtl3dB": {
+     "nominal": 0.1645,
+     "U_power": 0.153,
+     "U_mild": 0.0995,
+     "U_receiver": 0.132,
+     "U_broad": 0.0735,
+     "U_tilt0.5": 0.0965,
+     "U_tilt1.0": 0.059,
+     "U_tilt2.0": 0.011
+    },
+    "ar+0.1": {
+     "nominal": 0.219,
+     "U_power": 0.21,
+     "U_mild": 0.1445,
+     "U_receiver": 0.185,
+     "U_broad": 0.1125,
+     "U_tilt0.5": 0.14,
+     "U_tilt1.0": 0.0915,
+     "U_tilt2.0": 0.024
+    },
+    "ar-0.1": {
+     "nominal": 0.105,
+     "U_power": 0.095,
+     "U_mild": 0.0555,
+     "U_receiver": 0.0815,
+     "U_broad": 0.0335,
+     "U_tilt0.5": 0.0545,
+     "U_tilt1.0": 0.0265,
+     "U_tilt2.0": 0.003
+    },
+    "pink": {
+     "nominal": 0.085,
+     "U_power": 0.081,
+     "U_mild": 0.0685,
+     "U_receiver": 0.075,
+     "U_broad": 0.0605,
+     "U_tilt0.5": 0.0675,
+     "U_tilt1.0": 0.057,
+     "U_tilt2.0": 0.0345
+    },
+    "tilt1.0+": {
+     "nominal": 0.3865,
+     "U_power": 0.368,
+     "U_mild": 0.263,
+     "U_receiver": 0.329,
+     "U_broad": 0.208,
+     "U_tilt0.5": 0.2595,
+     "U_tilt1.0": 0.1665,
+     "U_tilt2.0": 0.0445
+    },
+    "tilt1.0-": {
+     "nominal": 0.088,
+     "U_power": 0.0805,
+     "U_mild": 0.042,
+     "U_receiver": 0.064,
+     "U_broad": 0.0245,
+     "U_tilt0.5": 0.0405,
+     "U_tilt1.0": 0.0175,
+     "U_tilt2.0": 0.002
+    },
+    "tilt2.0-": {
+     "nominal": 0.015,
+     "U_power": 0.0125,
+     "U_mild": 0.004,
+     "U_receiver": 0.0075,
+     "U_broad": 0.002,
+     "U_tilt0.5": 0.004,
+     "U_tilt1.0": 0.0015,
+     "U_tilt2.0": 0.0
+    },
+    "tilt0.5-": {
+     "nominal": 0.1445,
+     "U_power": 0.1285,
+     "U_mild": 0.0745,
+     "U_receiver": 0.1055,
+     "U_broad": 0.0475,
+     "U_tilt0.5": 0.0725,
+     "U_tilt1.0": 0.031,
+     "U_tilt2.0": 0.005
+    }
+   },
+   "-12": {
+    "white": {
+     "nominal": 0.341,
+     "U_power": 0.3215,
+     "U_mild": 0.21475,
+     "U_receiver": 0.284,
+     "U_broad": 0.16325,
+     "U_tilt0.5": 0.2085,
+     "U_tilt1.0": 0.13,
+     "U_tilt2.0": 0.033
+    },
+    "lpf0.8": {
+     "nominal": 0.0305,
+     "U_power": 0.027,
+     "U_mild": 0.02,
+     "U_receiver": 0.025,
+     "U_broad": 0.018,
+     "U_tilt0.5": 0.02,
+     "U_tilt1.0": 0.0135,
+     "U_tilt2.0": 0.0045
+    },
+    "rtl3dB": {
+     "nominal": 0.245,
+     "U_power": 0.232,
+     "U_mild": 0.1685,
+     "U_receiver": 0.205,
+     "U_broad": 0.1375,
+     "U_tilt0.5": 0.165,
+     "U_tilt1.0": 0.1145,
+     "U_tilt2.0": 0.033
+    },
+    "ar+0.1": {
+     "nominal": 0.2855,
+     "U_power": 0.272,
+     "U_mild": 0.1935,
+     "U_receiver": 0.2485,
+     "U_broad": 0.1555,
+     "U_tilt0.5": 0.1895,
+     "U_tilt1.0": 0.1325,
+     "U_tilt2.0": 0.0395
+    },
+    "ar-0.1": {
+     "nominal": 0.2225,
+     "U_power": 0.208,
+     "U_mild": 0.1215,
+     "U_receiver": 0.1775,
+     "U_broad": 0.0855,
+     "U_tilt0.5": 0.1185,
+     "U_tilt1.0": 0.0625,
+     "U_tilt2.0": 0.0115
+    },
+    "pink": {
+     "nominal": 0.0935,
+     "U_power": 0.091,
+     "U_mild": 0.075,
+     "U_receiver": 0.088,
+     "U_broad": 0.0675,
+     "U_tilt0.5": 0.075,
+     "U_tilt1.0": 0.0625,
+     "U_tilt2.0": 0.035
+    },
+    "tilt1.0+": {
+     "nominal": 0.506,
+     "U_power": 0.4895,
+     "U_mild": 0.3845,
+     "U_receiver": 0.452,
+     "U_broad": 0.311,
+     "U_tilt0.5": 0.3755,
+     "U_tilt1.0": 0.2655,
+     "U_tilt2.0": 0.1035
+    },
+    "tilt1.0-": {
+     "nominal": 0.1845,
+     "U_power": 0.1695,
+     "U_mild": 0.1035,
+     "U_receiver": 0.144,
+     "U_broad": 0.069,
+     "U_tilt0.5": 0.098,
+     "U_tilt1.0": 0.0475,
+     "U_tilt2.0": 0.007
+    },
+    "tilt2.0-": {
+     "nominal": 0.083,
+     "U_power": 0.0715,
+     "U_mild": 0.0375,
+     "U_receiver": 0.0615,
+     "U_broad": 0.0225,
+     "U_tilt0.5": 0.036,
+     "U_tilt1.0": 0.015,
+     "U_tilt2.0": 0.0035
+    },
+    "tilt0.5-": {
+     "nominal": 0.2625,
+     "U_power": 0.244,
+     "U_mild": 0.1545,
+     "U_receiver": 0.21,
+     "U_broad": 0.112,
+     "U_tilt0.5": 0.1525,
+     "U_tilt1.0": 0.0875,
+     "U_tilt2.0": 0.0165
+    }
+   },
+   "-10": {
+    "white": {
+     "nominal": 0.5455,
+     "U_power": 0.52925,
+     "U_mild": 0.4,
+     "U_receiver": 0.4885,
+     "U_broad": 0.329,
+     "U_tilt0.5": 0.394,
+     "U_tilt1.0": 0.28025,
+     "U_tilt2.0": 0.09475
+    },
+    "lpf0.8": {
+     "nominal": 0.0555,
+     "U_power": 0.053,
+     "U_mild": 0.0375,
+     "U_receiver": 0.048,
+     "U_broad": 0.031,
+     "U_tilt0.5": 0.0355,
+     "U_tilt1.0": 0.024,
+     "U_tilt2.0": 0.01
+    },
+    "rtl3dB": {
+     "nominal": 0.338,
+     "U_power": 0.324,
+     "U_mild": 0.243,
+     "U_receiver": 0.298,
+     "U_broad": 0.2055,
+     "U_tilt0.5": 0.242,
+     "U_tilt1.0": 0.1815,
+     "U_tilt2.0": 0.067
+    },
+    "ar+0.1": {
+     "nominal": 0.388,
+     "U_power": 0.3815,
+     "U_mild": 0.2995,
+     "U_receiver": 0.358,
+     "U_broad": 0.2555,
+     "U_tilt0.5": 0.297,
+     "U_tilt1.0": 0.231,
+     "U_tilt2.0": 0.0965
+    },
+    "ar-0.1": {
+     "nominal": 0.4915,
+     "U_power": 0.4725,
+     "U_mild": 0.3455,
+     "U_receiver": 0.43,
+     "U_broad": 0.2735,
+     "U_tilt0.5": 0.339,
+     "U_tilt1.0": 0.2205,
+     "U_tilt2.0": 0.055
+    },
+    "pink": {
+     "nominal": 0.1005,
+     "U_power": 0.0985,
+     "U_mild": 0.0785,
+     "U_receiver": 0.0915,
+     "U_broad": 0.071,
+     "U_tilt0.5": 0.0775,
+     "U_tilt1.0": 0.0665,
+     "U_tilt2.0": 0.0385
+    },
+    "tilt1.0+": {
+     "nominal": 0.6515,
+     "U_power": 0.635,
+     "U_mild": 0.516,
+     "U_receiver": 0.594,
+     "U_broad": 0.446,
+     "U_tilt0.5": 0.5135,
+     "U_tilt1.0": 0.388,
+     "U_tilt2.0": 0.178
+    },
+    "tilt1.0-": {
+     "nominal": 0.4285,
+     "U_power": 0.4065,
+     "U_mild": 0.2825,
+     "U_receiver": 0.3655,
+     "U_broad": 0.207,
+     "U_tilt0.5": 0.275,
+     "U_tilt1.0": 0.161,
+     "U_tilt2.0": 0.0475
+    },
+    "tilt2.0-": {
+     "nominal": 0.263,
+     "U_power": 0.248,
+     "U_mild": 0.1595,
+     "U_receiver": 0.2205,
+     "U_broad": 0.1135,
+     "U_tilt0.5": 0.1565,
+     "U_tilt1.0": 0.089,
+     "U_tilt2.0": 0.014
+    },
+    "tilt0.5-": {
+     "nominal": 0.485,
+     "U_power": 0.464,
+     "U_mild": 0.336,
+     "U_receiver": 0.4205,
+     "U_broad": 0.2605,
+     "U_tilt0.5": 0.329,
+     "U_tilt1.0": 0.2125,
+     "U_tilt2.0": 0.066
+    }
+   },
+   "-8": {
+    "white": {
+     "nominal": 0.74,
+     "U_power": 0.72375,
+     "U_mild": 0.6255,
+     "U_receiver": 0.6955,
+     "U_broad": 0.563,
+     "U_tilt0.5": 0.62,
+     "U_tilt1.0": 0.505,
+     "U_tilt2.0": 0.26825
+    },
+    "lpf0.8": {
+     "nominal": 0.079,
+     "U_power": 0.075,
+     "U_mild": 0.064,
+     "U_receiver": 0.0715,
+     "U_broad": 0.053,
+     "U_tilt0.5": 0.063,
+     "U_tilt1.0": 0.0445,
+     "U_tilt2.0": 0.016
+    },
+    "rtl3dB": {
+     "nominal": 0.4895,
+     "U_power": 0.4745,
+     "U_mild": 0.4005,
+     "U_receiver": 0.448,
+     "U_broad": 0.3505,
+     "U_tilt0.5": 0.394,
+     "U_tilt1.0": 0.3205,
+     "U_tilt2.0": 0.1725
+    },
+    "ar+0.1": {
+     "nominal": 0.502,
+     "U_power": 0.4895,
+     "U_mild": 0.4195,
+     "U_receiver": 0.4705,
+     "U_broad": 0.382,
+     "U_tilt0.5": 0.415,
+     "U_tilt1.0": 0.3505,
+     "U_tilt2.0": 0.198
+    },
+    "ar-0.1": {
+     "nominal": 0.7945,
+     "U_power": 0.781,
+     "U_mild": 0.682,
+     "U_receiver": 0.754,
+     "U_broad": 0.602,
+     "U_tilt0.5": 0.6735,
+     "U_tilt1.0": 0.544,
+     "U_tilt2.0": 0.244
+    },
+    "pink": {
+     "nominal": 0.1215,
+     "U_power": 0.1165,
+     "U_mild": 0.0945,
+     "U_receiver": 0.1085,
+     "U_broad": 0.086,
+     "U_tilt0.5": 0.0945,
+     "U_tilt1.0": 0.0765,
+     "U_tilt2.0": 0.046
+    },
+    "tilt1.0+": {
+     "nominal": 0.772,
+     "U_power": 0.7645,
+     "U_mild": 0.6825,
+     "U_receiver": 0.7365,
+     "U_broad": 0.6335,
+     "U_tilt0.5": 0.679,
+     "U_tilt1.0": 0.5855,
+     "U_tilt2.0": 0.368
+    },
+    "tilt1.0-": {
+     "nominal": 0.69,
+     "U_power": 0.678,
+     "U_mild": 0.5705,
+     "U_receiver": 0.6475,
+     "U_broad": 0.492,
+     "U_tilt0.5": 0.563,
+     "U_tilt1.0": 0.44,
+     "U_tilt2.0": 0.1895
+    },
+    "tilt2.0-": {
+     "nominal": 0.634,
+     "U_power": 0.615,
+     "U_mild": 0.4845,
+     "U_receiver": 0.577,
+     "U_broad": 0.41,
+     "U_tilt0.5": 0.478,
+     "U_tilt1.0": 0.34,
+     "U_tilt2.0": 0.1185
+    },
+    "tilt0.5-": {
+     "nominal": 0.7345,
+     "U_power": 0.7185,
+     "U_mild": 0.5985,
+     "U_receiver": 0.6825,
+     "U_broad": 0.531,
+     "U_tilt0.5": 0.595,
+     "U_tilt1.0": 0.4765,
+     "U_tilt2.0": 0.2205
+    }
+   },
+   "-6": {
+    "white": {
+     "nominal": 0.86,
+     "U_power": 0.856,
+     "U_mild": 0.80825,
+     "U_receiver": 0.8405,
+     "U_broad": 0.77125,
+     "U_tilt0.5": 0.80625,
+     "U_tilt1.0": 0.7395,
+     "U_tilt2.0": 0.54075
+    },
+    "lpf0.8": {
+     "nominal": 0.1565,
+     "U_power": 0.1535,
+     "U_mild": 0.131,
+     "U_receiver": 0.147,
+     "U_broad": 0.1165,
+     "U_tilt0.5": 0.13,
+     "U_tilt1.0": 0.1075,
+     "U_tilt2.0": 0.0515
+    },
+    "rtl3dB": {
+     "nominal": 0.603,
+     "U_power": 0.593,
+     "U_mild": 0.542,
+     "U_receiver": 0.5755,
+     "U_broad": 0.504,
+     "U_tilt0.5": 0.5365,
+     "U_tilt1.0": 0.478,
+     "U_tilt2.0": 0.3075
+    },
+    "ar+0.1": {
+     "nominal": 0.6265,
+     "U_power": 0.62,
+     "U_mild": 0.5615,
+     "U_receiver": 0.605,
+     "U_broad": 0.524,
+     "U_tilt0.5": 0.5585,
+     "U_tilt1.0": 0.493,
+     "U_tilt2.0": 0.34
+    },
+    "ar-0.1": {
+     "nominal": 0.943,
+     "U_power": 0.9395,
+     "U_mild": 0.903,
+     "U_receiver": 0.9315,
+     "U_broad": 0.874,
+     "U_tilt0.5": 0.902,
+     "U_tilt1.0": 0.844,
+     "U_tilt2.0": 0.635
+    },
+    "pink": {
+     "nominal": 0.2015,
+     "U_power": 0.197,
+     "U_mild": 0.169,
+     "U_receiver": 0.188,
+     "U_broad": 0.156,
+     "U_tilt0.5": 0.169,
+     "U_tilt1.0": 0.14,
+     "U_tilt2.0": 0.086
+    },
+    "tilt1.0+": {
+     "nominal": 0.835,
+     "U_power": 0.827,
+     "U_mild": 0.779,
+     "U_receiver": 0.815,
+     "U_broad": 0.745,
+     "U_tilt0.5": 0.775,
+     "U_tilt1.0": 0.7195,
+     "U_tilt2.0": 0.561
+    },
+    "tilt1.0-": {
+     "nominal": 0.859,
+     "U_power": 0.854,
+     "U_mild": 0.7975,
+     "U_receiver": 0.8365,
+     "U_broad": 0.7515,
+     "U_tilt0.5": 0.7925,
+     "U_tilt1.0": 0.721,
+     "U_tilt2.0": 0.5185
+    },
+    "tilt2.0-": {
+     "nominal": 0.862,
+     "U_power": 0.854,
+     "U_mild": 0.792,
+     "U_receiver": 0.8345,
+     "U_broad": 0.742,
+     "U_tilt0.5": 0.787,
+     "U_tilt1.0": 0.7005,
+     "U_tilt2.0": 0.457
+    },
+    "tilt0.5-": {
+     "nominal": 0.8625,
+     "U_power": 0.8555,
+     "U_mild": 0.8045,
+     "U_receiver": 0.839,
+     "U_broad": 0.7615,
+     "U_tilt0.5": 0.803,
+     "U_tilt1.0": 0.7295,
+     "U_tilt2.0": 0.5235
+    }
+   },
+   "-3": {
+    "white": {
+     "nominal": 0.938,
+     "U_power": 0.936,
+     "U_mild": 0.91425,
+     "U_receiver": 0.92975,
+     "U_broad": 0.9005,
+     "U_tilt0.5": 0.91375,
+     "U_tilt1.0": 0.888,
+     "U_tilt2.0": 0.80325
+    },
+    "lpf0.8": {
+     "nominal": 0.412,
+     "U_power": 0.4075,
+     "U_mild": 0.3685,
+     "U_receiver": 0.393,
+     "U_broad": 0.3415,
+     "U_tilt0.5": 0.365,
+     "U_tilt1.0": 0.323,
+     "U_tilt2.0": 0.2125
+    },
+    "rtl3dB": {
+     "nominal": 0.7875,
+     "U_power": 0.7815,
+     "U_mild": 0.7445,
+     "U_receiver": 0.7685,
+     "U_broad": 0.7265,
+     "U_tilt0.5": 0.743,
+     "U_tilt1.0": 0.707,
+     "U_tilt2.0": 0.589
+    },
+    "ar+0.1": {
+     "nominal": 0.7895,
+     "U_power": 0.785,
+     "U_mild": 0.7555,
+     "U_receiver": 0.775,
+     "U_broad": 0.736,
+     "U_tilt0.5": 0.754,
+     "U_tilt1.0": 0.7185,
+     "U_tilt2.0": 0.595
+    },
+    "ar-0.1": {
+     "nominal": 0.9735,
+     "U_power": 0.9725,
+     "U_mild": 0.9635,
+     "U_receiver": 0.969,
+     "U_broad": 0.9545,
+     "U_tilt0.5": 0.963,
+     "U_tilt1.0": 0.9485,
+     "U_tilt2.0": 0.9015
+    },
+    "pink": {
+     "nominal": 0.3135,
+     "U_power": 0.3115,
+     "U_mild": 0.2805,
+     "U_receiver": 0.297,
+     "U_broad": 0.265,
+     "U_tilt0.5": 0.279,
+     "U_tilt1.0": 0.2505,
+     "U_tilt2.0": 0.1815
+    },
+    "tilt1.0+": {
+     "nominal": 0.9185,
+     "U_power": 0.914,
+     "U_mild": 0.892,
+     "U_receiver": 0.9065,
+     "U_broad": 0.8735,
+     "U_tilt0.5": 0.89,
+     "U_tilt1.0": 0.8635,
+     "U_tilt2.0": 0.7795
+    },
+    "tilt1.0-": {
+     "nominal": 0.941,
+     "U_power": 0.938,
+     "U_mild": 0.9175,
+     "U_receiver": 0.9355,
+     "U_broad": 0.906,
+     "U_tilt0.5": 0.9175,
+     "U_tilt1.0": 0.8995,
+     "U_tilt2.0": 0.815
+    },
+    "tilt2.0-": {
+     "nominal": 0.9475,
+     "U_power": 0.9455,
+     "U_mild": 0.9275,
+     "U_receiver": 0.94,
+     "U_broad": 0.916,
+     "U_tilt0.5": 0.9245,
+     "U_tilt1.0": 0.906,
+     "U_tilt2.0": 0.829
+    },
+    "tilt0.5-": {
+     "nominal": 0.942,
+     "U_power": 0.9385,
+     "U_mild": 0.918,
+     "U_receiver": 0.934,
+     "U_broad": 0.9015,
+     "U_tilt0.5": 0.916,
+     "U_tilt1.0": 0.8915,
+     "U_tilt2.0": 0.8095
+    }
+   },
+   "0": {
+    "white": {
+     "nominal": 0.97125,
+     "U_power": 0.9705,
+     "U_mild": 0.961,
+     "U_receiver": 0.96775,
+     "U_broad": 0.95225,
+     "U_tilt0.5": 0.9605,
+     "U_tilt1.0": 0.94625,
+     "U_tilt2.0": 0.9065
+    },
+    "lpf0.8": {
+     "nominal": 0.7465,
+     "U_power": 0.7415,
+     "U_mild": 0.7055,
+     "U_receiver": 0.7275,
+     "U_broad": 0.686,
+     "U_tilt0.5": 0.704,
+     "U_tilt1.0": 0.672,
+     "U_tilt2.0": 0.568
+    },
+    "rtl3dB": {
+     "nominal": 0.913,
+     "U_power": 0.912,
+     "U_mild": 0.896,
+     "U_receiver": 0.9055,
+     "U_broad": 0.885,
+     "U_tilt0.5": 0.896,
+     "U_tilt1.0": 0.873,
+     "U_tilt2.0": 0.799
+    },
+    "ar+0.1": {
+     "nominal": 0.922,
+     "U_power": 0.9195,
+     "U_mild": 0.905,
+     "U_receiver": 0.914,
+     "U_broad": 0.893,
+     "U_tilt0.5": 0.904,
+     "U_tilt1.0": 0.8825,
+     "U_tilt2.0": 0.8145
+    },
+    "ar-0.1": {
+     "nominal": 0.979,
+     "U_power": 0.978,
+     "U_mild": 0.9725,
+     "U_receiver": 0.9765,
+     "U_broad": 0.97,
+     "U_tilt0.5": 0.9725,
+     "U_tilt1.0": 0.9635,
+     "U_tilt2.0": 0.9425
+    },
+    "pink": {
+     "nominal": 0.599,
+     "U_power": 0.596,
+     "U_mild": 0.5655,
+     "U_receiver": 0.588,
+     "U_broad": 0.5415,
+     "U_tilt0.5": 0.5625,
+     "U_tilt1.0": 0.5215,
+     "U_tilt2.0": 0.4275
+    },
+    "tilt1.0+": {
+     "nominal": 0.949,
+     "U_power": 0.947,
+     "U_mild": 0.9375,
+     "U_receiver": 0.9445,
+     "U_broad": 0.9275,
+     "U_tilt0.5": 0.9375,
+     "U_tilt1.0": 0.9215,
+     "U_tilt2.0": 0.8795
+    },
+    "tilt1.0-": {
+     "nominal": 0.9745,
+     "U_power": 0.9725,
+     "U_mild": 0.9645,
+     "U_receiver": 0.969,
+     "U_broad": 0.9595,
+     "U_tilt0.5": 0.964,
+     "U_tilt1.0": 0.9535,
+     "U_tilt2.0": 0.923
+    },
+    "tilt2.0-": {
+     "nominal": 0.9745,
+     "U_power": 0.973,
+     "U_mild": 0.964,
+     "U_receiver": 0.97,
+     "U_broad": 0.961,
+     "U_tilt0.5": 0.964,
+     "U_tilt1.0": 0.9565,
+     "U_tilt2.0": 0.9285
+    },
+    "tilt0.5-": {
+     "nominal": 0.9665,
+     "U_power": 0.9655,
+     "U_mild": 0.955,
+     "U_receiver": 0.9625,
+     "U_broad": 0.9515,
+     "U_tilt0.5": 0.9545,
+     "U_tilt1.0": 0.946,
+     "U_tilt2.0": 0.912
+    }
+   }
+  },
+  "Pd_surrogate": {
+   "-20": {
+    "nominal": 0.075,
+    "U_power": 0.0685,
+    "U_mild": 0.03375,
+    "U_receiver": 0.05575,
+    "U_broad": 0.02325,
+    "U_tilt0.5": 0.03275,
+    "U_tilt1.0": 0.01775,
+    "U_tilt2.0": 0.00175
+   },
+   "-17": {
+    "nominal": 0.11225,
+    "U_power": 0.10275,
+    "U_mild": 0.05525,
+    "U_receiver": 0.0845,
+    "U_broad": 0.03575,
+    "U_tilt0.5": 0.0545,
+    "U_tilt1.0": 0.02525,
+    "U_tilt2.0": 0.00325
+   },
+   "-14": {
+    "nominal": 0.20775,
+    "U_power": 0.1945,
+    "U_mild": 0.12,
+    "U_receiver": 0.165,
+    "U_broad": 0.07725,
+    "U_tilt0.5": 0.11675,
+    "U_tilt1.0": 0.0565,
+    "U_tilt2.0": 0.0115
+   },
+   "-12": {
+    "nominal": 0.3305,
+    "U_power": 0.3095,
+    "U_mild": 0.2055,
+    "U_receiver": 0.2745,
+    "U_broad": 0.15,
+    "U_tilt0.5": 0.2,
+    "U_tilt1.0": 0.11625,
+    "U_tilt2.0": 0.02725
+   },
+   "-10": {
+    "nominal": 0.49575,
+    "U_power": 0.47875,
+    "U_mild": 0.35675,
+    "U_receiver": 0.43475,
+    "U_broad": 0.29025,
+    "U_tilt0.5": 0.35075,
+    "U_tilt1.0": 0.2405,
+    "U_tilt2.0": 0.0725
+   },
+   "-8": {
+    "nominal": 0.64725,
+    "U_power": 0.6305,
+    "U_mild": 0.525,
+    "U_receiver": 0.597,
+    "U_broad": 0.4555,
+    "U_tilt0.5": 0.51675,
+    "U_tilt1.0": 0.3985,
+    "U_tilt2.0": 0.179
+   },
+   "-6": {
+    "nominal": 0.7305,
+    "U_power": 0.72,
+    "U_mild": 0.65225,
+    "U_receiver": 0.70275,
+    "U_broad": 0.60225,
+    "U_tilt0.5": 0.64925,
+    "U_tilt1.0": 0.5595,
+    "U_tilt2.0": 0.3425
+   },
+   "-3": {
+    "nominal": 0.75025,
+    "U_power": 0.7445,
+    "U_mild": 0.69225,
+    "U_receiver": 0.7255,
+    "U_broad": 0.662,
+    "U_tilt0.5": 0.68925,
+    "U_tilt1.0": 0.641,
+    "U_tilt2.0": 0.49375
+   },
+   "0": {
+    "nominal": 0.70825,
+    "U_power": 0.70175,
+    "U_mild": 0.6525,
+    "U_receiver": 0.68825,
+    "U_broad": 0.6295,
+    "U_tilt0.5": 0.64975,
+    "U_tilt1.0": 0.61225,
+    "U_tilt2.0": 0.48875
+   }
+  },
+  "Pd_worstcase": {
+   "U_power": {
+    "-20": 0.0665,
+    "-17": 0.11175,
+    "-14": 0.19425,
+    "-12": 0.3215,
+    "-10": 0.52925,
+    "-8": 0.72375,
+    "-6": 0.856,
+    "-3": 0.936,
+    "0": 0.9705
+   },
+   "U_power_members": [
+    "white"
+   ],
+   "U_mild": {
+    "-20": 0.008,
+    "-17": 0.0125,
+    "-14": 0.0555,
+    "-12": 0.1215,
+    "-10": 0.2995,
+    "-8": 0.4195,
+    "-6": 0.5615,
+    "-3": 0.7555,
+    "0": 0.905
+   },
+   "U_mild_members": [
+    "white",
+    "ar+0.1",
+    "ar-0.1"
+   ],
+   "U_receiver": {
+    "-20": 0.005,
+    "-17": 0.0095,
+    "-14": 0.011,
+    "-12": 0.025,
+    "-10": 0.048,
+    "-8": 0.0715,
+    "-6": 0.147,
+    "-3": 0.393,
+    "0": 0.7275
+   },
+   "U_receiver_members": [
+    "white",
+    "lpf0.8",
+    "rtl3dB"
+   ],
+   "U_broad": {
+    "-20": 0.0015,
+    "-17": 0.0045,
+    "-14": 0.005,
+    "-12": 0.018,
+    "-10": 0.031,
+    "-8": 0.053,
+    "-6": 0.1165,
+    "-3": 0.265,
+    "0": 0.5415
+   },
+   "U_broad_members": [
+    "white",
+    "ar+0.1",
+    "ar-0.1",
+    "pink",
+    "lpf0.8",
+    "rtl3dB"
+   ],
+   "U_tilt0.5": {
+    "-20": 0.0135,
+    "-17": 0.0315,
+    "-14": 0.0725,
+    "-12": 0.1525,
+    "-10": 0.329,
+    "-8": 0.595,
+    "-6": 0.803,
+    "-3": 0.91375,
+    "0": 0.9545
+   },
+   "U_tilt0.5_members": [
+    "white",
+    "tilt0.5-"
+   ],
+   "U_tilt1.0": {
+    "-20": 0.0015,
+    "-17": 0.0075,
+    "-14": 0.0175,
+    "-12": 0.0475,
+    "-10": 0.161,
+    "-8": 0.44,
+    "-6": 0.7195,
+    "-3": 0.8635,
+    "0": 0.9215
+   },
+   "U_tilt1.0_members": [
+    "white",
+    "tilt1.0+",
+    "tilt1.0-"
+   ],
+   "U_tilt2.0": {
+    "-20": 0.0,
+    "-17": 0.0,
+    "-14": 0.0,
+    "-12": 0.0035,
+    "-10": 0.014,
+    "-8": 0.1185,
+    "-6": 0.457,
+    "-3": 0.80325,
+    "0": 0.9065
+   },
+   "U_tilt2.0_members": [
+    "white",
+    "tilt2.0-"
+   ]
+  },
+  "surrogate_gap": 0.04849999999999999,
+  "surrogate_gap_n": 6
+ },
+ "t_eval_s": 12.726057052612305,
+ "runtime_s": 38.60251569747925,
+ "peak_vram_MB": 212.27490234375,
+ "checkpoint": "EXPERIMENTS\\ckpt\\GapCNN_SURR_N128_sps8_s1.pt"
+}

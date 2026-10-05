@@ -1,0 +1,101 @@
+[
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12,
+  "ntrain": 20000,
+  "tag": "ntrain20k"
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12,
+  "ntrain": 180000,
+  "tag": "ntrain180k"
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12,
+  "norm": false,
+  "tag": "nonorm"
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12,
+  "ntrain": 20000,
+  "tag": "ntrain20k"
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12,
+  "ntrain": 180000,
+  "tag": "ntrain180k"
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12,
+  "norm": false,
+  "tag": "nonorm"
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12,
+  "ntrain": 20000,
+  "tag": "ntrain20k"
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12,
+  "ntrain": 180000,
+  "tag": "ntrain180k"
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12,
+  "norm": false,
+  "tag": "nonorm"
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "kind": "learned",
+  "arch": "DetectNetExact",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12,
+  "mods": [
+   "QAM16"
+  ],
+  "tag": "QAM16"
+ },
+ {
+  "kind": "learned",
+  "arch": "DetectNetExact",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12,
+  "mods": [
+   "QAM16"
+  ],
+  "tag": "QAM16"
+ },
+ {
+  "kind": "learned",
+  "arch": "DetectNetExact",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12,
+  "mods": [
+   "QAM16"
+  ],
+  "tag": "QAM16"
+ },
+ {
+  "kind": "learned",
+  "arch": "DetectNetExact",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12,
+  "mods": [
+   "QAM16"
+  ],
+  "tag": "QAM16"
+ },
+ {
+  "kind": "learned",
+  "arch": "DetectNetExact",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12,
+  "mods": [
+   "QAM16"
+  ],
+  "tag": "QAM16"
+ }
+]

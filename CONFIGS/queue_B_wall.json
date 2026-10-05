@@ -1,0 +1,320 @@
+[
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 512,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 10
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 512,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 10
+ },
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 512,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 512,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 512,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 512,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 512,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 512,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 10
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 512,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 10
+ },
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 512,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 512,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 512,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 512,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 512,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 512,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 10
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 512,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 10
+ },
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 512,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 512,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 512,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 512,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 512,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 8
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 8
+ },
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 8
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 8
+ },
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 8
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 8
+ },
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2
+ }
+]

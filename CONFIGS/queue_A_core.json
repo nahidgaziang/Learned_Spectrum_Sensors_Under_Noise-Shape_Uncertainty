@@ -1,0 +1,602 @@
+[
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "ResNet1D",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CovCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "STFTCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "ResNet1D",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CovCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "STFTCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "ResNet1D",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CovCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "STFTCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "ResNet1D",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CovCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "STFTCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "ResNet1D",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CovCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "STFTCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "WHITE",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12
+ },
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 128,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 128,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 128,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 128,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 0
+ },
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 128,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 128,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 128,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 128,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 1
+ },
+ {
+  "kind": "classical",
+  "detector": "ED",
+  "N": 128,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "MME",
+  "N": 128,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "SFM",
+  "N": 128,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "CYC",
+  "N": 128,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "classical",
+  "detector": "BAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 2
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "PINK",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "RAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "SURR",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "PINK",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "RAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "PINK",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "RAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "SURR",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "PINK",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "RAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "PINK",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "RAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "SURR",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "PINK",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "RAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "PINK",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "RAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "SURR",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "PINK",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "RAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 128,
+  "sps": 8,
+  "seed": 3,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "PINK",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "RAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "CLDNN",
+  "recipe": "SURR",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "PINK",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "RAND",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURR",
+  "N": 128,
+  "sps": 8,
+  "seed": 4,
+  "epochs": 12
+ }
+]

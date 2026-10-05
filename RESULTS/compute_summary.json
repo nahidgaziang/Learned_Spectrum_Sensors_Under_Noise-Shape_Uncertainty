@@ -1,0 +1,16 @@
+{
+ "n_runs": 232,
+ "n_gpu_runs": 167,
+ "n_cpu_runs": 65,
+ "gpu_run_hours": 8.597963019013404,
+ "cpu_run_hours": 0.7012130427360534,
+ "peak_vram_MB_max": 3123.78271484375,
+ "devices": [
+  "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+ ],
+ "wall_test_final.out_hours": 1.0722222222222222,
+ "wall_test_matched.out_hours": 0.05138888888888889,
+ "wall_test_long.out_hours": 0.2783333333333333,
+ "wall_vs_theory.out_hours": 0.5269444444444444,
+ "wall_test_long_nets.out_hours": 0.6122222222222222
+}

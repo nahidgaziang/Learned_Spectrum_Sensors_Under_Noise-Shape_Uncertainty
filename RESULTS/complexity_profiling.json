@@ -1,0 +1,162 @@
+{
+  "learned": {
+    "GAP CNN": {
+      "arch": "GapCNN",
+      "window_len": 128,
+      "params": 120321,
+      "flops": 19185792,
+      "mflops": 19.19,
+      "cpu_latency_ms": 1.115,
+      "cpu_latency_std_ms": 0.435,
+      "gpu_latency_ms": 0.634,
+      "gpu_latency_std_ms": 0.318,
+      "rep": "iq"
+    },
+    "GAP CNN (N=2048)": {
+      "arch": "GapCNN",
+      "window_len": 2048,
+      "params": 120321,
+      "flops": 306724992,
+      "mflops": 306.72,
+      "cpu_latency_ms": 3.848,
+      "cpu_latency_std_ms": 0.206,
+      "gpu_latency_ms": 0.731,
+      "gpu_latency_std_ms": 0.327,
+      "rep": "iq"
+    },
+    "GAP CNN 4X": {
+      "arch": "GapCNN4X",
+      "window_len": 128,
+      "params": 1906689,
+      "flops": 303432192,
+      "mflops": 303.43,
+      "cpu_latency_ms": 3.619,
+      "cpu_latency_std_ms": 0.24,
+      "gpu_latency_ms": 0.562,
+      "gpu_latency_std_ms": 0.098,
+      "rep": "iq"
+    },
+    "DetectNet replica": {
+      "arch": "DetectNetExact",
+      "window_len": 128,
+      "params": 1301321,
+      "flops": 11522304,
+      "mflops": 11.52,
+      "cpu_latency_ms": 2.493,
+      "cpu_latency_std_ms": 0.351,
+      "gpu_latency_ms": 0.795,
+      "gpu_latency_std_ms": 0.187,
+      "rep": "iq"
+    },
+    "CNN--LSTM": {
+      "arch": "CLDNN",
+      "window_len": 128,
+      "params": 151241,
+      "flops": 9558624,
+      "mflops": 9.56,
+      "cpu_latency_ms": 5.707,
+      "cpu_latency_std_ms": 0.724,
+      "gpu_latency_ms": 0.981,
+      "gpu_latency_std_ms": 0.267,
+      "rep": "iq"
+    },
+    "1-D ResNet": {
+      "arch": "ResNet1D",
+      "window_len": 128,
+      "params": 263569,
+      "flops": 15056960,
+      "mflops": 15.06,
+      "cpu_latency_ms": 2.343,
+      "cpu_latency_std_ms": 0.171,
+      "gpu_latency_ms": 1.799,
+      "gpu_latency_std_ms": 0.616,
+      "rep": "iq"
+    },
+    "Covariance CNN": {
+      "arch": "CovCNN",
+      "window_len": 128,
+      "params": 32577,
+      "flops": 7381120,
+      "mflops": 7.38,
+      "cpu_latency_ms": 0.491,
+      "cpu_latency_std_ms": 0.069,
+      "gpu_latency_ms": 0.39,
+      "gpu_latency_std_ms": 0.099,
+      "rep": "cov"
+    },
+    "STFT CNN": {
+      "arch": "STFTCNN",
+      "window_len": 128,
+      "params": 32289,
+      "flops": 6634624,
+      "mflops": 6.63,
+      "cpu_latency_ms": 0.475,
+      "cpu_latency_std_ms": 0.088,
+      "gpu_latency_ms": 0.464,
+      "gpu_latency_std_ms": 0.196,
+      "rep": "stft"
+    },
+    "CycNet": {
+      "arch": "CycNet",
+      "window_len": 128,
+      "params": 11649,
+      "flops": 305216,
+      "mflops": 0.31,
+      "cpu_latency_ms": 0.324,
+      "cpu_latency_std_ms": 0.054,
+      "gpu_latency_ms": 0.414,
+      "gpu_latency_std_ms": 0.038,
+      "rep": "cyc"
+    },
+    "Transformer": {
+      "arch": "Transformer",
+      "window_len": 128,
+      "params": 136193,
+      "flops": 4227200,
+      "mflops": 4.23,
+      "cpu_latency_ms": 1.525,
+      "cpu_latency_std_ms": 0.093,
+      "gpu_latency_ms": 1.333,
+      "gpu_latency_std_ms": 0.358,
+      "rep": "iq",
+      "note": "added 2026-10-05 by profile_transformer.py (same procedure as profile_complexity.py)"
+    }
+  },
+  "classical": {
+    "Energy Detector (ED)": {
+      "window_len": 128,
+      "cpu_latency_ms": 0.006,
+      "cpu_latency_std_ms": 0.0
+    },
+    "Band-Power Ratio (BAND)": {
+      "window_len": 128,
+      "cpu_latency_ms": 0.023,
+      "cpu_latency_std_ms": 0.005
+    },
+    "Spectral Flatness (SFM)": {
+      "window_len": 128,
+      "cpu_latency_ms": 0.023,
+      "cpu_latency_std_ms": 0.001
+    },
+    "Eigenvalue Ratio (MME)": {
+      "window_len": 128,
+      "cpu_latency_ms": 0.057,
+      "cpu_latency_std_ms": 0.047
+    },
+    "Cyclic Autocorrelation (CYC)": {
+      "window_len": 128,
+      "cpu_latency_ms": 0.049,
+      "cpu_latency_std_ms": 0.001
+    },
+    "Band-Power Ratio (N=2048)": {
+      "window_len": 2048,
+      "cpu_latency_ms": 0.129,
+      "cpu_latency_std_ms": 0.069
+    },
+    "Cyclic Autocorrelation (N=2048)": {
+      "window_len": 2048,
+      "cpu_latency_ms": 0.159,
+      "cpu_latency_std_ms": 0.085
+    }
+  }
+}

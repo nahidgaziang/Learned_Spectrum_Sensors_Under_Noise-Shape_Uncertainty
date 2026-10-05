@@ -1,0 +1,17 @@
+{
+ "thr": -0.24587072432041168,
+ "lpf0.8": {
+  "none_linear": 0.3725,
+  "whitened_linear": 0.1515,
+  "none_circulant": 0.366,
+  "whitened_circulant": 0.0485,
+  "edge_power_db": -20.151938775595426
+ },
+ "lpf0.9": {
+  "none_linear": 0.1495,
+  "whitened_linear": 0.07875,
+  "none_circulant": 0.1545,
+  "whitened_circulant": 0.046,
+  "edge_power_db": -17.54197138245204
+ }
+}

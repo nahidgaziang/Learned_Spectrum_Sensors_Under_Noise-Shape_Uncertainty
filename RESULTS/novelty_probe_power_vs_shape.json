@@ -1,0 +1,80 @@
+{
+ "R820T2 (HF composite)": {
+  "n_within": 131,
+  "n_pairs": 1385,
+  "n_groups": 7,
+  "power_within_capture": {
+   "median_db": 0.3479549597360715,
+   "p90_db": 2.0532177266633673
+  },
+  "power_same_freq_same_day": {
+   "median_db": 0.12255743102984021,
+   "p90_db": 1.8008661637878571
+  },
+  "shape_within_capture": {
+   "median_db": 0.4916887065192352,
+   "p90_db": 0.9836611202158283
+  },
+  "shape_same_freq_session": {
+   "median_db": 0.3904888116563793,
+   "p90_db": 1.5127709178770887
+  },
+  "walls_db": {
+   "power_within_capture": {
+    "median_db": -10.96145127852117,
+    "p90_db": -3.2131222344946293
+   },
+   "power_same_freq_same_day": {
+    "median_db": -15.494302517584535,
+    "p90_db": -3.791958371091005
+   },
+   "shape_within_capture": {
+    "median_db": -15.548937851183052,
+    "p90_db": -12.44756936682956
+   },
+   "shape_same_freq_session": {
+    "median_db": -16.566586435000808,
+    "p90_db": -10.466725309378349
+   }
+  }
+ },
+ "R828D (TrevTron)": {
+  "n_within": 74,
+  "n_pairs": 2701,
+  "n_groups": 1,
+  "power_within_capture": {
+   "median_db": 0.40546782706917806,
+   "p90_db": 0.7737914609960884
+  },
+  "power_same_freq_same_day": {
+   "median_db": 0.23063530834725499,
+   "p90_db": 0.6129854543306802
+  },
+  "shape_within_capture": {
+   "median_db": 0.43872147797110217,
+   "p90_db": 0.5171321503483867
+  },
+  "shape_same_freq_session": {
+   "median_db": 0.3721709720145872,
+   "p90_db": 0.5548067871229555
+  },
+  "walls_db": {
+   "power_within_capture": {
+    "median_db": -10.296701920320324,
+    "p90_db": -7.4858608023566635
+   },
+   "power_same_freq_same_day": {
+    "median_db": -12.748074839985053,
+    "p90_db": -8.499737023624027
+   },
+   "shape_within_capture": {
+    "median_db": -16.05282904737194,
+    "p90_db": -15.325506334767542
+   },
+   "shape_same_freq_session": {
+    "median_db": -16.77823496668162,
+    "p90_db": -15.01364450267528
+   }
+  }
+ }
+}

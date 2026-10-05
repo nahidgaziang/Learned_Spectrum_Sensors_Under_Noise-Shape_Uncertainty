@@ -1,0 +1,213 @@
+{
+ "detectors": [
+  "GapCNN",
+  "BAND"
+ ],
+ "note": "GapCNN = GapCNN-WHITE seed 0 (CPU); test = middle block of windows",
+ "results": {
+  "NOISE_003.npy": {
+   "none": {
+    "GapCNN": 0.0641025641025641,
+    "BAND": 0.06923076923076923
+   },
+   "oracle-raw": {
+    "GapCNN": 0.0641025641025641,
+    "BAND": 0.06923076923076923
+   },
+   "oracle-mov3": {
+    "GapCNN": 0.11025641025641025,
+    "BAND": 0.09230769230769231
+   },
+   "oracle-cos16": {
+    "GapCNN": 0.0641025641025641,
+    "BAND": 0.07179487179487179
+   },
+   "ref1024-early-mov3": {
+    "GapCNN": 0.11538461538461539,
+    "BAND": 0.09743589743589744
+   },
+   "ref1024-early-cos16": {
+    "GapCNN": 0.06666666666666667,
+    "BAND": 0.07692307692307693
+   },
+   "ref1024-spread-cos16": {
+    "GapCNN": 0.06923076923076923,
+    "BAND": 0.07692307692307693
+   },
+   "ref1024-spread-raw": {
+    "GapCNN": 0.07692307692307693,
+    "BAND": 0.08205128205128205
+   }
+  },
+  "noise_1200_0_001.npy": {
+   "none": {
+    "GapCNN": 0.272,
+    "BAND": 0.275
+   },
+   "oracle-raw": {
+    "GapCNN": 0.058,
+    "BAND": 0.059
+   },
+   "oracle-mov3": {
+    "GapCNN": 0.095,
+    "BAND": 0.087
+   },
+   "oracle-cos16": {
+    "GapCNN": 0.06,
+    "BAND": 0.059
+   },
+   "ref1024-early-mov3": {
+    "GapCNN": 0.123,
+    "BAND": 0.114
+   },
+   "ref1024-early-cos16": {
+    "GapCNN": 0.075,
+    "BAND": 0.076
+   },
+   "ref1024-spread-cos16": {
+    "GapCNN": 0.082,
+    "BAND": 0.082
+   },
+   "ref1024-spread-raw": {
+    "GapCNN": 0.082,
+    "BAND": 0.076
+   }
+  },
+  "noise_1200_0_002.npy": {
+   "none": {
+    "GapCNN": 0.284,
+    "BAND": 0.272
+   },
+   "oracle-raw": {
+    "GapCNN": 0.051,
+    "BAND": 0.047
+   },
+   "oracle-mov3": {
+    "GapCNN": 0.09,
+    "BAND": 0.074
+   },
+   "oracle-cos16": {
+    "GapCNN": 0.053,
+    "BAND": 0.046
+   },
+   "ref1024-early-mov3": {
+    "GapCNN": 0.169,
+    "BAND": 0.121
+   },
+   "ref1024-early-cos16": {
+    "GapCNN": 0.103,
+    "BAND": 0.079
+   },
+   "ref1024-spread-cos16": {
+    "GapCNN": 0.081,
+    "BAND": 0.063
+   },
+   "ref1024-spread-raw": {
+    "GapCNN": 0.085,
+    "BAND": 0.062
+   }
+  },
+  "noise_300_0_001.npy": {
+   "none": {
+    "GapCNN": 0.399,
+    "BAND": 0.39
+   },
+   "oracle-raw": {
+    "GapCNN": 0.064,
+    "BAND": 0.056
+   },
+   "oracle-mov3": {
+    "GapCNN": 0.112,
+    "BAND": 0.087
+   },
+   "oracle-cos16": {
+    "GapCNN": 0.066,
+    "BAND": 0.054
+   },
+   "ref1024-early-mov3": {
+    "GapCNN": 0.12,
+    "BAND": 0.098
+   },
+   "ref1024-early-cos16": {
+    "GapCNN": 0.074,
+    "BAND": 0.063
+   },
+   "ref1024-spread-cos16": {
+    "GapCNN": 0.074,
+    "BAND": 0.062
+   },
+   "ref1024-spread-raw": {
+    "GapCNN": 0.075,
+    "BAND": 0.061
+   }
+  },
+  "noise_50_0_001.npy": {
+   "none": {
+    "GapCNN": 0.485,
+    "BAND": 0.436
+   },
+   "oracle-raw": {
+    "GapCNN": 0.019,
+    "BAND": 0.015
+   },
+   "oracle-mov3": {
+    "GapCNN": 0.054,
+    "BAND": 0.03
+   },
+   "oracle-cos16": {
+    "GapCNN": 0.019,
+    "BAND": 0.015
+   },
+   "ref1024-early-mov3": {
+    "GapCNN": 0.061,
+    "BAND": 0.035
+   },
+   "ref1024-early-cos16": {
+    "GapCNN": 0.027,
+    "BAND": 0.016
+   },
+   "ref1024-spread-cos16": {
+    "GapCNN": 0.023,
+    "BAND": 0.015
+   },
+   "ref1024-spread-raw": {
+    "GapCNN": 0.023,
+    "BAND": 0.017
+   }
+  },
+  "noise_800_0_001.npy": {
+   "none": {
+    "GapCNN": 0.35,
+    "BAND": 0.323
+   },
+   "oracle-raw": {
+    "GapCNN": 0.052,
+    "BAND": 0.054
+   },
+   "oracle-mov3": {
+    "GapCNN": 0.095,
+    "BAND": 0.077
+   },
+   "oracle-cos16": {
+    "GapCNN": 0.051,
+    "BAND": 0.052
+   },
+   "ref1024-early-mov3": {
+    "GapCNN": 0.091,
+    "BAND": 0.082
+   },
+   "ref1024-early-cos16": {
+    "GapCNN": 0.047,
+    "BAND": 0.051
+   },
+   "ref1024-spread-cos16": {
+    "GapCNN": 0.043,
+    "BAND": 0.047
+   },
+   "ref1024-spread-raw": {
+    "GapCNN": 0.044,
+    "BAND": 0.053
+   }
+  }
+ }
+}

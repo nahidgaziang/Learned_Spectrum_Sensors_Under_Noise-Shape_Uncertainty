@@ -1,0 +1,4 @@
+[
+ {"kind": "learned", "arch": "GapCNN", "recipe": "SURRX", "N": 128, "sps": 8, "seed": 3, "epochs": 12},
+ {"kind": "learned", "arch": "GapCNN", "recipe": "SURRX", "N": 128, "sps": 8, "seed": 4, "epochs": 12}
+]

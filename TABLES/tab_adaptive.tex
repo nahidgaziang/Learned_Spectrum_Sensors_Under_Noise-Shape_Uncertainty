@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Classical adaptive baselines ($N=128$, $K=1024$ reference windows) on recorded noise from two distinct receivers. Nominal $P_f=5\%$. Mean $P_f$ and mean $P_d(-10\,\mathrm{dB})$ over clean recordings. Receiver 1: Nooelec NESDR (R820T2 tuner); Receiver 2: RTL-SDR Blog V4 (R828D tuner).}
+\label{tab:adaptive}
+\footnotesize
+\setlength{\tabcolsep}{2.2pt}
+\begin{tabular}{llrrrr}
+\toprule
+& & \multicolumn{2}{c}{Receiver 1 (R820T2)} & \multicolumn{2}{c}{Receiver 2 (R828D)} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6}
+Detector & Invariance Property & $P_f$ (\%) & $P_d$ (\%) & $P_f$ (\%) & $P_d$ (\%) \\
+\midrule
+AMF~\cite{robey1992amf} & CFAR (hom.~noise) & 12.5 & 52.8 & 6.6 & 53.1 \\
+ACE~\cite{kraut2001ace} & Scale-inv.~CFAR & 5.5 & 50.7 & 4.9 & 49.7 \\
+Kelly~\cite{kelly1986adaptive} & GLRT CFAR & 11.7 & 53.0 & 6.2 & 53.4 \\
+ED-ref & Power-ref.~ED & 18.4 & 33.8 & 13.5 & 32.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

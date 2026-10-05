@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\caption{Surrogate gap (points), false alarms $P_f$ (\%) at the nominal threshold under noise power $+1$\,dB and noise shapes absent from training, and detection $P_d$ (\%) at $-10$\,dB, nominal and worst case over the receiver set with $P_f\le5\%$ enforced; $N=128$, white-noise training, mean over 5 seeds (classical detectors: 3 test draws), largest seed s.d.\ 13.4 points (STFT CNN, LP\,.8). $^{\dagger}$Replica of DetectNet trained on QAM16 as in~\cite{gao2019deep}.}
+\label{tab:main}
+\footnotesize
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+Detector & Gap & +1\,dB & LP\,.9 & LP\,.8 & RTL & AR$+$ & AR$-$ & Pink & $P_d$ & $P_d^{\mathrm{wc}}$ \\
+\midrule
+CNN--LSTM~\cite{gao2019deep} & $-$0.1 & 5 & 15 & 34 & 16 & 27 & 0 & 100 & 69 & 24 \\
+DetectNet rep.$^{\dagger}$ & $+$0.8 & 5 & 11 & 24 & 12 & 19 & 1 & 100 & 54 & 23 \\
+1-D ResNet~\cite{zheng2020spectrum} & $+$0.5 & 5 & 11 & 21 & 11 & 17 & 1 & 100 & 48 & 18 \\
+Cov.\ CNN~\cite{liu2019cmcnn} & $-$0.1 & 5 & 12 & 25 & 15 & 25 & 0 & 100 & 67 & 29 \\
+STFT CNN~\cite{chen2021stft} & $+$0.8 & 5 & 15 & 40 & 16 & 25 & 1 & 100 & 57 & 17 \\
+GAP CNN (ours) & $+$0.1 & 5 & 14 & 34 & 16 & 26 & 0 & 100 & 69 & 23 \\
+\midrule
+ED (known $\sigma^2$) & $+$0.5 & 83 & 6 & 7 & 5 & 5 & 5 & 20 & 30 & 23 \\
+MME~\cite{zeng2009eigen} & $+$0.1 & 5 & 100 & 100 & 18 & 12 & 12 & 100 & 20 & 0 \\
+Spectral flat. & $+$0.3 & 5 & 92 & 100 & 15 & 11 & 11 & 100 & 16 & 0 \\
+Band ratio (oracle) & $-$0.3 & 5 & 15 & 33 & 17 & 27 & 0 & 100 & 66 & 18 \\
+Cyclostationary & $+$9.3 & 5 & 5 & 9 & 6 & 6 & 6 & 15 & 6 & 3 \\
+\bottomrule
+\end{tabular}
+\end{table}

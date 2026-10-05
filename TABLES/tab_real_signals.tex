@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\caption{Real over-the-air signals mixed into real noise of the same receiver ($N=128$; thresholds at $P_f=5\%$ on that receiver's noise). Captures: used/downloaded (a capture is used if it has at least 20 windows 6~dB above its noise floor in its occupied bins). Own SNR: median in-band SNR of the selected signal windows (dB), i.e.\ the share of the capture's own receiver noise. Max $P_d$: largest detection rate over $\gamma\in[-24,4]$~dB for the white-trained GAP CNN and the centred band ratio. Gap: $P_d^{\mathrm{signal}}-P_d^{\mathrm{surrogate}}$ in points, mean over SNRs with $0.1<P_d<0.9$ (context Fourier surrogates); n.d.: not detected (max $P_d\le0.1$), gap undefined. Structure statistic: normalised fourth moment, one-sided ($\kappa_{\mathrm{lo}}$, constant envelope) or two-sided ($|\kappa-2|$, pulsed); negative values arise when the capture's own heavy-tailed receiver noise dominates (low own SNR). Networks: mean over 3 seeds.}
+\label{tab:realsig}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lllrrrcrrrr}
+\toprule
+Class & Receiver & Mod. & Captures & Windows & Own SNR & Max $P_d$ CNN / band & Gap CNN & Gap band & Gap structure & Gap \textsc{Surr}$^{\ast}$ \\
+\midrule
+FM broadcast & R820T2 & WBFM & 40/50 & 4,000 & $6$ & 0.99 / 0.99 & $+$1.3 & $+$0.7 & $+$23.8 ($\kappa_{\mathrm{lo}}$) & $+$16.7 \\
+FM broadcast & R828D & WBFM & 40/40 & 4,000 & $11$ & 0.13 / 0.12 & 0.0 & 0.0 & $+$20.9 ($\kappa_{\mathrm{lo}}$) & n.d. \\
+NOAA weather & R828D & NBFM & 40/40 & 4,000 & $1$ & 0.05 / 0.05 & n.d. & n.d. & $-$8.1 ($\kappa_{\mathrm{lo}}$) & n.d. \\
+FRS/GMRS & R828D & NBFM & 40/40 & 4,000 & $-6$ & 0.07 / 0.06 & n.d. & n.d. & $-$4.0 ($\kappa_{\mathrm{lo}}$) & n.d. \\
+Pager & R828D & FSK & 40/40 & 4,000 & $-3$ & 0.05 / 0.05 & n.d. & n.d. & $-$17.6 ($\kappa_{\mathrm{lo}}$) & n.d. \\
+ISM sensors & R820T2 & FSK/OOK & 22/50 & 2,200 & $1$ & 0.85 / 0.83 & $+$2.9 & $+$3.1 & $+$22.3 ($\kappa_{\mathrm{lo}}$) & 0.0 \\
+ISM sensors & R828D & FSK/OOK & 5/40 & 500 & $9$ & 0.83 / 0.83 & $+$1.1 & $+$1.6 & $-$2.8 ($\kappa_{\mathrm{lo}}$) & $+$0.8 \\
+ADS-B & R820T2 & PPM & 24/50 & 2,371 & $2$ & 0.32 / 0.32 & $+$5.0 & $+$5.6 & $+$14.2 ($|\kappa-2|$) & n.d. \\
+APRS & R828D & AFSK & 0/40 & 0 & \multicolumn{6}{l}{no capture with a detectable signal} \\
+\bottomrule
+\end{tabular}
+\end{table*}

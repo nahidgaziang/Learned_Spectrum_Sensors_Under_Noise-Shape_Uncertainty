@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\caption{Sensitivity to the false-alarm target $\alpha$ ($N=128$, white-trained networks, ranges over the five architectures; seed means). Thresholds from 2000 held-out white-noise test draws; $P_f$ in \%. Gap: largest $|P_d^{\mathrm{signal}}-P_d^{\mathrm{surrogate}}|$ in points.}
+\label{tab:alpha}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{rrrrrrrrrr}
+\toprule
+& \multicolumn{7}{c}{White-trained networks} & \multicolumn{2}{c}{Band ratio} \\
+\cmidrule(lr){2-8}\cmidrule(lr){9-10}
+$\alpha$ (\%) & $P_f$ white & $+1$\,dB & LP\,.8 & RTL & Pink & Gap & $P_d(-10)$ & LP\,.8 & $P_d(-10)$ \\
+\midrule
+1 & 0.9--1.1 & 0.9--1.2 & 8--16 & 4--5 & 100 & 1.7 & 27--47 & 15 & 42 \\
+5 & 4.6--5.1 & 4.8--5.2 & 21--39 & 11--16 & 100 & 0.9 & 48--69 & 33 & 66 \\
+10 & 9.4--9.9 & 9.7--10.3 & 32--53 & 19--26 & 100 & 0.4 & 60--80 & 46 & 77 \\
+\bottomrule
+\end{tabular}
+\end{table*}

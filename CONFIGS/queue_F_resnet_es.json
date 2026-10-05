@@ -1,0 +1,7 @@
+[
+ {"kind": "learned", "arch": "ResNet1D", "recipe": "WHITE", "N": 128, "sps": 8, "seed": 0, "epochs": 12, "select": "best_val", "tag": "es"},
+ {"kind": "learned", "arch": "ResNet1D", "recipe": "WHITE", "N": 128, "sps": 8, "seed": 1, "epochs": 12, "select": "best_val", "tag": "es"},
+ {"kind": "learned", "arch": "ResNet1D", "recipe": "WHITE", "N": 128, "sps": 8, "seed": 2, "epochs": 12, "select": "best_val", "tag": "es"},
+ {"kind": "learned", "arch": "ResNet1D", "recipe": "WHITE", "N": 128, "sps": 8, "seed": 3, "epochs": 12, "select": "best_val", "tag": "es"},
+ {"kind": "learned", "arch": "ResNet1D", "recipe": "WHITE", "N": 128, "sps": 8, "seed": 4, "epochs": 12, "select": "best_val", "tag": "es"}
+]

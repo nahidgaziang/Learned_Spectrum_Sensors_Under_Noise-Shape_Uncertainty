@@ -1,0 +1,83 @@
+[
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURRX",
+  "N": 128,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURRX",
+  "N": 128,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURRX",
+  "N": 128,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 12
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURRX",
+  "N": 512,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 10
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURRX",
+  "N": 512,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 10
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURRX",
+  "N": 512,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 10
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURRX",
+  "N": 2048,
+  "sps": 8,
+  "seed": 0,
+  "epochs": 8
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURRX",
+  "N": 2048,
+  "sps": 8,
+  "seed": 1,
+  "epochs": 8
+ },
+ {
+  "kind": "learned",
+  "arch": "GapCNN",
+  "recipe": "SURRX",
+  "N": 2048,
+  "sps": 8,
+  "seed": 2,
+  "epochs": 8
+ }
+]

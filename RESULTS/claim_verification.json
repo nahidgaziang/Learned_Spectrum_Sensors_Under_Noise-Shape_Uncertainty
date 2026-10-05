@@ -1,0 +1,852 @@
+[
+ {
+  "ok": true,
+  "claim": "All five architectures have 5 WHITE seeds",
+  "detail": "{'CLDNN': 5, 'CovCNN': 5, 'GapCNN': 5, 'ResNet1D': 5, 'STFTCNN': 5}"
+ },
+ {
+  "ok": true,
+  "claim": "Per-seed |surrogate gap| <= 2 points for every WHITE network",
+  "detail": "max 0.0154"
+ },
+ {
+  "ok": true,
+  "claim": "Surrogate Pd tracks signal Pd within 4 points at every SNR (arch means)",
+  "detail": "worst 0.019"
+ },
+ {
+  "ok": true,
+  "claim": "Oracle band ratio is second-order (|gap| <= 1 point)",
+  "detail": "-0.0035"
+ },
+ {
+  "ok": true,
+  "claim": "Cyclostationary detector separates signals from surrogates (gap >= 5 points)",
+  "detail": "0.093"
+ },
+ {
+  "ok": true,
+  "claim": "CYC detects little at -10 dB with N=128 (Pd <= 10%)",
+  "detail": "0.057"
+ },
+ {
+  "ok": true,
+  "claim": "Networks beat ED at -10 dB (min arch Pd > ED Pd)",
+  "detail": "0.483 vs 0.300"
+ },
+ {
+  "ok": true,
+  "claim": "Band ratio Pd(-10) within the networks' range +-5 points",
+  "detail": "0.660"
+ },
+ {
+  "ok": true,
+  "claim": "+1 dB power keeps every network's Pf in [3%,7%]",
+  "detail": "[0.046,0.058]"
+ },
+ {
+  "ok": true,
+  "claim": "-1 dB power keeps every network's Pf in [3%,7%]",
+  "detail": "[0.045,0.058]"
+ },
+ {
+  "ok": true,
+  "claim": "ED Pf at +1 dB >= 50%",
+  "detail": "0.832"
+ },
+ {
+  "ok": true,
+  "claim": "LP 0.8 roll-off raises every network's Pf above 10% (arch means)",
+  "detail": "{'CLDNN': 0.339, 'CovCNN': 0.252, 'GapCNN': 0.34, 'ResNet1D': 0.213, 'STFTCNN': 0.398}"
+ },
+ {
+  "ok": true,
+  "claim": "RTL-like 3 dB roll-off raises every network's Pf above 8% (arch means)",
+  "detail": "{'CLDNN': 0.16, 'CovCNN': 0.152, 'GapCNN': 0.159, 'ResNet1D': 0.112, 'STFTCNN': 0.16}"
+ },
+ {
+  "ok": true,
+  "claim": "Pink noise gives Pf >= 99% for every WHITE network seed",
+  "detail": "min 1.000"
+ },
+ {
+  "ok": true,
+  "claim": "Sign asymmetry: AR+0.1 Pf > 10% and AR-0.1 Pf < 3% (arch means)",
+  "detail": "0.174 / 0.011"
+ },
+ {
+  "ok": true,
+  "claim": "Worst-case Pd(-10) over receiver set < nominal Pd(-10) for every arch",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "Robust thresholds keep realised max Pf <= 7% on the test stream (receiver set)",
+  "detail": "max 0.062"
+ },
+ {
+  "ok": true,
+  "claim": "MME and SFM are more roll-off-sensitive than the networks (LP 0.8)",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "CYC Pf under LP 0.8 and RTL stays <= 10%",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "PINK recipe removes pink false alarms (CLDNN, <= 5%)",
+  "detail": "0.009 (n=5)"
+ },
+ {
+  "ok": true,
+  "claim": "PINK recipe leaves roll-off false alarms above nominal (CLDNN LP.8 or RTL > 7%)",
+  "detail": "LP.8 0.078 RTL 0.087"
+ },
+ {
+  "ok": true,
+  "claim": "RAND recipe does not remove pink false alarms (CLDNN >= 50%)",
+  "detail": "0.992 (n=5)"
+ },
+ {
+  "ok": true,
+  "claim": "PINK recipe costs nominal sensitivity (CLDNN Pd(-10) lower than WHITE)",
+  "detail": "0.579 vs 0.690"
+ },
+ {
+  "ok": true,
+  "claim": "RAND recipe costs nominal sensitivity (CLDNN Pd(-10) lower than WHITE)",
+  "detail": "0.563 vs 0.690"
+ },
+ {
+  "ok": true,
+  "claim": "SURR recipe gives a positive surrogate gap (GapCNN >= 2 points)",
+  "detail": "0.046 (n=5)"
+ },
+ {
+  "ok": true,
+  "claim": "PINK masks: CLDNN Pd(-10) with the signal in pink noise <= 5%",
+  "detail": "0.020 (n=5)"
+ },
+ {
+  "ok": true,
+  "claim": "PINK masks: GapCNN Pd(-10) with the signal in pink noise <= 5%",
+  "detail": "0.004 (n=5)"
+ },
+ {
+  "ok": true,
+  "claim": "RAND masks: GapCNN Pd(-10) in LP .8 noise <= 5%",
+  "detail": "0.005 (n=5)"
+ },
+ {
+  "ok": true,
+  "claim": "SURRX masks (N=128): Pd(-10) in LP .8 < half of Pd(-10) in white",
+  "detail": "0.145 vs 0.550"
+ },
+ {
+  "ok": true,
+  "claim": "SURRX masks (N=2048): Pd(-10) in LP .8 < half of Pd(-10) in white",
+  "detail": "0.189 vs 0.916"
+ },
+ {
+  "ok": true,
+  "claim": "Matching removes most masking: SURRXM Pd(-10) in LP .8 >= 2x SURRX (N=128)",
+  "detail": "0.413 vs 0.145 (n=5)"
+ },
+ {
+  "ok": true,
+  "claim": "SURRXM false-alarms on pink noise (outside its mixture) >= 10%",
+  "detail": "0.188"
+ },
+ {
+  "ok": true,
+  "claim": "Lost information: colour-calibrated Pd(-10) in LP .8, RAND <= 0.5 x WHITE (GapCNN)",
+  "detail": "0.100 vs 0.551"
+ },
+ {
+  "ok": true,
+  "claim": "Matching restores it: RANDM >= 3 x RAND and SURRXM >= 2 x SURRX (colour-calibrated, LP .8)",
+  "detail": "RANDM 0.478 vs 0.100; SURRXM 0.387 vs 0.161"
+ },
+ {
+  "ok": true,
+  "claim": "Pink at -10 dB is intrinsically hard: no detector exceeds 25% with a pink-calibrated threshold",
+  "detail": "max 0.197"
+ },
+ {
+  "ok": true,
+  "claim": "alpha=0.01: every WHITE network |surrogate gap| <= 2 points and LP .8 Pf >= 3 alpha",
+  "detail": "max gap 0.017, min LP.8 0.082"
+ },
+ {
+  "ok": true,
+  "claim": "alpha=0.1: every WHITE network |surrogate gap| <= 2 points and LP .8 Pf >= 3 alpha",
+  "detail": "max gap 0.004, min LP.8 0.321"
+ },
+ {
+  "ok": true,
+  "claim": "No recipe exceeds 10% worst-case Pd(-10) over the broad set (N=128)",
+  "detail": "max 0.044"
+ },
+ {
+  "ok": true,
+  "claim": "Receiver-set calibration: WHITE GapCNN worst-case Pd(-10) grows with N and >= 0.9 at N=2048",
+  "detail": "[0.232 0.641 0.986]"
+ },
+ {
+  "ok": true,
+  "claim": "Receiver set admits no exact wall pair (min relative residual of k c0 - g p - c1 >= 1%)",
+  "detail": "0.0563"
+ },
+ {
+  "ok": true,
+  "claim": "SURRX surrogate detection at 0 dB falls with N (<= 10% at N=2048); WHITE stays >= 99%",
+  "detail": "[0.327 0.137 0.029]; WHITE min 1.000"
+ },
+ {
+  "ok": true,
+  "claim": "Without power normalisation, Pf at +1 dB >= 15%",
+  "detail": "0.252 (n=3)"
+ },
+ {
+  "ok": true,
+  "claim": "Training-set size (ntrain20k) leaves |surrogate gap| <= 2 points",
+  "detail": "-0.0040 (n=3)"
+ },
+ {
+  "ok": true,
+  "claim": "Training-set size (ntrain180k) leaves |surrogate gap| <= 2 points",
+  "detail": "+0.0005 (n=3)"
+ },
+ {
+  "ok": true,
+  "claim": "ResNet-1D with best-validation selection: LP .8 Pf >= 20% and |gap| <= 2 points",
+  "detail": "LP.8 0.295, gap +0.0046 (n=5)"
+ },
+ {
+  "ok": true,
+  "claim": "DetectNet replica: |surrogate gap| <= 2 points and LP .8 Pf >= 15%",
+  "detail": "gap +0.0084, LP.8 0.238 (n=5)"
+ },
+ {
+  "ok": true,
+  "claim": "T10: 4x capacity (1.84M params) and 10x dataset (600k) GapCNN: |surrogate gap| <= 1.0 points and LP .8 Pf >= 25%",
+  "detail": "gap +0.0012, LP.8 0.314 (n=3)"
+ },
+ {
+  "ok": true,
+  "claim": "Re-run GapCNN_SURR_N2048_sps8_s0_rerun: Pf_lpf0.8 within 0.10 of the original",
+  "detail": "0.238 vs 0.198"
+ },
+ {
+  "ok": true,
+  "claim": "Re-run GapCNN_SURRX_N2048_sps8_s1_rerun: Pd_-10 within 0.02 of the original",
+  "detail": "0.904 vs 0.908"
+ },
+ {
+  "ok": true,
+  "claim": "Real-noise v2 replay (first 40 recordings) reproduces every stored value exactly",
+  "detail": "max diff 0.0, thr diff 0.0"
+ },
+ {
+  "ok": true,
+  "claim": "Long-reference whitening (K=1024): Pf <= 8% on smooth shapes, LP .8 stays >= 10%",
+  "detail": "smooth max 0.071, LP.8 mean 0.117"
+ },
+ {
+  "ok": true,
+  "claim": "Exact-PSD per-bin whitening: LP .8 linear-filter noise >= 10%, circulant twin <= 6%",
+  "detail": "0.151 vs 0.049"
+ },
+ {
+  "ok": true,
+  "claim": "Real RTL noise: every WHITE network Pf > 10% (nominal threshold)",
+  "detail": "[0.26  0.166 0.236 0.296 0.264]"
+ },
+ {
+  "ok": true,
+  "claim": "Flat control files: every WHITE network Pf <= 8%",
+  "detail": "[0.058 0.05  0.054 0.056 0.055]"
+ },
+ {
+  "ok": true,
+  "claim": "Long-reference whitening (K_big, cosine fit) brings every WHITE network to Pf <= 10% on real noise",
+  "detail": "[0.055 0.051 0.055 0.058 0.055]"
+ },
+ {
+  "ok": true,
+  "claim": "Short-reference whitening (K=16) in v3 achieves Pf <= 8% (transient-free)",
+  "detail": "[0.063 0.054 0.062 0.066 0.062]"
+ },
+ {
+  "ok": true,
+  "claim": "Cyclostationary detector stays <= 8% on real noise",
+  "detail": "0.061"
+ },
+ {
+  "ok": true,
+  "claim": "Surrogate-trained network masks on real noise: Pd(-10) <= 50% at its nominal threshold",
+  "detail": "0.441"
+ },
+ {
+  "ok": true,
+  "claim": "Dose-response: Spearman(roll-off, Pf) >= 0.6 across recordings",
+  "detail": "rho=0.878"
+ },
+ {
+  "ok": true,
+  "claim": "Short-reference whitening (K=16) in v2 leaves Pf above 8% (transient effect)",
+  "detail": "[0.117 0.085 0.111 0.136 0.117]"
+ },
+ {
+  "ok": true,
+  "claim": "Transient-free reference improves whitening: v3 whitened Pf <= v2 whitened Pf",
+  "detail": "0.058 vs 0.075"
+ },
+ {
+  "ok": true,
+  "claim": "Real noise v3 evaluated for 131 clean recordings and 10 controls",
+  "detail": "131 live, 10 ctrl"
+ },
+ {
+  "ok": true,
+  "claim": "Oracle whitening (test windows' own PSD) brings real-noise Pf to <= 7% (second-order explanation)",
+  "detail": "none [0.272 0.284 0.399 0.485 0.35 ] -> oracle [0.058 0.051 0.064 0.019 0.052]"
+ },
+ {
+  "ok": true,
+  "claim": "TrevTron noise: 74 clean recordings (26 narrowband screened), roll-off within 2.3--2.6 dB",
+  "detail": "74 clean, roll-off [2.37, 2.56]"
+ },
+ {
+  "ok": true,
+  "claim": "TrevTron noise: GapCNN-WHITE nominal Pf in [15%,20%], whitened Pf <= 5.5%",
+  "detail": "nominal 0.166, whitened 0.049"
+ },
+ {
+  "ok": true,
+  "claim": "TrevTron noise has zero SHA-256 overlap with HF composite dataset",
+  "detail": "overlap 0"
+ },
+ {
+  "ok": true,
+  "claim": "Adaptive baseline ACE achieves Pf <= 6% on average on both receivers",
+  "detail": "HF 0.055, Trev 0.049"
+ },
+ {
+  "ok": true,
+  "claim": "Adaptive baseline ACE max Pf <= 15% on HF and <= 8% on TrevTron",
+  "detail": "HF max 0.124, Trev max 0.068"
+ },
+ {
+  "ok": true,
+  "claim": "Adaptive baseline AMF exceeds 10% average Pf on HF composite noise",
+  "detail": "HF AMF 0.125"
+ },
+ {
+  "ok": true,
+  "claim": "Wall test has 3 seeds",
+  "detail": "3"
+ },
+ {
+  "ok": true,
+  "claim": "GapCNN-WHITE: worst-case Pd <= 8% at 2 dB below the wall and <= 8% at the wall, N=[128, 512, 2048]",
+  "detail": "-2 dB [0.013 0.003 0.   ], 0 dB [0.043 0.047 0.046]"
+ },
+ {
+  "ok": true,
+  "claim": "CLDNN-WHITE: worst-case Pd <= 8% at 2 dB below the wall and <= 8% at the wall, N=[128]",
+  "detail": "-2 dB [0.012], 0 dB [0.044]"
+ },
+ {
+  "ok": true,
+  "claim": "BAND: worst-case Pd <= 8% at 2 dB below the wall and <= 8% at the wall, N=[128, 512, 2048]",
+  "detail": "-2 dB [0.013 0.003 0.   ], 0 dB [0.039 0.042 0.042]"
+ },
+ {
+  "ok": true,
+  "claim": "MME: worst-case Pd <= 8% at 2 dB below the wall and <= 8% at the wall, N=[128, 512, 2048]",
+  "detail": "-2 dB [0.034 0.017 0.   ], 0 dB [0.044 0.037 0.026]"
+ },
+ {
+  "ok": true,
+  "claim": "SFM: worst-case Pd <= 8% at 2 dB below the wall and <= 8% at the wall, N=[128, 512, 2048]",
+  "detail": "-2 dB [0.042 0.031 0.016], 0 dB [0.042 0.046 0.042]"
+ },
+ {
+  "ok": true,
+  "claim": "Above the wall (+2 dB) the white-trained CNN improves with N",
+  "detail": "[0.166 0.407 0.88 ]"
+ },
+ {
+  "ok": true,
+  "claim": "GapCNN-SURR: worst-case Pd <= 8% at 2 dB below the wall for every N (does not escape)",
+  "detail": "-2 dB [0.018 0.007 0.002], 0 dB [0.055 0.057 0.087]"
+ },
+ {
+  "ok": true,
+  "claim": "GapCNN-SURR: worst-case Pd at the wall <= 12% for every N",
+  "detail": "0 dB [0.055 0.057 0.087]"
+ },
+ {
+  "ok": true,
+  "claim": "GapCNN-SURRX: worst-case Pd <= 8% at 2 dB below the wall for every N (does not escape)",
+  "detail": "-2 dB [0.021 0.01  0.002], 0 dB [0.057 0.067 0.096]"
+ },
+ {
+  "ok": true,
+  "claim": "GapCNN-SURRX: worst-case Pd at the wall <= 12% for every N",
+  "detail": "0 dB [0.057 0.067 0.096]"
+ },
+ {
+  "ok": true,
+  "claim": "GapCNN-SURRXM: worst-case Pd <= 8% at 2 dB below the wall for every N (does not escape)",
+  "detail": "-2 dB [0.021 0.011 0.004], 0 dB [0.054 0.068 0.104]"
+ },
+ {
+  "ok": true,
+  "claim": "GapCNN-SURRXM: worst-case Pd at the wall <= 12% for every N",
+  "detail": "0 dB [0.054 0.068 0.104]"
+ },
+ {
+  "ok": true,
+  "claim": "u=2 dB wall: SURRXM worst-case Pd rises with N (>= 0.3 at N=2048) while WHITE stays <= 8%",
+  "detail": "SURRXM [0.087 0.191 0.481], WHITE [0.035 0.038 0.036]"
+ },
+ {
+  "ok": true,
+  "claim": "SURRXM: worst-case Pd two dB below either wall <= 3%",
+  "detail": "0.021"
+ },
+ {
+  "ok": true,
+  "claim": "Wall test: realised max Pf on the test stream <= 7%",
+  "detail": "0.062"
+ },
+ {
+  "ok": true,
+  "claim": "J2: worst-case Pd at or below the constructed wall <= 7% in all 24 (sps, u, N) configurations",
+  "detail": "n=24, max 0.053"
+ },
+ {
+  "ok": true,
+  "claim": "J2: the 50% crossing approaches the wall with N (all cases) and is <= 1 dB above it at N=32768",
+  "detail": "max 0.83 dB"
+ },
+ {
+  "ok": true,
+  "claim": "J5: SURRXM (trained at N=2048) at the u=1 dB wall rises with N on longer windows and >= 0.3 at N=32768",
+  "detail": "[0.121 0.186 0.375]"
+ },
+ {
+  "ok": true,
+  "claim": "J5: SURRXM two dB below either wall <= 3% at every length (does not escape below the wall)",
+  "detail": "max 0.018"
+ },
+ {
+  "ok": true,
+  "claim": "J5: white-trained CNN stays <= 10% at both walls at every length",
+  "detail": "max 0.085"
+ },
+ {
+  "ok": true,
+  "claim": "Long wall test complete (3 seeds x N=2048, 8192, 32768)",
+  "detail": "3 seeds"
+ },
+ {
+  "ok": true,
+  "claim": "BAND stays <= 8% at the wall up to N=32768",
+  "detail": "[0.047 0.04  0.041]"
+ },
+ {
+  "ok": true,
+  "claim": "CYC escapes: worst-case Pd at the wall grows with N and >= 0.4 at N=32768",
+  "detail": "[0.058 0.165 0.61 ]"
+ },
+ {
+  "ok": true,
+  "claim": "T9: GapCNN-WHITE (trained at N=8192) worst-case Pd <= 5% at and below the wall",
+  "detail": "below [0. 0. 0. 0.], wall [0.043 0.024 0.04  0.024]"
+ },
+ {
+  "ok": true,
+  "claim": "T9: GapCNN-PAIRED escapes below the wall (Pd >= 10% at -2 dB for u=1 and u=2 dB at N=32768)",
+  "detail": "u=1 0.152, u=2 0.749"
+ },
+ {
+  "ok": true,
+  "claim": "T9: CycNet escapes below the wall (Pd >= 50% at -2 dB, beating classical CYC by > 1.5x at N=32768)",
+  "detail": "CycNet 0.628 vs CYC 0.256"
+ },
+ {
+  "ok": true,
+  "claim": "Thm 2 check: max Pf over shapes decreases with N and <= 0.01 at the largest N",
+  "detail": "N=[512, 2048, 8192, 32768] [0.344 0.212 0.059 0.005]"
+ },
+ {
+  "ok": true,
+  "claim": "Thm 2 check: worst Pd at wall+1 dB increases with N and >= 0.99 at the largest N",
+  "detail": "[0.628 0.755 0.916 1.   ]"
+ },
+ {
+  "ok": true,
+  "claim": "Thm 2 check: worst Pd at and 1 dB below the wall <= 0.05 at the largest N",
+  "detail": "wall 0.000, -1 dB 0.000"
+ },
+ {
+  "ok": true,
+  "claim": "TrevTron noise: 100 recordings evaluated, >= 70 clean after narrowband screening",
+  "detail": "74/100 clean"
+ },
+ {
+  "ok": true,
+  "claim": "TrevTron unwhitened white-trained networks Pf in 15-20% (matches ~2.4 dB roll-off)",
+  "detail": "17.6%"
+ },
+ {
+  "ok": true,
+  "claim": "TrevTron whitened networks Pf restored to <= 5.5%",
+  "detail": "4.8%"
+ },
+ {
+  "ok": true,
+  "claim": "Zero SHA-256 sample overlap between TrevTron and HF composite noise",
+  "detail": "0 overlaps"
+ },
+ {
+  "ok": true,
+  "claim": "Adaptive ACE holds Pf <= 6.0% on both receivers",
+  "detail": "HF: 5.5%, TrevTron: 4.9%"
+ },
+ {
+  "ok": true,
+  "claim": "Adaptive ACE reaches >= 45% Pd(-10 dB) on both receivers",
+  "detail": "HF: 50.7%, TrevTron: 49.7%"
+ },
+ {
+  "ok": true,
+  "claim": "Non-scale-invariant adaptive baselines (AMF / Kelly) exceed 6% Pf under real noise",
+  "detail": "HF AMF: 12.5%, TrevTron AMF: 6.6%"
+ },
+ {
+  "ok": true,
+  "claim": "Real-signal surrogate: white-trained network gap <= 2.0 points on FM broadcast (both receivers)",
+  "detail": "TT: -0.0 pp, HF: +1.3 pp"
+ },
+ {
+  "ok": true,
+  "claim": "Real-signal surrogate: constant-envelope detector (KAPPALO) gap > 15.0 points on FM broadcast (both receivers)",
+  "detail": "TT: +20.9 pp, HF: +23.8 pp"
+ },
+ {
+  "ok": true,
+  "claim": "Real-signal surrogate: surrogate-trained network (SURRX) gap > 10.0 points on FM broadcast",
+  "detail": "+16.7 pp"
+ },
+ {
+  "ok": true,
+  "claim": "Real-signal surrogate: white-trained network tracks oracle band ratio on ADS-B within 1.0 point",
+  "detail": "net: +5.0 pp, band: +5.6 pp"
+ },
+ {
+  "ok": true,
+  "claim": "Real-signal surrogate: pulse-burst structure detector (KAPPA) gap > 10.0 points on ADS-B",
+  "detail": "+14.2 pp"
+ },
+ {
+  "ok": true,
+  "claim": "Empirical uncertainty: split-half estimation floor p90 <= 0.75 dB and steady drift p90 <= 1.15 dB",
+  "detail": "split p90: 0.66 dB, drift p90: 0.98 dB"
+ },
+ {
+  "ok": true,
+  "claim": "Empirical uncertainty: startup transient median >= 1.0 dB and max >= 5.0 dB",
+  "detail": "startup med: 1.34 dB, max: 6.61 dB"
+ },
+ {
+  "ok": true,
+  "claim": "Empirical uncertainty: retuning across frequencies causes median shift >= 3.0 dB",
+  "detail": "retune med: 3.49 dB"
+ },
+ {
+  "ok": true,
+  "claim": "Empirical uncertainty: same-frequency pairs admit empirical wall <= -18.0 dB",
+  "detail": "wall: -21.1 dB"
+ },
+ {
+  "ok": true,
+  "claim": "Empirical uncertainty: cross-receiver shape shifts at 145 MHz cannot fake signals (min residual >= 10%)",
+  "detail": "min residual: 13.2% vs 2.8% noise floor"
+ },
+ {
+  "ok": true,
+  "claim": "Statistical rigor: GapCNN-WHITE surrogate gap 95% CI encompasses zero",
+  "detail": "CI: [-0.6, +0.7] pp"
+ },
+ {
+  "ok": true,
+  "claim": "Statistical rigor: GapCNN-SURRX surrogate gap 95% CI strictly positive (> 5.0 pp)",
+  "detail": "CI: [+7.7, +15.5] pp"
+ },
+ {
+  "ok": true,
+  "claim": "Statistical rigor: Matched recipe SURRXM restores >= 20 pp detection on LP .8 (McNemar p < 1e-50)",
+  "detail": "Gain: +26.8 pp, chi2: 2333.8"
+ },
+ {
+  "ok": true,
+  "claim": "Statistical rigor: Matched recipe RANDM restores >= 12 pp detection on LP .8 (McNemar p < 1e-50)",
+  "detail": "Gain: +16.7 pp, chi2: 1667.0"
+ },
+ {
+  "ok": true,
+  "claim": "Statistical rigor: Matched recipe PINKM restores >= 20 pp detection on Pink (McNemar p < 1e-50)",
+  "detail": "Gain: +24.2 pp, chi2: 2420.0"
+ },
+ {
+  "ok": true,
+  "claim": "OFDM breadth: 5 seeds evaluated under 4-tap Rayleigh fading, CP, and CFO",
+  "detail": "5 seeds"
+ },
+ {
+  "ok": true,
+  "claim": "OFDM breadth: surrogate gap stays <= 2.0 pp under multipath OFDM",
+  "detail": "mean gap +0.86 pp"
+ },
+ {
+  "ok": true,
+  "claim": "OFDM breadth: at rho=0.75, deep learning has no gain over energy detection (Corollary 1)",
+  "detail": "GapCNN 12.8% vs ED 29.7%"
+ },
+ {
+  "ok": true,
+  "claim": "OFDM breadth: false alarms on out-of-distribution receiver roll-off >= 50% (LP .8 & RTL 3dB)",
+  "detail": "LP.8 100.0%, RTL 53.0%"
+ },
+ {
+  "ok": true,
+  "claim": "R828D white-net P_f range uses all five architectures",
+  "detail": "12--17\\%"
+ },
+ {
+  "ok": true,
+  "claim": "Real signals: GAP CNN max P_d equals band-ratio max P_d within 3 points in every combination",
+  "detail": "0.020"
+ },
+ {
+  "ok": true,
+  "claim": "Real signals: NOAA/pager/FRS on R828D not detected by GAP CNN or band ratio (max P_d <= 0.1)",
+  "detail": "0.067"
+ },
+ {
+  "ok": true,
+  "claim": "Real-signal table lists all 9 evaluated class/receiver combinations incl. NOAA, FRS/GMRS, APRS",
+  "detail": "9 rows"
+ },
+ {
+  "ok": true,
+  "claim": "Signal-like retuning pairs lie below the same-frequency empirical wall",
+  "detail": "10 pairs, max -26.8 dB vs -21.1 dB"
+ },
+ {
+  "ok": true,
+  "claim": "CycNet beats 16-lag classical CYC at u=1 dB (>=1.3x) but not at u=2 dB (within 0.02)",
+  "detail": "ratio 1.63; u=2: 0.990 vs 0.998"
+ },
+ {
+  "ok": true,
+  "claim": "Escape is independent of noise synthesis (circ vs lin <= 0.05) and Gaussian surrogates <= 0.07 at/below the wall",
+  "detail": "0.033, 0.055"
+ },
+ {
+  "ok": true,
+  "claim": "Roll-off is the stronger factor for real-noise P_f (partial rho roll-off > partial rho kappa)",
+  "detail": "0.66 vs 0.31"
+ },
+ {
+  "ok": true,
+  "claim": "DetectNet replica: largest |Pd(signal)-Pd(surrogate)| over [-20,0] dB <= 3 points",
+  "detail": "0.026"
+ },
+ {
+  "ok": true,
+  "claim": "Removed unsupported statements are absent from the journal sources",
+  "detail": "[]"
+ },
+ {
+  "ok": true,
+  "claim": "AI-use acknowledgment present (IEEE policy)",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "TCCN: at most five keywords",
+  "detail": "5"
+ },
+ {
+  "ok": true,
+  "claim": "TCCN: abstract 75-200 words (rendered PDF)",
+  "detail": "198"
+ },
+ {
+  "ok": true,
+  "claim": "TCCN: at most 10 pages (no overlength charge; hard limit 13)",
+  "detail": "10 pages"
+ },
+ {
+  "ok": true,
+  "claim": "Manuscript is self-contained: no mention of supplementary material",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "Manuscript contains the proofs (Appendix)",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "Prop. 3 check: structure detectors' gap not detectable at <= -16 dB (|gap| <= 3 SE)",
+  "detail": "max 1.98 SE"
+ },
+ {
+  "ok": true,
+  "claim": "Prop. 3 check: gap/gamma^2 of kappa_lo roughly constant (max/min <= 1.5)",
+  "detail": "0.296-0.398"
+ },
+ {
+  "ok": true,
+  "claim": "Prop. 3 check: second-order gaps vs power-normalised surrogates <= 0.5 points and <= 2.5 SE",
+  "detail": "0.35 pts, 2.14 SE"
+ },
+ {
+  "ok": true,
+  "claim": "Prop. 3 check: LMPI gap vs un-normalised surrogate peaks near P_d = 0.9",
+  "detail": "P_d 0.920"
+ },
+ {
+  "ok": true,
+  "claim": "Thm 3: closed form equals the LP in every case",
+  "detail": "136/136"
+ },
+ {
+  "ok": true,
+  "claim": "Thm 3: infinite wall exactly when p_max/p_min <= R (boundary cases)",
+  "detail": "20/20"
+ },
+ {
+  "ok": true,
+  "claim": "Thm 3: dual margin zero below and positive above the wall",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "Thm 3: s = R^2 - 1 is exact for spectra with nulls (RRC)",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "Thm 3(iii) check: max P_f falls, P_d(+1 dB) rises and P_d at the wall falls with N",
+  "detail": "Pf [0.402457757296467, 0.29713114754098363, 0.17], Pd+1 [0.5873015873015873, 0.6782786885245902, 0.845], Pd0 [0.3159242191500256, 0.1557377049180328, 0.01]"
+ },
+ {
+  "ok": true,
+  "claim": "LMPI: strong networks rank like the LMPI test (rho >= 0.93, 15 models)",
+  "detail": "min 0.939"
+ },
+ {
+  "ok": true,
+  "claim": "LMPI: net-LMPI agreement within the net-net range and above every net-BAND agreement",
+  "detail": "0.890-0.923 vs 0.871-0.940, band max 0.880"
+ },
+ {
+  "ok": true,
+  "claim": "LMPI: implicit templates closer to the signal PSD than to the band indicator in >= 24 of 25 white models",
+  "detail": "24 of 25"
+ },
+ {
+  "ok": true,
+  "claim": "LMPI: LP .8 false alarms grow with N like the GAP CNN's (|diff| <= 0.06 at each N)",
+  "detail": "LMPI [0.299 0.676 0.991] GAP [0.34  0.73  0.995]"
+ },
+ {
+  "ok": true,
+  "claim": "LMPI: no white network exceeds the LMPI P_d by more than 1.5 points",
+  "detail": "0.5"
+ },
+ {
+  "ok": true,
+  "claim": "LMPI: escape networks are not spectral (|rho| <= 0.1, template cos <= 0.4)",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "LMPI: weaker architectures less LMPI-like than the strong ones",
+  "detail": "max weak 0.821"
+ },
+ {
+  "ok": true,
+  "claim": "Transformer: 5 seeds, |surrogate gap| <= 2 points, pink P_f >= 0.99",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "Real signals: LMPI replay exact (band counts) and tracks the GAP CNN within 3 points, closer than the band ratio",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "Real signals: LMPI misses NOAA/pager/FRS on R828D (max P_d <= 0.1)",
+  "detail": "0.071"
+ },
+ {
+  "ok": true,
+  "claim": "Off-band: overlap rule predicts the networks within MAE <= 3 points; STFT CNN is the worst",
+  "detail": "max 0.026, STFT min 0.042"
+ },
+ {
+  "ok": true,
+  "claim": "Off-band: clearly negative own overlap (< -0.05) keeps P_d at or below the false-alarm level (<= 0.06)",
+  "detail": "0.043 over 729 detector-cells"
+ },
+ {
+  "ok": true,
+  "claim": "Escape law: existing wall tests predicted within 0.07 and new roll-off tests within 0.06, no fitted parameter",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "Escape law: implied kappa within 10 % of the pulse-derived kappa",
+  "detail": "0.1178 vs 0.1215"
+ },
+ {
+  "ok": true,
+  "claim": "Escape law: 16 lags need fewer samples than 5 lags",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "Hardware: at p90 the shape wall lies below the ED wall on both receivers; at the median the sign varies",
+  "detail": "p90 [5.4 6.8 6.  6.8], median [-3.2  1.5  1.3  4.7]"
+ },
+ {
+  "ok": true,
+  "claim": "Hardware: within-capture power drift small (median <= 0.2 dB) on both receivers",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "Dynamics: WHITE reaches rho >= 0.9 with the LMPI test within the first epoch; probe gap <= 3.5 points while the main evaluation (independent windows) gives |gap(-10 dB)| <= 1.5 points",
+  "detail": "steps [200, 100, 100], probe max 3.1, main [-0.3  -0.83  1.22  0.12 -0.4 ]"
+ },
+ {
+  "ok": true,
+  "claim": "Dynamics: structure recipes learn second-order first (rho >= 0.5 by step 20) and their gap is large at 0 dB, small at -10 dB",
+  "detail": ""
+ },
+ {
+  "ok": true,
+  "claim": "MPI efficiency: strong networks lose <= 0.5 dB, weaker ones more",
+  "detail": "0.36 vs 0.73"
+ }
+]

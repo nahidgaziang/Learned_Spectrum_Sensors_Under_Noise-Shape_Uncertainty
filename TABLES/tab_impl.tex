@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Computational complexity and specifications of learned detectors ($N=128$). All inputs are power-normalised per example. Latency: forward pass of the network for one window (batch 1), in ms, on an Intel Core i5-13420H CPU / RTX 3050 GPU, excluding input preprocessing (for \textsc{CycNet}, the cyclic features). Covariance: $16\times16$ smoothed sample covariance. STFT: log-power, 16-point Hann window, hop 8. Training: Adam, binary cross-entropy, cosine learning-rate decay, 60\,k examples (half signals), 12 epochs ($N=128$), batch 128, learning rate $10^{-3}$ ($3\times10^{-4}$ for the CNN--LSTM).}
+\label{tab:impl}
+\scriptsize
+\setlength{\tabcolsep}{1.6pt}
+\begin{tabular}{lrrccl}
+\toprule
+Detector & Params & MFLOPs & Latency (ms) & Input & Ref. \\
+ & & & (CPU / GPU) & & \\
+\midrule
+GAP CNN & 120\,k & 19.2 & 1.11 / 0.63 & I/Q, any $N$ & ours \\
+GAP CNN 4X & 1907\,k & 303.4 & 3.62 / 0.56 & I/Q & ours (scaled) \\
+DetectNet replica & 1301\,k & 11.5 & 2.49 / 0.80 & I/Q & code of~\cite{gao2019deep} \\
+CNN--LSTM & 151\,k & 9.6 & 5.71 / 0.98 & I/Q & \cite{gao2019deep} \\
+1-D ResNet & 264\,k & 15.1 & 2.34 / 1.80 & I/Q & \cite{zheng2020spectrum} \\
+Covariance CNN & 33\,k & 7.4 & 0.49 / 0.39 & covariance & \cite{liu2019cmcnn} \\
+STFT CNN & 32\,k & 6.6 & 0.47 / 0.46 & STFT & \cite{chen2021stft} \\
+Transformer & 136\,k & 4.2 & 1.52 / 1.33 & I/Q (16 tokens) & ours (breadth) \\
+CycNet & 12\,k & 0.3 & 0.32 / 0.41 & cyclic lags & ours (escape) \\
+\bottomrule
+\end{tabular}
+\end{table}

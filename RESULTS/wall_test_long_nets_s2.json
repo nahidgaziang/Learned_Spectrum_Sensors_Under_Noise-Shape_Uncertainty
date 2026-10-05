@@ -1,0 +1,458 @@
+{
+ "N2048_R1.0": {
+  "N": 2048,
+  "R_db": 1.0,
+  "wall_db": -12.358258779209947,
+  "thr": {
+   "GapCNN-WHITE": 5.592620372772217,
+   "GapCNN-SURRXM": 0.5682680010795593
+  },
+  "Pf": {
+   "white": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   },
+   "c0": {
+    "GapCNN-WHITE": 0.053,
+    "GapCNN-SURRXM": 0.052
+   },
+   "c1": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   }
+  },
+  "Pd": {
+   "-2": {
+    "GapCNN-WHITE": {
+     "white": 0.1655,
+     "c1": 0.0,
+     "worst": 0.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.1065,
+     "c1": 0.006,
+     "worst": 0.006
+    }
+   },
+   "0": {
+    "GapCNN-WHITE": {
+     "white": 0.7895,
+     "c1": 0.0455,
+     "worst": 0.0455
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.3105,
+     "c1": 0.1135,
+     "worst": 0.1135
+    }
+   },
+   "2": {
+    "GapCNN-WHITE": {
+     "white": 0.9995,
+     "c1": 0.8775,
+     "worst": 0.8775
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.614,
+     "c1": 0.547,
+     "worst": 0.547
+    }
+   },
+   "4": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.812,
+     "c1": 0.8815,
+     "worst": 0.812
+    }
+   }
+  },
+  "n_cal": 3000,
+  "n_te": 2000,
+  "note": "networks trained at N=2048, applied at N (global pooling)"
+ },
+ "N8192_R1.0": {
+  "N": 8192,
+  "R_db": 1.0,
+  "wall_db": -12.35825729838124,
+  "thr": {
+   "GapCNN-WHITE": 3.7765004634857178,
+   "GapCNN-SURRXM": 0.21547847986221313
+  },
+  "Pf": {
+   "white": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   },
+   "c0": {
+    "GapCNN-WHITE": 0.043,
+    "GapCNN-SURRXM": 0.047
+   },
+   "c1": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   }
+  },
+  "Pd": {
+   "-2": {
+    "GapCNN-WHITE": {
+     "white": 0.394,
+     "c1": 0.0,
+     "worst": 0.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.181,
+     "c1": 0.0,
+     "worst": 0.0
+    }
+   },
+   "0": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 0.0485,
+     "worst": 0.0485
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.654,
+     "c1": 0.164,
+     "worst": 0.164
+    }
+   },
+   "2": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 0.9995,
+     "worst": 0.9995
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.9155,
+     "c1": 0.9245,
+     "worst": 0.9155
+    }
+   },
+   "4": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.9805,
+     "c1": 0.9965,
+     "worst": 0.9805
+    }
+   }
+  },
+  "n_cal": 3000,
+  "n_te": 2000,
+  "note": "networks trained at N=2048, applied at N (global pooling)"
+ },
+ "N32768_R1.0": {
+  "N": 32768,
+  "R_db": 1.0,
+  "wall_db": -12.358257273159957,
+  "thr": {
+   "GapCNN-WHITE": 2.8612606525421143,
+   "GapCNN-SURRXM": 0.027929456904530525
+  },
+  "Pf": {
+   "white": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   },
+   "c0": {
+    "GapCNN-WHITE": 0.043,
+    "GapCNN-SURRXM": 0.047
+   },
+   "c1": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   }
+  },
+  "Pd": {
+   "-2": {
+    "GapCNN-WHITE": {
+     "white": 0.847,
+     "c1": 0.0,
+     "worst": 0.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.379,
+     "c1": 0.0,
+     "worst": 0.0
+    }
+   },
+   "0": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 0.0665,
+     "worst": 0.0665
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.9635,
+     "c1": 0.371,
+     "worst": 0.371
+    }
+   },
+   "2": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.9995,
+     "c1": 1.0,
+     "worst": 0.9995
+    }
+   },
+   "4": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    }
+   }
+  },
+  "n_cal": 3000,
+  "n_te": 2000,
+  "note": "networks trained at N=2048, applied at N (global pooling)"
+ },
+ "N2048_R2.0": {
+  "N": 2048,
+  "R_db": 2.0,
+  "wall_db": -9.122757916912953,
+  "thr": {
+   "GapCNN-WHITE": 11.726568222045898,
+   "GapCNN-SURRXM": 1.2259100675582886
+  },
+  "Pf": {
+   "white": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   },
+   "c0": {
+    "GapCNN-WHITE": 0.054,
+    "GapCNN-SURRXM": 0.0535
+   },
+   "c1": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   }
+  },
+  "Pd": {
+   "-2": {
+    "GapCNN-WHITE": {
+     "white": 0.17,
+     "c1": 0.0,
+     "worst": 0.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.167,
+     "c1": 0.018,
+     "worst": 0.018
+    }
+   },
+   "0": {
+    "GapCNN-WHITE": {
+     "white": 0.9765,
+     "c1": 0.041,
+     "worst": 0.041
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.4915,
+     "c1": 0.484,
+     "worst": 0.484
+    }
+   },
+   "2": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.7795,
+     "c1": 0.8985,
+     "worst": 0.7795
+    }
+   },
+   "4": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.8775,
+     "c1": 0.9685,
+     "worst": 0.8775
+    }
+   }
+  },
+  "n_cal": 3000,
+  "n_te": 2000,
+  "note": "networks trained at N=2048, applied at N (global pooling)"
+ },
+ "N8192_R2.0": {
+  "N": 8192,
+  "R_db": 2.0,
+  "wall_db": -9.122756245868999,
+  "thr": {
+   "GapCNN-WHITE": 10.35708236694336,
+   "GapCNN-SURRXM": 0.6962209343910217
+  },
+  "Pf": {
+   "white": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   },
+   "c0": {
+    "GapCNN-WHITE": 0.0405,
+    "GapCNN-SURRXM": 0.047
+   },
+   "c1": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   }
+  },
+  "Pd": {
+   "-2": {
+    "GapCNN-WHITE": {
+     "white": 0.469,
+     "c1": 0.0,
+     "worst": 0.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.355,
+     "c1": 0.015,
+     "worst": 0.015
+    }
+   },
+   "0": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 0.056,
+     "worst": 0.056
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.807,
+     "c1": 0.876,
+     "worst": 0.807
+    }
+   },
+   "2": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.955,
+     "c1": 0.999,
+     "worst": 0.955
+    }
+   },
+   "4": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.986,
+     "c1": 1.0,
+     "worst": 0.986
+    }
+   }
+  },
+  "n_cal": 3000,
+  "n_te": 2000,
+  "note": "networks trained at N=2048, applied at N (global pooling)"
+ },
+ "N32768_R2.0": {
+  "N": 32768,
+  "R_db": 2.0,
+  "wall_db": -9.122756087891746,
+  "thr": {
+   "GapCNN-WHITE": 9.55073070526123,
+   "GapCNN-SURRXM": 0.43936777114868164
+  },
+  "Pf": {
+   "white": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   },
+   "c0": {
+    "GapCNN-WHITE": 0.044,
+    "GapCNN-SURRXM": 0.0495
+   },
+   "c1": {
+    "GapCNN-WHITE": 0.0,
+    "GapCNN-SURRXM": 0.0
+   }
+  },
+  "Pd": {
+   "-2": {
+    "GapCNN-WHITE": {
+     "white": 0.9495,
+     "c1": 0.0,
+     "worst": 0.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.7295,
+     "c1": 0.0145,
+     "worst": 0.0145
+    }
+   },
+   "0": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 0.155,
+     "worst": 0.155
+    },
+    "GapCNN-SURRXM": {
+     "white": 0.9915,
+     "c1": 0.9975,
+     "worst": 0.9915
+    }
+   },
+   "2": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    }
+   },
+   "4": {
+    "GapCNN-WHITE": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    },
+    "GapCNN-SURRXM": {
+     "white": 1.0,
+     "c1": 1.0,
+     "worst": 1.0
+    }
+   }
+  },
+  "n_cal": 3000,
+  "n_te": 2000,
+  "note": "networks trained at N=2048, applied at N (global pooling)"
+ }
+}

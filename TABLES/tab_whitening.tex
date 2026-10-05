@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{False alarms (\%) after whitening with $K$ reference noise windows of the same shape ($N=128$; mean (max) over 6 white-trained networks). Nominal $P_f=5\%$.}
+\label{tab:whitening}
+\footnotesize
+\setlength{\tabcolsep}{2.2pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+PSD estimate & $K$ & White & LP\,.8 & RTL & AR$+.2$ & Pink & Tilt \\
+\midrule
+cosine fit & 16 & 7.1 (10) & 12.2 (24) & 8.4 (11) & 8.7 (11) & 7.0 (13) & 3.4 (5) \\
+cosine fit & 64 & 4.5 (6) & 12.4 (16) & 6.1 (9) & 4.2 (5) & 7.4 (11) & 5.7 (6) \\
+cosine fit & 256 & 5.5 (6) & 10.9 (15) & 5.4 (6) & 5.0 (6) & 5.9 (7) & 4.4 (5) \\
+cosine fit & 1024 & 5.7 (7) & 11.7 (14) & 5.1 (6) & 5.4 (6) & 6.4 (7) & 4.3 (5) \\
+3-bin average & 16 & 4.6 (6) & 20.9 (36) & 4.4 (5) & 7.4 (12) & 2.6 (3) & 5.9 (9) \\
+3-bin average & 1024 & 5.1 (5) & 13.9 (18) & 5.3 (6) & 5.7 (6) & 4.3 (5) & 4.9 (5) \\
+\bottomrule
+\end{tabular}
+\end{table}

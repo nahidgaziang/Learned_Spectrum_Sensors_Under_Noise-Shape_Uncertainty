@@ -1,0 +1,65 @@
+{
+ "FM_broadcast/FM_01.npy": {
+  "meta": {},
+  "n_windows": 781,
+  "burst_fraction": 0.0,
+  "occupied_fraction_90": 0.5234375,
+  "snr_db_estimate": -15.052979148031513
+ },
+ "FM_broadcast/FM_02.npy": {
+  "meta": {},
+  "n_windows": 781,
+  "burst_fraction": 0.0,
+  "occupied_fraction_90": 0.5234375,
+  "snr_db_estimate": -15.052979148031513
+ },
+ "FM_broadcast/FM_03.npy": {
+  "meta": {},
+  "n_windows": 781,
+  "burst_fraction": 0.0,
+  "occupied_fraction_90": 0.5234375,
+  "snr_db_estimate": -15.052979148031513
+ },
+ "ADS_B/ADSB_01.npy": {
+  "meta": {},
+  "n_windows": 4000,
+  "burst_fraction": 0.0,
+  "occupied_fraction_90": 0.171875,
+  "snr_db_estimate": 12.626576071286523
+ },
+ "ADS_B/ADSB_02.npy": {
+  "meta": {},
+  "n_windows": 4000,
+  "burst_fraction": 0.0,
+  "occupied_fraction_90": 0.171875,
+  "snr_db_estimate": 12.69357222620558
+ },
+ "ADS_B/ADSB_03.npy": {
+  "meta": {},
+  "n_windows": 4000,
+  "burst_fraction": 0.0,
+  "occupied_fraction_90": 0.171875,
+  "snr_db_estimate": 12.730404117744484
+ },
+ "ISM_sensors/ISM_01.npy": {
+  "meta": {},
+  "n_windows": 4000,
+  "burst_fraction": 0.0,
+  "occupied_fraction_90": 0.1484375,
+  "snr_db_estimate": 15.39646959196061
+ },
+ "ISM_sensors/ISM_03.npy": {
+  "meta": {},
+  "n_windows": 4000,
+  "burst_fraction": 0.0,
+  "occupied_fraction_90": 0.1328125,
+  "snr_db_estimate": 16.439192964126047
+ },
+ "ISM_sensors/ISM_04.npy": {
+  "meta": {},
+  "n_windows": 4000,
+  "burst_fraction": 0.0,
+  "occupied_fraction_90": 0.1875,
+  "snr_db_estimate": 14.848081116206798
+ }
+}

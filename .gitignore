@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+# downloaded datasets and model checkpoints (regenerate; see REPRODUCIBILITY.md)
+DATA/
+EXPERIMENTS/
+# LaTeX intermediates
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz

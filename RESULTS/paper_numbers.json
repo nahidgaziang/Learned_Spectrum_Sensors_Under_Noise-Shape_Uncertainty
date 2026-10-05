@@ -1,0 +1,4047 @@
+{
+ "AblNoNormPfUp": {
+  "tex": "25\\%",
+  "raw": 0.2524166666666667
+ },
+ "AblBigGap": {
+  "tex": "$+0.0$",
+  "raw": 0.00047916666666666014
+ },
+ "GapCNNSurrPdTenNB": {
+  "tex": "87\\%",
+  "raw": 0.8698333333333333
+ },
+ "GapCNNSurrMaxPfNB": {
+  "tex": "10\\%",
+  "raw": {
+   "Pf_white+1dB": 0.051333333333333335,
+   "Pf_white-1dB": 0.050083333333333334,
+   "Pf_ar+0.05": 0.10433333333333333,
+   "Pf_ar-0.05": 0.009000000000000001,
+   "Pf_ar+0.1": 0.09308333333333334,
+   "Pf_ar-0.1": 0.0009166666666666666,
+   "Pf_ar+0.2": 0.014833333333333332,
+   "Pf_ar-0.2": 0.0,
+   "Pf_lpf0.9": 0.06358333333333334,
+   "Pf_lpf0.8": 0.0025833333333333333,
+   "Pf_rtl1dB": 0.0805,
+   "Pf_rtl3dB": 0.07575,
+   "Pf_pink": 0.0003333333333333333
+  }
+ },
+ "GapCNNSurrGapNB": {
+  "tex": "$+3.0$",
+  "raw": 0.029949999999999994
+ },
+ "GapCNNSurrPdTenNC": {
+  "tex": "97\\%",
+  "raw": 0.9662
+ },
+ "GapCNNSurrMaxPfNC": {
+  "tex": "14\\%",
+  "raw": {
+   "Pf_white+1dB": 0.0528,
+   "Pf_white-1dB": 0.04650000000000001,
+   "Pf_ar+0.05": 0.1356,
+   "Pf_ar-0.05": 0.0112,
+   "Pf_ar+0.1": 0.10980000000000001,
+   "Pf_ar-0.1": 0.0017000000000000001,
+   "Pf_ar+0.2": 0.009600000000000001,
+   "Pf_ar-0.2": 0.0,
+   "Pf_lpf0.9": 0.13889999999999997,
+   "Pf_lpf0.8": 0.041100000000000005,
+   "Pf_rtl1dB": 0.0924,
+   "Pf_rtl3dB": 0.09509999999999999,
+   "Pf_pink": 0.0002
+  }
+ },
+ "GapCNNSurrGapNC": {
+  "tex": "$+1.9$",
+  "raw": 0.019066666666666662
+ },
+ "SurrGapRangeNA": {
+  "tex": "$+4.1$ to $+5.2$",
+  "raw": [
+   0.04108333333333334,
+   0.05237500000000001
+  ]
+ },
+ "GapCNNSurrxPdTenNB": {
+  "tex": "80\\%",
+  "raw": 0.8016666666666667
+ },
+ "GapCNNSurrxMaxPfNB": {
+  "tex": "11\\%",
+  "raw": {
+   "Pf_white+1dB": 0.05225,
+   "Pf_white-1dB": 0.04833333333333333,
+   "Pf_ar+0.05": 0.10633333333333334,
+   "Pf_ar-0.05": 0.007833333333333333,
+   "Pf_ar+0.1": 0.09675,
+   "Pf_ar-0.1": 0.0007500000000000001,
+   "Pf_ar+0.2": 0.015333333333333332,
+   "Pf_ar-0.2": 0.0,
+   "Pf_lpf0.9": 0.0535,
+   "Pf_lpf0.8": 0.00225,
+   "Pf_rtl1dB": 0.0735,
+   "Pf_rtl3dB": 0.06916666666666667,
+   "Pf_pink": 0.018916666666666665
+  }
+ },
+ "GapCNNSurrxGapNB": {
+  "tex": "$+11.5$",
+  "raw": 0.11503571428571428
+ },
+ "GapCNNSurrxPdTenNC": {
+  "tex": "92\\%",
+  "raw": 0.9159999999999998
+ },
+ "GapCNNSurrxMaxPfNC": {
+  "tex": "27\\%",
+  "raw": {
+   "Pf_white+1dB": 0.048799999999999996,
+   "Pf_white-1dB": 0.0501,
+   "Pf_ar+0.05": 0.1983,
+   "Pf_ar-0.05": 0.007200000000000001,
+   "Pf_ar+0.1": 0.2741,
+   "Pf_ar-0.1": 0.0006000000000000001,
+   "Pf_ar+0.2": 0.0869,
+   "Pf_ar-0.2": 0.0,
+   "Pf_lpf0.9": 0.1419,
+   "Pf_lpf0.8": 0.0718,
+   "Pf_rtl1dB": 0.09969999999999998,
+   "Pf_rtl3dB": 0.16419999999999998,
+   "Pf_pink": 0.014600000000000002
+  }
+ },
+ "GapCNNSurrxGapNC": {
+  "tex": "$+4.1$",
+  "raw": 0.04105833333333332
+ },
+ "SurrxGapRangeNA": {
+  "tex": "$+5.1$ to $+17.4$",
+  "raw": [
+   0.05141666666666667,
+   0.17375000000000002
+  ]
+ },
+ "GapCNNSurrxmPdTenNB": {
+  "tex": "90\\%",
+  "raw": 0.8995833333333333
+ },
+ "GapCNNSurrxmMaxPfNB": {
+  "tex": "22\\%",
+  "raw": {
+   "Pf_white+1dB": 0.05383333333333334,
+   "Pf_white-1dB": 0.05275,
+   "Pf_ar+0.05": 0.07866666666666666,
+   "Pf_ar-0.05": 0.03125,
+   "Pf_ar+0.1": 0.11541666666666667,
+   "Pf_ar-0.1": 0.01916666666666667,
+   "Pf_ar+0.2": 0.22483333333333333,
+   "Pf_ar-0.2": 0.005583333333333333,
+   "Pf_lpf0.9": 0.04033333333333333,
+   "Pf_lpf0.8": 0.027666666666666662,
+   "Pf_rtl1dB": 0.051083333333333335,
+   "Pf_rtl3dB": 0.0525,
+   "Pf_pink": 0.03516666666666667
+  }
+ },
+ "GapCNNSurrxmPdTenNC": {
+  "tex": "98\\%",
+  "raw": 0.9756666666666667
+ },
+ "GapCNNSurrxmMaxPfNC": {
+  "tex": "52\\%",
+  "raw": {
+   "Pf_white+1dB": 0.04833333333333334,
+   "Pf_white-1dB": 0.047999999999999994,
+   "Pf_ar+0.05": 0.11483333333333334,
+   "Pf_ar-0.05": 0.021666666666666667,
+   "Pf_ar+0.1": 0.2213333333333333,
+   "Pf_ar-0.1": 0.009333333333333334,
+   "Pf_ar+0.2": 0.5155,
+   "Pf_ar-0.2": 0.0028333333333333335,
+   "Pf_lpf0.9": 0.03133333333333333,
+   "Pf_lpf0.8": 0.030833333333333334,
+   "Pf_rtl1dB": 0.051333333333333335,
+   "Pf_rtl3dB": 0.05616666666666666,
+   "Pf_pink": 0.021666666666666667
+  }
+ },
+ "WcRecWhiteNA": {
+  "tex": "0.23",
+  "raw": 0.23174999999999998
+ },
+ "WcRecWhiteNB": {
+  "tex": "0.64",
+  "raw": 0.641
+ },
+ "WcRecWhiteNC": {
+  "tex": "0.99",
+  "raw": 0.9863333333333334
+ },
+ "WcRecSurrxNA": {
+  "tex": "0.11",
+  "raw": 0.11099999999999999
+ },
+ "WcRecSurrxNB": {
+  "tex": "0.03",
+  "raw": 0.031
+ },
+ "WcRecSurrxNC": {
+  "tex": "0.11",
+  "raw": 0.11220000000000001
+ },
+ "WcRecSurrxmNA": {
+  "tex": "0.36",
+  "raw": 0.36160000000000003
+ },
+ "WcRecSurrxmNB": {
+  "tex": "0.69",
+  "raw": 0.694
+ },
+ "WcRecSurrxmNC": {
+  "tex": "0.93",
+  "raw": 0.9250000000000002
+ },
+ "MaskPinkPdPink": {
+  "tex": "0--2\\%",
+  "raw": [
+   0.0204,
+   0.0038
+  ]
+ },
+ "MaskPinkPdWhite": {
+  "tex": "58--68\\%",
+  "raw": null
+ },
+ "MaskRandPdLpf": {
+  "tex": "1\\%",
+  "raw": 0.0051
+ },
+ "MaskSurrxPdLpfNA": {
+  "tex": "14\\%",
+  "raw": 0.1447
+ },
+ "MaskSurrxPdPinkNA": {
+  "tex": "8\\%",
+  "raw": 0.08339999999999999
+ },
+ "MaskSurrxPdPinkZeroNA": {
+  "tex": "29\\%",
+  "raw": 0.28969999999999996
+ },
+ "MaskSurrxPdWhiteNA": {
+  "tex": "55\\%",
+  "raw": 0.5498
+ },
+ "MaskSurrxPdLpfNC": {
+  "tex": "19\\%",
+  "raw": 0.189
+ },
+ "MaskSurrxPdPinkNC": {
+  "tex": "1\\%",
+  "raw": 0.009600000000000001
+ },
+ "MaskSurrxPdPinkZeroNC": {
+  "tex": "27\\%",
+  "raw": 0.269
+ },
+ "MaskSurrxPdWhiteNC": {
+  "tex": "92\\%",
+  "raw": 0.9159999999999998
+ },
+ "MaskSurrxmPdLpfNA": {
+  "tex": "41\\%",
+  "raw": 0.41259999999999997
+ },
+ "MaskSurrxmPdPinkNA": {
+  "tex": "19\\%",
+  "raw": 0.1895
+ },
+ "MaskSurrxmPdPinkZeroNA": {
+  "tex": "41\\%",
+  "raw": 0.40650000000000003
+ },
+ "MaskSurrxmPdWhiteNA": {
+  "tex": "54\\%",
+  "raw": 0.5356500000000001
+ },
+ "MaskSurrxmPdLpfNC": {
+  "tex": "93\\%",
+  "raw": 0.9343333333333333
+ },
+ "MaskSurrxmPdPinkNC": {
+  "tex": "2\\%",
+  "raw": 0.018666666666666668
+ },
+ "MaskSurrxmPdPinkZeroNC": {
+  "tex": "35\\%",
+  "raw": 0.35033333333333333
+ },
+ "MaskSurrxmPdWhiteNC": {
+  "tex": "98\\%",
+  "raw": 0.9756666666666667
+ },
+ "CLDNNPinkmPdPink": {
+  "tex": "43\\%",
+  "raw": 0.43305
+ },
+ "CLDNNPinkmPdLpf": {
+  "tex": "5\\%",
+  "raw": 0.05329999999999999
+ },
+ "CLDNNPinkmPfPink": {
+  "tex": "29\\%",
+  "raw": 0.2852
+ },
+ "CLDNNPinkmPfLpf": {
+  "tex": "1\\%",
+  "raw": 0.012175000000000002
+ },
+ "CLDNNPinkmPfRtl": {
+  "tex": "2\\%",
+  "raw": 0.02305
+ },
+ "CLDNNPinkmPdTen": {
+  "tex": "27\\%",
+  "raw": 0.269025
+ },
+ "CLDNNPinkmWcBroad": {
+  "tex": "0\\%",
+  "raw": 0.0009500000000000001
+ },
+ "CLDNNPinkmSurGap": {
+  "tex": "$+0.8$",
+  "raw": 0.008094999999999996
+ },
+ "CLDNNPinkmSeeds": {
+  "tex": "10",
+  "raw": 10
+ },
+ "GapCNNPinkmPdPink": {
+  "tex": "25\\%",
+  "raw": 0.246
+ },
+ "GapCNNPinkmPdLpf": {
+  "tex": "23\\%",
+  "raw": 0.23120000000000002
+ },
+ "GapCNNPinkmPfPink": {
+  "tex": "7\\%",
+  "raw": 0.06955
+ },
+ "GapCNNPinkmPfLpf": {
+  "tex": "6\\%",
+  "raw": 0.05620000000000001
+ },
+ "GapCNNPinkmPfRtl": {
+  "tex": "12\\%",
+  "raw": 0.11705000000000002
+ },
+ "GapCNNPinkmPdTen": {
+  "tex": "65\\%",
+  "raw": 0.6540000000000001
+ },
+ "GapCNNPinkmWcBroad": {
+  "tex": "2\\%",
+  "raw": 0.0178
+ },
+ "GapCNNPinkmSurGap": {
+  "tex": "$+0.9$",
+  "raw": 0.00901750000000001
+ },
+ "GapCNNPinkmSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "GapCNNRandmPdPink": {
+  "tex": "100\\%",
+  "raw": 0.9999
+ },
+ "GapCNNRandmPdLpf": {
+  "tex": "17\\%",
+  "raw": 0.172
+ },
+ "GapCNNRandmPfPink": {
+  "tex": "100\\%",
+  "raw": 0.9997999999999999
+ },
+ "GapCNNRandmPfLpf": {
+  "tex": "1\\%",
+  "raw": 0.0054
+ },
+ "GapCNNRandmPfRtl": {
+  "tex": "3\\%",
+  "raw": 0.02705
+ },
+ "GapCNNRandmPdTen": {
+  "tex": "57\\%",
+  "raw": 0.5705
+ },
+ "GapCNNRandmWcBroad": {
+  "tex": "0\\%",
+  "raw": 0.0
+ },
+ "GapCNNRandmSurGap": {
+  "tex": "$+1.0$",
+  "raw": 0.010319999999999994
+ },
+ "GapCNNRandmSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "GapCNNSurrxmPdPink": {
+  "tex": "19\\%",
+  "raw": 0.1895
+ },
+ "GapCNNSurrxmPdLpf": {
+  "tex": "41\\%",
+  "raw": 0.41259999999999997
+ },
+ "GapCNNSurrxmPfPink": {
+  "tex": "19\\%",
+  "raw": 0.18824999999999997
+ },
+ "GapCNNSurrxmPfLpf": {
+  "tex": "6\\%",
+  "raw": 0.05550000000000001
+ },
+ "GapCNNSurrxmPfRtl": {
+  "tex": "6\\%",
+  "raw": 0.060950000000000004
+ },
+ "GapCNNSurrxmPdTen": {
+  "tex": "54\\%",
+  "raw": 0.5356500000000001
+ },
+ "GapCNNSurrxmWcBroad": {
+  "tex": "3\\%",
+  "raw": 0.030199999999999998
+ },
+ "GapCNNSurrxmSurGap": {
+  "tex": "$+9.6$",
+  "raw": 0.09590565476190475
+ },
+ "GapCNNSurrxmSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "WcBroadMax": {
+  "tex": "4\\%",
+  "raw": 0.0445
+ },
+ "PdCalLpfWhiteRange": {
+  "tex": "41--55\\%",
+  "raw": [
+   0.5349999999999999,
+   0.40759999999999996,
+   0.5323,
+   0.4124,
+   0.551
+  ]
+ },
+ "PdCalLpfRand": {
+  "tex": "10\\%",
+  "raw": 0.1
+ },
+ "PdCalLpfRandm": {
+  "tex": "48\\%",
+  "raw": 0.47800000000000004
+ },
+ "PdCalLpfSurrx": {
+  "tex": "16\\%",
+  "raw": 0.1614
+ },
+ "PdCalLpfSurrxm": {
+  "tex": "39\\%",
+  "raw": 0.3867
+ },
+ "PdCalLpfPink": {
+  "tex": "20\\%",
+  "raw": 0.20179999999999998
+ },
+ "PdCalLpfPinkm": {
+  "tex": "22\\%",
+  "raw": 0.2243
+ },
+ "PdCalLpfBand": {
+  "tex": "50\\%",
+  "raw": 0.5016666666666666
+ },
+ "PdCalPinkMax": {
+  "tex": "20\\%",
+  "raw": 0.197
+ },
+ "PdCalPinkZeroPinkm": {
+  "tex": "100\\%",
+  "raw": 0.9971
+ },
+ "PdCalPinkZeroSurrx": {
+  "tex": "23\\%",
+  "raw": 0.22820000000000001
+ },
+ "AlphaGapMaxOne": {
+  "tex": "1.7",
+  "raw": 0.01696666666666667
+ },
+ "AlphaLpfOneRange": {
+  "tex": "8--16\\%",
+  "raw": [
+   0.13675,
+   0.08215,
+   0.10740000000000001,
+   0.15805,
+   0.15305
+  ]
+ },
+ "AlphaPowerUpOneRange": {
+  "tex": "0.9--1.2\\%",
+  "raw": [
+   0.00935,
+   0.01105,
+   0.0114,
+   0.01085,
+   0.011850000000000001
+  ]
+ },
+ "AlphaGapMaxTen": {
+  "tex": "0.4",
+  "raw": 0.0036333333333333274
+ },
+ "AlphaLpfTenRange": {
+  "tex": "32--53\\%",
+  "raw": [
+   0.4671,
+   0.32094999999999996,
+   0.36225,
+   0.52895,
+   0.46604999999999996
+  ]
+ },
+ "AlphaPowerUpTenRange": {
+  "tex": "9.7--10.3\\%",
+  "raw": [
+   0.10145,
+   0.10289999999999999,
+   0.10225,
+   0.097,
+   0.10269999999999999
+  ]
+ },
+ "SurrRerunLpf": {
+  "tex": "23.8\\%",
+  "raw": 0.2385
+ },
+ "SurZeroWhiteNA": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "SigZeroWhiteNA": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "SurZeroWhiteNB": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "SigZeroWhiteNB": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "SurZeroWhiteNC": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "SigZeroWhiteNC": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "SurZeroSurrNA": {
+  "tex": "72\\%",
+  "raw": 0.7234999999999999
+ },
+ "SigZeroSurrNA": {
+  "tex": "97\\%",
+  "raw": 0.9718499999999999
+ },
+ "SurZeroSurrNB": {
+  "tex": "39\\%",
+  "raw": 0.38549999999999995
+ },
+ "SigZeroSurrNB": {
+  "tex": "99\\%",
+  "raw": 0.9902500000000001
+ },
+ "SurZeroSurrNC": {
+  "tex": "13\\%",
+  "raw": 0.1289
+ },
+ "SigZeroSurrNC": {
+  "tex": "100\\%",
+  "raw": 0.9978
+ },
+ "SurZeroSurrxNA": {
+  "tex": "33\\%",
+  "raw": 0.3267
+ },
+ "SigZeroSurrxNA": {
+  "tex": "90\\%",
+  "raw": 0.9014000000000001
+ },
+ "SurZeroSurrxNB": {
+  "tex": "14\\%",
+  "raw": 0.13691666666666666
+ },
+ "SigZeroSurrxNB": {
+  "tex": "96\\%",
+  "raw": 0.956
+ },
+ "SurZeroSurrxNC": {
+  "tex": "3\\%",
+  "raw": 0.028600000000000004
+ },
+ "SigZeroSurrxNC": {
+  "tex": "99\\%",
+  "raw": 0.9904
+ },
+ "SurZeroSurrxmNA": {
+  "tex": "38\\%",
+  "raw": 0.38280000000000003
+ },
+ "SigZeroSurrxmNA": {
+  "tex": "91\\%",
+  "raw": 0.9115
+ },
+ "SurZeroSurrxmNB": {
+  "tex": "16\\%",
+  "raw": 0.159
+ },
+ "SigZeroSurrxmNB": {
+  "tex": "97\\%",
+  "raw": 0.9686666666666666
+ },
+ "SurZeroSurrxmNC": {
+  "tex": "4\\%",
+  "raw": 0.03866666666666666
+ },
+ "SigZeroSurrxmNC": {
+  "tex": "100\\%",
+  "raw": 0.9986666666666667
+ },
+ "SurrxRtlNC": {
+  "tex": "16\\%",
+  "raw": 0.16419999999999998
+ },
+ "SurrLpfSpreadNC": {
+  "tex": "0.0--19.8\\%",
+  "raw": [
+   0.198,
+   0.003,
+   0.0,
+   0.0025,
+   0.002
+  ]
+ },
+ "SurrRtlSpreadNC": {
+  "tex": "4.2--13.3\\%",
+  "raw": [
+   0.133,
+   0.1195,
+   0.054,
+   0.042,
+   0.127
+  ]
+ },
+ "OccGainEight": {
+  "tex": "$+39$",
+  "raw": 0.3939666666666665
+ },
+ "OccGainFour": {
+  "tex": "$+16$",
+  "raw": 0.16275
+ },
+ "OccGainTwo": {
+  "tex": "$-7$",
+  "raw": -0.07475000000000004
+ },
+ "WhitenSmoothMaxKbig": {
+  "tex": "7.1\\%",
+  "raw": 0.0715
+ },
+ "WhitenLpfKbig": {
+  "tex": "12\\%",
+  "raw": 0.117
+ },
+ "WhitenLpfRangeKsixteen": {
+  "tex": "4--24\\%",
+  "raw": [
+   0.21125,
+   0.0955,
+   0.04025,
+   0.23875,
+   0.111,
+   0.036
+  ]
+ },
+ "WhitenRuns": {
+  "tex": "6",
+  "raw": 6
+ },
+ "WhitenExactLpfNone": {
+  "tex": "37\\%",
+  "raw": 0.3725
+ },
+ "WhitenExactLpfLinear": {
+  "tex": "15\\%",
+  "raw": 0.1515
+ },
+ "WhitenExactLpfCirc": {
+  "tex": "4.9\\%",
+  "raw": 0.0485
+ },
+ "AblSmallGap": {
+  "tex": "$-0.4$",
+  "raw": -0.0039583333333333345
+ },
+ "AblBigLpf": {
+  "tex": "30\\%",
+  "raw": 0.30041666666666667
+ },
+ "AblSmallLpf": {
+  "tex": "33\\%",
+  "raw": 0.32783333333333337
+ },
+ "ResEsLpf": {
+  "tex": "30\\%",
+  "raw": 0.2954
+ },
+ "ResEsGap": {
+  "tex": "$+0.5$",
+  "raw": 0.004594999999999998
+ },
+ "ResEsPdTen": {
+  "tex": "65\\%",
+  "raw": 0.6544000000000001
+ },
+ "DetLpf": {
+  "tex": "24\\%",
+  "raw": 0.23825
+ },
+ "DetGap": {
+  "tex": "$+0.8$",
+  "raw": 0.008350000000000008
+ },
+ "AblScaleGap": {
+  "tex": "$+0.1$",
+  "raw": 0.0012291666666666677
+ },
+ "AblScaleLpf": {
+  "tex": "31\\%",
+  "raw": 0.3139166666666666
+ },
+ "AblScalePdTen": {
+  "tex": "70\\%",
+  "raw": 0.7010000000000001
+ },
+ "AblScaleParams": {
+  "tex": "1.91M",
+  "raw": 1906689
+ },
+ "AblScaleNtrain": {
+  "tex": "600\\,000",
+  "raw": 600000
+ },
+ "OfdmSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "OfdmGap": {
+  "tex": "$+0.9$",
+  "raw": 0.00862250000000001
+ },
+ "OfdmPdTen": {
+  "tex": "13\\%",
+  "raw": 0.1277
+ },
+ "OfdmEdPdTen": {
+  "tex": "30\\%",
+  "raw": 0.29675
+ },
+ "OfdmBandPdTen": {
+  "tex": "12\\%",
+  "raw": 0.117
+ },
+ "OfdmEdDiff": {
+  "tex": "$-16.9$",
+  "raw": -0.16905
+ },
+ "OfdmPfLpf": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "OfdmPfRtl": {
+  "tex": "53\\%",
+  "raw": 0.53005
+ },
+ "OfdmPfPink": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "OfdmRho": {
+  "tex": "0.75",
+  "raw": 0.75
+ },
+ "SurGapRange": {
+  "tex": "$-0.1$ to $+0.8$ points",
+  "raw": {
+   "CLDNN": -0.0007499999999999909,
+   "CovCNN": -0.0005000000000000053,
+   "GapCNN": 0.0007249999999999937,
+   "ResNet1D": 0.004675000000000004,
+   "STFTCNN": 0.008260000000000002
+  }
+ },
+ "SurGapAbsMax": {
+  "tex": "1.5",
+  "raw": 0.01535000000000003
+ },
+ "CycSurGap": {
+  "tex": "9.3",
+  "raw": 0.09258333333333334
+ },
+ "PfLpfEightRange": {
+  "tex": "21--40\\%",
+  "raw": {
+   "CLDNN": 0.3391,
+   "CovCNN": 0.25165,
+   "GapCNN": 0.34009999999999996,
+   "ResNet1D": 0.2132,
+   "STFTCNN": 0.3978
+  }
+ },
+ "PfLpfNineRange": {
+  "tex": "11--15\\%",
+  "raw": {
+   "CLDNN": 0.14604999999999999,
+   "CovCNN": 0.12115000000000001,
+   "GapCNN": 0.14465,
+   "ResNet1D": 0.10725,
+   "STFTCNN": 0.14925
+  }
+ },
+ "PfRtlThreeRange": {
+  "tex": "11--16\\%",
+  "raw": {
+   "CLDNN": 0.16035,
+   "CovCNN": 0.15175,
+   "GapCNN": 0.1591,
+   "ResNet1D": 0.11195,
+   "STFTCNN": 0.1599
+  }
+ },
+ "PfRtlOneRange": {
+  "tex": "7--8\\%",
+  "raw": {
+   "CLDNN": 0.08295,
+   "CovCNN": 0.08020000000000001,
+   "GapCNN": 0.08310000000000001,
+   "ResNet1D": 0.06965,
+   "STFTCNN": 0.08085
+  }
+ },
+ "PfArOneRange": {
+  "tex": "17--27\\%",
+  "raw": {
+   "CLDNN": 0.2657,
+   "CovCNN": 0.2512,
+   "GapCNN": 0.26165000000000005,
+   "ResNet1D": 0.174,
+   "STFTCNN": 0.25135
+  }
+ },
+ "PfArMinusOneRange": {
+  "tex": "0--1\\%",
+  "raw": {
+   "CLDNN": 0.0046,
+   "CovCNN": 0.0048000000000000004,
+   "GapCNN": 0.004399999999999999,
+   "ResNet1D": 0.01085,
+   "STFTCNN": 0.005050000000000001
+  }
+ },
+ "PfArTwoRange": {
+  "tex": "40--64\\%",
+  "raw": {
+   "CLDNN": 0.63885,
+   "CovCNN": 0.6018,
+   "GapCNN": 0.62905,
+   "ResNet1D": 0.40099999999999997,
+   "STFTCNN": 0.6321
+  }
+ },
+ "PfPinkRange": {
+  "tex": "100\\%",
+  "raw": {
+   "CLDNN": 1.0,
+   "CovCNN": 1.0,
+   "GapCNN": 1.0,
+   "ResNet1D": 1.0,
+   "STFTCNN": 1.0
+  }
+ },
+ "PfPowerUpRange": {
+  "tex": "5\\%",
+  "raw": {
+   "CLDNN": 0.0543,
+   "CovCNN": 0.0513,
+   "GapCNN": 0.052149999999999995,
+   "ResNet1D": 0.05175,
+   "STFTCNN": 0.04985
+  }
+ },
+ "PfPowerDownRange": {
+  "tex": "5\\%",
+  "raw": {
+   "CLDNN": 0.0519,
+   "CovCNN": 0.051949999999999996,
+   "GapCNN": 0.0521,
+   "ResNet1D": 0.04915,
+   "STFTCNN": 0.0521
+  }
+ },
+ "PfWhiteRange": {
+  "tex": "5\\%",
+  "raw": {
+   "CLDNN": 0.05125,
+   "CovCNN": 0.049,
+   "GapCNN": 0.050749999999999997,
+   "ResNet1D": 0.04995,
+   "STFTCNN": 0.049049999999999996
+  }
+ },
+ "EdPfLpfEight": {
+  "tex": "7\\%",
+  "raw": 0.06741666666666667
+ },
+ "EdPfRtlThree": {
+  "tex": "5\\%",
+  "raw": 0.05216666666666667
+ },
+ "EdPfPink": {
+  "tex": "20\\%",
+  "raw": 0.20366666666666666
+ },
+ "EdPdTen": {
+  "tex": "30\\%",
+  "raw": 0.3000833333333333
+ },
+ "EdPfPowerUp": {
+  "tex": "83\\%",
+  "raw": 0.8315
+ },
+ "MmePfLpfEight": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "MmePfRtlThree": {
+  "tex": "18\\%",
+  "raw": 0.17899999999999996
+ },
+ "MmePfPink": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "MmePdTen": {
+  "tex": "20\\%",
+  "raw": 0.2041666666666667
+ },
+ "MmePfPowerUp": {
+  "tex": "5\\%",
+  "raw": 0.04908333333333333
+ },
+ "SfmPfLpfEight": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "SfmPfRtlThree": {
+  "tex": "15\\%",
+  "raw": 0.1475
+ },
+ "SfmPfPink": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "SfmPdTen": {
+  "tex": "16\\%",
+  "raw": 0.15783333333333335
+ },
+ "SfmPfPowerUp": {
+  "tex": "5\\%",
+  "raw": 0.05083333333333334
+ },
+ "BandPfLpfEight": {
+  "tex": "33\\%",
+  "raw": 0.33483333333333337
+ },
+ "BandPfRtlThree": {
+  "tex": "17\\%",
+  "raw": 0.17474999999999996
+ },
+ "BandPfPink": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "BandPdTen": {
+  "tex": "66\\%",
+  "raw": 0.6599166666666667
+ },
+ "BandPfPowerUp": {
+  "tex": "5\\%",
+  "raw": 0.052
+ },
+ "CycPfLpfEight": {
+  "tex": "9\\%",
+  "raw": 0.08658333333333335
+ },
+ "CycPfRtlThree": {
+  "tex": "6\\%",
+  "raw": 0.057666666666666665
+ },
+ "CycPfPink": {
+  "tex": "15\\%",
+  "raw": 0.1505
+ },
+ "CycPdTen": {
+  "tex": "6\\%",
+  "raw": 0.056583333333333326
+ },
+ "CycPfPowerUp": {
+  "tex": "5\\%",
+  "raw": 0.04758333333333333
+ },
+ "PdTenRange": {
+  "tex": "48--69\\%",
+  "raw": {
+   "CLDNN": 0.6898500000000001,
+   "CovCNN": 0.67405,
+   "GapCNN": 0.6940500000000001,
+   "ResNet1D": 0.48339999999999994,
+   "STFTCNN": 0.57035
+  }
+ },
+ "WcPdReceiverRange": {
+  "tex": "17--29\\%",
+  "raw": {
+   "CLDNN": 0.23570000000000002,
+   "CovCNN": 0.29275,
+   "GapCNN": 0.23174999999999998,
+   "ResNet1D": 0.18309999999999998,
+   "STFTCNN": 0.17370000000000002
+  }
+ },
+ "CLDNNPinkPfPink": {
+  "tex": "1\\%",
+  "raw": 0.00905
+ },
+ "CLDNNPinkPfLpfEight": {
+  "tex": "8\\%",
+  "raw": 0.0782
+ },
+ "CLDNNPinkPfRtlThree": {
+  "tex": "9\\%",
+  "raw": 0.0868
+ },
+ "CLDNNPinkPfArTwo": {
+  "tex": "34\\%",
+  "raw": 0.34235000000000004
+ },
+ "CLDNNPinkPdTen": {
+  "tex": "58\\%",
+  "raw": 0.5791000000000001
+ },
+ "CLDNNPinkWcPdBroadTen": {
+  "tex": "1\\%",
+  "raw": 0.0084
+ },
+ "CLDNNPinkSurGap": {
+  "tex": "$+0.4$",
+  "raw": 0.003789999999999994
+ },
+ "CLDNNPinkSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "CLDNNRandPfPink": {
+  "tex": "99\\%",
+  "raw": 0.9917999999999999
+ },
+ "CLDNNRandPfLpfEight": {
+  "tex": "4\\%",
+  "raw": 0.04215000000000001
+ },
+ "CLDNNRandPfRtlThree": {
+  "tex": "5\\%",
+  "raw": 0.052849999999999994
+ },
+ "CLDNNRandPfArTwo": {
+  "tex": "14\\%",
+  "raw": 0.13635000000000003
+ },
+ "CLDNNRandPdTen": {
+  "tex": "56\\%",
+  "raw": 0.563
+ },
+ "CLDNNRandWcPdBroadTen": {
+  "tex": "0\\%",
+  "raw": 0.0
+ },
+ "CLDNNRandSurGap": {
+  "tex": "$+1.0$",
+  "raw": 0.009599999999999996
+ },
+ "CLDNNRandSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "CLDNNSurrPfPink": {
+  "tex": "25\\%",
+  "raw": 0.25344999999999995
+ },
+ "CLDNNSurrPfLpfEight": {
+  "tex": "10\\%",
+  "raw": 0.09715
+ },
+ "CLDNNSurrPfRtlThree": {
+  "tex": "8\\%",
+  "raw": 0.07925000000000001
+ },
+ "CLDNNSurrPfArTwo": {
+  "tex": "12\\%",
+  "raw": 0.12415000000000001
+ },
+ "CLDNNSurrPdTen": {
+  "tex": "46\\%",
+  "raw": 0.46014999999999995
+ },
+ "CLDNNSurrWcPdBroadTen": {
+  "tex": "3\\%",
+  "raw": 0.03319999999999999
+ },
+ "CLDNNSurrSurGap": {
+  "tex": "$+3.4$",
+  "raw": 0.033818333333333325
+ },
+ "CLDNNSurrSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "CLDNNWhitePfPink": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "CLDNNWhitePfLpfEight": {
+  "tex": "34\\%",
+  "raw": 0.3391
+ },
+ "CLDNNWhitePfRtlThree": {
+  "tex": "16\\%",
+  "raw": 0.16035
+ },
+ "CLDNNWhitePfArTwo": {
+  "tex": "64\\%",
+  "raw": 0.6388499999999999
+ },
+ "CLDNNWhitePdTen": {
+  "tex": "69\\%",
+  "raw": 0.6898500000000001
+ },
+ "CLDNNWhiteWcPdBroadTen": {
+  "tex": "0\\%",
+  "raw": 0.0
+ },
+ "CLDNNWhiteSurGap": {
+  "tex": "$-0.1$",
+  "raw": -0.0007499999999999909
+ },
+ "CLDNNWhiteSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "GapCNNPinkPfPink": {
+  "tex": "0\\%",
+  "raw": 0.00205
+ },
+ "GapCNNPinkPfLpfEight": {
+  "tex": "12\\%",
+  "raw": 0.12244999999999999
+ },
+ "GapCNNPinkPfRtlThree": {
+  "tex": "15\\%",
+  "raw": 0.1547
+ },
+ "GapCNNPinkPfArTwo": {
+  "tex": "51\\%",
+  "raw": 0.5138
+ },
+ "GapCNNPinkPdTen": {
+  "tex": "68\\%",
+  "raw": 0.68285
+ },
+ "GapCNNPinkWcPdBroadTen": {
+  "tex": "0\\%",
+  "raw": 0.0005
+ },
+ "GapCNNPinkSurGap": {
+  "tex": "$+0.3$",
+  "raw": 0.002699999999999995
+ },
+ "GapCNNPinkSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "GapCNNRandPfPink": {
+  "tex": "87\\%",
+  "raw": 0.8698499999999999
+ },
+ "GapCNNRandPfLpfEight": {
+  "tex": "0\\%",
+  "raw": 0.00035
+ },
+ "GapCNNRandPfRtlThree": {
+  "tex": "3\\%",
+  "raw": 0.026000000000000002
+ },
+ "GapCNNRandPfArTwo": {
+  "tex": "3\\%",
+  "raw": 0.0309
+ },
+ "GapCNNRandPdTen": {
+  "tex": "54\\%",
+  "raw": 0.5427500000000001
+ },
+ "GapCNNRandWcPdBroadTen": {
+  "tex": "0\\%",
+  "raw": 0.0
+ },
+ "GapCNNRandSurGap": {
+  "tex": "$+1.1$",
+  "raw": 0.010569999999999996
+ },
+ "GapCNNRandSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "GapCNNSurrPfPink": {
+  "tex": "5\\%",
+  "raw": 0.05415
+ },
+ "GapCNNSurrPfLpfEight": {
+  "tex": "2\\%",
+  "raw": 0.0156
+ },
+ "GapCNNSurrPfRtlThree": {
+  "tex": "7\\%",
+  "raw": 0.0722
+ },
+ "GapCNNSurrPfArTwo": {
+  "tex": "8\\%",
+  "raw": 0.07885
+ },
+ "GapCNNSurrPdTen": {
+  "tex": "54\\%",
+  "raw": 0.5411
+ },
+ "GapCNNSurrWcPdBroadTen": {
+  "tex": "4\\%",
+  "raw": 0.0445
+ },
+ "GapCNNSurrSurGap": {
+  "tex": "$+4.6$",
+  "raw": 0.046141666666666664
+ },
+ "GapCNNSurrSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "GapCNNWhitePfPink": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "GapCNNWhitePfLpfEight": {
+  "tex": "34\\%",
+  "raw": 0.34009999999999996
+ },
+ "GapCNNWhitePfRtlThree": {
+  "tex": "16\\%",
+  "raw": 0.15909999999999996
+ },
+ "GapCNNWhitePfArTwo": {
+  "tex": "63\\%",
+  "raw": 0.62905
+ },
+ "GapCNNWhitePdTen": {
+  "tex": "69\\%",
+  "raw": 0.6940499999999998
+ },
+ "GapCNNWhiteWcPdBroadTen": {
+  "tex": "0\\%",
+  "raw": 0.0
+ },
+ "GapCNNWhiteSurGap": {
+  "tex": "$+0.1$",
+  "raw": 0.0007249999999999937
+ },
+ "GapCNNWhiteSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "WallActualHalf": {
+  "tex": "$-15.5$",
+  "raw": -15.480255842402302
+ },
+ "WallEDHalf": {
+  "tex": "$-9.4$",
+  "raw": -9.38574480838303
+ },
+ "WallActualOne": {
+  "tex": "$-12.4$",
+  "raw": -12.378251270287741
+ },
+ "WallEDOne": {
+  "tex": "$-6.4$",
+  "raw": -6.3682532438011545
+ },
+ "WallActualTwo": {
+  "tex": "$-9.1$",
+  "raw": -9.14268637656782
+ },
+ "WallEDTwo": {
+  "tex": "$-3.3$",
+  "raw": -3.3292343333624825
+ },
+ "WallActualThree": {
+  "tex": "$-7.1$",
+  "raw": -7.1003723709856015
+ },
+ "WallEDThree": {
+  "tex": "$-1.5$",
+  "raw": -1.5206243992830049
+ },
+ "Occupancy": {
+  "tex": "0.17",
+  "raw": 0.16875
+ },
+ "OccupancyFour": {
+  "tex": "0.34",
+  "raw": 0.3375
+ },
+ "OccupancyTwo": {
+  "tex": "0.68",
+  "raw": 0.675
+ },
+ "RealNoiseNrec": {
+  "tex": "131",
+  "raw": 131
+ },
+ "RealNoiseNctrl": {
+  "tex": "10",
+  "raw": 10
+ },
+ "RealRolloffRange": {
+  "tex": "1.0--5.8",
+  "raw": [
+   1.0065531796457508,
+   5.784514486086217
+  ]
+ },
+ "PfRealRange": {
+  "tex": "17--30\\%",
+  "raw": {
+   "CLDNN": 0.25988676844783715,
+   "ResNet1D": 0.1663358778625954,
+   "CovCNN": 0.23575699745547077,
+   "STFTCNN": 0.2961819338422392,
+   "GapCNN": 0.263972010178117
+  }
+ },
+ "PfRealControlMax": {
+  "tex": "5.8\\%",
+  "raw": null
+ },
+ "PfRealWhitenedMax": {
+  "tex": "5.8\\%",
+  "raw": null
+ },
+ "PfRealWhitenedRange": {
+  "tex": "5.1--5.8\\%",
+  "raw": null
+ },
+ "PfRealWhitenedShortRange": {
+  "tex": "5--7\\%",
+  "raw": null
+ },
+ "PfRealControlWhitenedShortMax": {
+  "tex": "5.6\\%",
+  "raw": null
+ },
+ "PfRealSurr": {
+  "tex": "10.0\\%",
+  "raw": null
+ },
+ "PfRealPink": {
+  "tex": "13.0\\%",
+  "raw": null
+ },
+ "PfRealRand": {
+  "tex": "2.8\\%",
+  "raw": null
+ },
+ "PfRealBand": {
+  "tex": "27\\%",
+  "raw": null
+ },
+ "PfRealBandWhitened": {
+  "tex": "5.3\\%",
+  "raw": null
+ },
+ "PfRealCyc": {
+  "tex": "6.1\\%",
+  "raw": null
+ },
+ "PfRealMME": {
+  "tex": "70\\%",
+  "raw": null
+ },
+ "PfRealSFM": {
+  "tex": "54\\%",
+  "raw": null
+ },
+ "PdRealNominalRange": {
+  "tex": "63--84\\%",
+  "raw": null
+ },
+ "PdRealWhitenedRange": {
+  "tex": "41--60\\%",
+  "raw": null
+ },
+ "PdRealSurr": {
+  "tex": "44\\%",
+  "raw": null
+ },
+ "PdRealRand": {
+  "tex": "31\\%",
+  "raw": null
+ },
+ "PdRealPink": {
+  "tex": "64\\%",
+  "raw": null
+ },
+ "RealDoseRho": {
+  "tex": "0.88",
+  "raw": 0.8778115501519757
+ },
+ "PfRealLowRolloff": {
+  "tex": "5.4\\%",
+  "raw": 0.05432309851965289
+ },
+ "PfRealHighRolloff": {
+  "tex": "33\\%",
+  "raw": 0.3274366666666667
+ },
+ "RealRefStart": {
+  "tex": "256",
+  "raw": null
+ },
+ "RealNoiseNrecVTwo": {
+  "tex": "131",
+  "raw": 131
+ },
+ "RealNoiseNctrlVTwo": {
+  "tex": "10",
+  "raw": 10
+ },
+ "RealRolloffRangeVTwo": {
+  "tex": "1.0--5.8",
+  "raw": [
+   1.0065531796457508,
+   5.784514486086217
+  ]
+ },
+ "PfRealRangeVTwo": {
+  "tex": "17--30\\%",
+  "raw": {
+   "CLDNN": 0.26026717557251905,
+   "ResNet1D": 0.1664160305343511,
+   "CovCNN": 0.23637786259541987,
+   "STFTCNN": 0.2963409669211196,
+   "GapCNN": 0.26435368956743
+  }
+ },
+ "PfRealControlMaxVTwo": {
+  "tex": "5.8\\%",
+  "raw": null
+ },
+ "PfRealWhitenedMaxVTwo": {
+  "tex": "7.5\\%",
+  "raw": null
+ },
+ "PfRealWhitenedRangeVTwo": {
+  "tex": "6.0--7.5\\%",
+  "raw": null
+ },
+ "PfRealWhitenedShortRangeVTwo": {
+  "tex": "9--14\\%",
+  "raw": null
+ },
+ "PfRealControlWhitenedShortMaxVTwo": {
+  "tex": "7.6\\%",
+  "raw": null
+ },
+ "PfRealSurrVTwo": {
+  "tex": "8.2\\%",
+  "raw": null
+ },
+ "PfRealPinkVTwo": {
+  "tex": "13.0\\%",
+  "raw": null
+ },
+ "PfRealRandVTwo": {
+  "tex": "2.1\\%",
+  "raw": null
+ },
+ "PfRealBandVTwo": {
+  "tex": "27\\%",
+  "raw": null
+ },
+ "PfRealBandWhitenedVTwo": {
+  "tex": "6.9\\%",
+  "raw": null
+ },
+ "PfRealCycVTwo": {
+  "tex": "6.1\\%",
+  "raw": null
+ },
+ "PfRealMMEVTwo": {
+  "tex": "70\\%",
+  "raw": null
+ },
+ "PfRealSFMVTwo": {
+  "tex": "54\\%",
+  "raw": null
+ },
+ "PdRealNominalRangeVTwo": {
+  "tex": "63--84\\%",
+  "raw": null
+ },
+ "PdRealWhitenedRangeVTwo": {
+  "tex": "43--64\\%",
+  "raw": null
+ },
+ "PdRealSurrVTwo": {
+  "tex": "35\\%",
+  "raw": null
+ },
+ "PdRealRandVTwo": {
+  "tex": "19\\%",
+  "raw": null
+ },
+ "PdRealPinkVTwo": {
+  "tex": "64\\%",
+  "raw": null
+ },
+ "RealDoseRhoVTwo": {
+  "tex": "0.88",
+  "raw": 0.8799777387730637
+ },
+ "PfRealLowRolloffVTwo": {
+  "tex": "5.5\\%",
+  "raw": 0.05486427550149382
+ },
+ "PfRealHighRolloffVTwo": {
+  "tex": "33\\%",
+  "raw": 0.3277886666666667
+ },
+ "RealRefStartVTwo": {
+  "tex": "0",
+  "raw": null
+ },
+ "TrevNoiseNrec": {
+  "tex": "74",
+  "raw": 74
+ },
+ "TrevNoiseNtotal": {
+  "tex": "100",
+  "raw": 100
+ },
+ "TrevNoiseNarrowband": {
+  "tex": "26",
+  "raw": 26
+ },
+ "TrevRolloffRange": {
+  "tex": "2.4--2.6",
+  "raw": [
+   2.3661376394474036,
+   2.559386015637115
+  ]
+ },
+ "TrevRolloff": {
+  "tex": "2.4",
+  "raw": 2.4316067564938235
+ },
+ "TrevPfWhiteRange": {
+  "tex": "12--17\\%",
+  "raw": [
+   0.15838738738738742,
+   0.11703603603603605,
+   0.15769144144144143,
+   0.15741891891891893,
+   0.16569144144144143
+  ]
+ },
+ "TrevPfWhitenedRange": {
+  "tex": "4.6--5.0\\%",
+  "raw": [
+   0.046182432432432426,
+   0.04904504504504505,
+   0.050058558558558564,
+   0.04809009009009009,
+   0.04915540540540542
+  ]
+ },
+ "TrevPfBand": {
+  "tex": "17\\%",
+  "raw": null
+ },
+ "TrevPfBandWhitened": {
+  "tex": "4.9\\%",
+  "raw": null
+ },
+ "TrevPfCyc": {
+  "tex": "19\\%",
+  "raw": null
+ },
+ "TrevPfSurr": {
+  "tex": "11\\%",
+  "raw": null
+ },
+ "TrevPfSurrWhitened": {
+  "tex": "4.9\\%",
+  "raw": null
+ },
+ "AdaptAcePfMeanHf": {
+  "tex": "5.5\\%",
+  "raw": 0.054916030534351144
+ },
+ "AdaptAcePfMaxHf": {
+  "tex": "12.4\\%",
+  "raw": 0.1245
+ },
+ "AdaptAcePdHf": {
+  "tex": "51\\%",
+  "raw": 0.5065496183206107
+ },
+ "AdaptAmfPfMeanHf": {
+  "tex": "12.5\\%",
+  "raw": 0.12474427480916028
+ },
+ "AdaptKellyPfMeanHf": {
+  "tex": "11.7\\%",
+  "raw": 0.1171793893129771
+ },
+ "AdaptAcePfMeanTrev": {
+  "tex": "4.9\\%",
+  "raw": 0.049033783783783785
+ },
+ "AdaptAcePfMaxTrev": {
+  "tex": "6.8\\%",
+  "raw": 0.068
+ },
+ "AdaptAcePdTrev": {
+  "tex": "50\\%",
+  "raw": 0.49650675675675676
+ },
+ "AdaptAmfPfMeanTrev": {
+  "tex": "6.6\\%",
+  "raw": 0.06599324324324324
+ },
+ "AdaptKellyPfMeanTrev": {
+  "tex": "6.2\\%",
+  "raw": 0.06226351351351352
+ },
+ "RealSigNcapsTotal": {
+  "tex": "251",
+  "raw": 251
+ },
+ "RealSigNwinsTotal": {
+  "tex": "25\\,071",
+  "raw": 25071
+ },
+ "RealSigFmGapTt": {
+  "tex": "0.0",
+  "raw": null
+ },
+ "RealSigFmKappaLoGapTt": {
+  "tex": "$+$20.9",
+  "raw": null
+ },
+ "RealSigFmGapHf": {
+  "tex": "$+$1.3",
+  "raw": null
+ },
+ "RealSigFmBandGapHf": {
+  "tex": "$+$0.7",
+  "raw": null
+ },
+ "RealSigFmKappaLoGapHf": {
+  "tex": "$+$23.8",
+  "raw": null
+ },
+ "RealSigFmSurrxGapHf": {
+  "tex": "$+$16.7",
+  "raw": null
+ },
+ "RealSigAdsbGapHf": {
+  "tex": "$+$5.0",
+  "raw": null
+ },
+ "RealSigAdsbBandGapHf": {
+  "tex": "$+$5.6",
+  "raw": null
+ },
+ "RealSigAdsbKappaGapHf": {
+  "tex": "$+$14.2",
+  "raw": null
+ },
+ "RealSigIsmGapHf": {
+  "tex": "$+$2.9",
+  "raw": null
+ },
+ "RealSigIsmKappaLoGapHf": {
+  "tex": "$+$22.3",
+  "raw": null
+ },
+ "OracleNrec": {
+  "tex": "5",
+  "raw": 5
+ },
+ "OracleNoneRange": {
+  "tex": "27--48\\%",
+  "raw": [
+   0.272,
+   0.284,
+   0.399,
+   0.485,
+   0.35
+  ]
+ },
+ "OracleWhitenRange": {
+  "tex": "1.9--6.4\\%",
+  "raw": [
+   0.058,
+   0.051,
+   0.064,
+   0.019,
+   0.052
+  ]
+ },
+ "WallWhiteNA": {
+  "tex": "0.04",
+  "raw": 0.043000000000000003
+ },
+ "WallWhiteNAMinus": {
+  "tex": "0.01",
+  "raw": 0.012888888888888889
+ },
+ "WallWhiteNAPlus": {
+  "tex": "0.52",
+  "raw": 0.5232222222222221
+ },
+ "WallTwoWhiteNA": {
+  "tex": "0.04",
+  "raw": 0.035333333333333335
+ },
+ "WallTwoWhiteNAMinus": {
+  "tex": "0.00",
+  "raw": 0.002777777777777778
+ },
+ "WallWhiteNB": {
+  "tex": "0.05",
+  "raw": 0.04655555555555555
+ },
+ "WallWhiteNBMinus": {
+  "tex": "0.00",
+  "raw": 0.0032222222222222222
+ },
+ "WallWhiteNBPlus": {
+  "tex": "0.96",
+  "raw": 0.9597777777777777
+ },
+ "WallTwoWhiteNB": {
+  "tex": "0.04",
+  "raw": 0.03755555555555556
+ },
+ "WallTwoWhiteNBMinus": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "WallWhiteNC": {
+  "tex": "0.05",
+  "raw": 0.046000000000000006
+ },
+ "WallWhiteNCMinus": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "WallWhiteNCPlus": {
+  "tex": "1.00",
+  "raw": 1.0
+ },
+ "WallTwoWhiteNC": {
+  "tex": "0.04",
+  "raw": 0.03566666666666666
+ },
+ "WallTwoWhiteNCMinus": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "WallSurrNA": {
+  "tex": "0.06",
+  "raw": 0.05522222222222222
+ },
+ "WallSurrNAMinus": {
+  "tex": "0.02",
+  "raw": 0.017555555555555557
+ },
+ "WallSurrNAPlus": {
+  "tex": "0.42",
+  "raw": 0.41644444444444445
+ },
+ "WallTwoSurrNA": {
+  "tex": "0.07",
+  "raw": 0.06555555555555555
+ },
+ "WallTwoSurrNAMinus": {
+  "tex": "0.01",
+  "raw": 0.008777777777777778
+ },
+ "WallSurrNB": {
+  "tex": "0.06",
+  "raw": 0.05711111111111111
+ },
+ "WallSurrNBMinus": {
+  "tex": "0.01",
+  "raw": 0.006666666666666667
+ },
+ "WallSurrNBPlus": {
+  "tex": "0.73",
+  "raw": 0.7316666666666666
+ },
+ "WallTwoSurrNB": {
+  "tex": "0.12",
+  "raw": 0.11877777777777777
+ },
+ "WallTwoSurrNBMinus": {
+  "tex": "0.00",
+  "raw": 0.0033333333333333335
+ },
+ "WallSurrNC": {
+  "tex": "0.09",
+  "raw": 0.08700000000000001
+ },
+ "WallSurrNCMinus": {
+  "tex": "0.00",
+  "raw": 0.0023333333333333335
+ },
+ "WallSurrNCPlus": {
+  "tex": "0.81",
+  "raw": 0.8072222222222223
+ },
+ "WallTwoSurrNC": {
+  "tex": "0.33",
+  "raw": 0.32866666666666666
+ },
+ "WallTwoSurrNCMinus": {
+  "tex": "0.00",
+  "raw": 0.0033333333333333335
+ },
+ "WallSurrxNA": {
+  "tex": "0.06",
+  "raw": 0.057444444444444444
+ },
+ "WallSurrxNAMinus": {
+  "tex": "0.02",
+  "raw": 0.020888888888888887
+ },
+ "WallSurrxNAPlus": {
+  "tex": "0.42",
+  "raw": 0.42477777777777775
+ },
+ "WallTwoSurrxNA": {
+  "tex": "0.08",
+  "raw": 0.078
+ },
+ "WallTwoSurrxNAMinus": {
+  "tex": "0.01",
+  "raw": 0.012000000000000002
+ },
+ "WallSurrxNB": {
+  "tex": "0.07",
+  "raw": 0.06655555555555555
+ },
+ "WallSurrxNBMinus": {
+  "tex": "0.01",
+  "raw": 0.009666666666666665
+ },
+ "WallSurrxNBPlus": {
+  "tex": "0.62",
+  "raw": 0.6205555555555555
+ },
+ "WallTwoSurrxNB": {
+  "tex": "0.16",
+  "raw": 0.1601111111111111
+ },
+ "WallTwoSurrxNBMinus": {
+  "tex": "0.01",
+  "raw": 0.007888888888888888
+ },
+ "WallSurrxNC": {
+  "tex": "0.10",
+  "raw": 0.09566666666666668
+ },
+ "WallSurrxNCMinus": {
+  "tex": "0.00",
+  "raw": 0.0024444444444444444
+ },
+ "WallSurrxNCPlus": {
+  "tex": "0.72",
+  "raw": 0.7165555555555555
+ },
+ "WallTwoSurrxNC": {
+  "tex": "0.39",
+  "raw": 0.3875555555555556
+ },
+ "WallTwoSurrxNCMinus": {
+  "tex": "0.01",
+  "raw": 0.005333333333333333
+ },
+ "WallSurrxmNA": {
+  "tex": "0.05",
+  "raw": 0.054
+ },
+ "WallSurrxmNAMinus": {
+  "tex": "0.02",
+  "raw": 0.021333333333333333
+ },
+ "WallSurrxmNAPlus": {
+  "tex": "0.39",
+  "raw": 0.38866666666666666
+ },
+ "WallTwoSurrxmNA": {
+  "tex": "0.09",
+  "raw": 0.08722222222222221
+ },
+ "WallTwoSurrxmNAMinus": {
+  "tex": "0.02",
+  "raw": 0.015666666666666666
+ },
+ "WallSurrxmNB": {
+  "tex": "0.07",
+  "raw": 0.06777777777777777
+ },
+ "WallSurrxmNBMinus": {
+  "tex": "0.01",
+  "raw": 0.011333333333333334
+ },
+ "WallSurrxmNBPlus": {
+  "tex": "0.71",
+  "raw": 0.7065555555555556
+ },
+ "WallTwoSurrxmNB": {
+  "tex": "0.19",
+  "raw": 0.19099999999999998
+ },
+ "WallTwoSurrxmNBMinus": {
+  "tex": "0.01",
+  "raw": 0.011222222222222222
+ },
+ "WallSurrxmNC": {
+  "tex": "0.10",
+  "raw": 0.10411111111111111
+ },
+ "WallSurrxmNCMinus": {
+  "tex": "0.00",
+  "raw": 0.003777777777777778
+ },
+ "WallSurrxmNCPlus": {
+  "tex": "0.81",
+  "raw": 0.8126666666666668
+ },
+ "WallTwoSurrxmNC": {
+  "tex": "0.48",
+  "raw": 0.48133333333333334
+ },
+ "WallTwoSurrxmNCMinus": {
+  "tex": "0.01",
+  "raw": 0.014444444444444446
+ },
+ "WallBandNA": {
+  "tex": "0.04",
+  "raw": 0.03888888888888889
+ },
+ "WallBandNAMinus": {
+  "tex": "0.01",
+  "raw": 0.013444444444444445
+ },
+ "WallBandNAPlus": {
+  "tex": "0.48",
+  "raw": 0.4845555555555556
+ },
+ "WallTwoBandNA": {
+  "tex": "0.03",
+  "raw": 0.02722222222222222
+ },
+ "WallTwoBandNAMinus": {
+  "tex": "0.00",
+  "raw": 0.002333333333333333
+ },
+ "WallBandNB": {
+  "tex": "0.04",
+  "raw": 0.042333333333333334
+ },
+ "WallBandNBMinus": {
+  "tex": "0.00",
+  "raw": 0.0028888888888888888
+ },
+ "WallBandNBPlus": {
+  "tex": "0.94",
+  "raw": 0.9424444444444444
+ },
+ "WallTwoBandNB": {
+  "tex": "0.03",
+  "raw": 0.028444444444444442
+ },
+ "WallTwoBandNBMinus": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "WallBandNC": {
+  "tex": "0.04",
+  "raw": 0.041777777777777775
+ },
+ "WallBandNCMinus": {
+  "tex": "0.00",
+  "raw": 0.0001111111111111111
+ },
+ "WallBandNCPlus": {
+  "tex": "1.00",
+  "raw": 1.0
+ },
+ "WallTwoBandNC": {
+  "tex": "0.03",
+  "raw": 0.03
+ },
+ "WallTwoBandNCMinus": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "WallCycNA": {
+  "tex": "0.04",
+  "raw": 0.04311111111111111
+ },
+ "WallCycNAMinus": {
+  "tex": "0.04",
+  "raw": 0.043222222222222224
+ },
+ "WallCycNAPlus": {
+  "tex": "0.06",
+  "raw": 0.0568888888888889
+ },
+ "WallTwoCycNA": {
+  "tex": "0.05",
+  "raw": 0.04733333333333334
+ },
+ "WallTwoCycNAMinus": {
+  "tex": "0.05",
+  "raw": 0.04688888888888889
+ },
+ "WallCycNB": {
+  "tex": "0.05",
+  "raw": 0.04944444444444444
+ },
+ "WallCycNBMinus": {
+  "tex": "0.05",
+  "raw": 0.04733333333333333
+ },
+ "WallCycNBPlus": {
+  "tex": "0.08",
+  "raw": 0.08344444444444443
+ },
+ "WallTwoCycNB": {
+  "tex": "0.07",
+  "raw": 0.06588888888888889
+ },
+ "WallTwoCycNBMinus": {
+  "tex": "0.05",
+  "raw": 0.051555555555555556
+ },
+ "WallCycNC": {
+  "tex": "0.06",
+  "raw": 0.06477777777777778
+ },
+ "WallCycNCMinus": {
+  "tex": "0.06",
+  "raw": 0.05544444444444444
+ },
+ "WallCycNCPlus": {
+  "tex": "0.21",
+  "raw": 0.21377777777777776
+ },
+ "WallTwoCycNC": {
+  "tex": "0.16",
+  "raw": 0.15733333333333333
+ },
+ "WallTwoCycNCMinus": {
+  "tex": "0.09",
+  "raw": 0.08922222222222222
+ },
+ "WallMmeNA": {
+  "tex": "0.04",
+  "raw": 0.04377777777777778
+ },
+ "WallMmeNAMinus": {
+  "tex": "0.03",
+  "raw": 0.034333333333333334
+ },
+ "WallMmeNAPlus": {
+  "tex": "0.21",
+  "raw": 0.21366666666666667
+ },
+ "WallTwoMmeNA": {
+  "tex": "0.04",
+  "raw": 0.03977777777777778
+ },
+ "WallTwoMmeNAMinus": {
+  "tex": "0.02",
+  "raw": 0.015666666666666666
+ },
+ "WallMmeNB": {
+  "tex": "0.04",
+  "raw": 0.036888888888888895
+ },
+ "WallMmeNBMinus": {
+  "tex": "0.02",
+  "raw": 0.017111111111111108
+ },
+ "WallMmeNBPlus": {
+  "tex": "0.76",
+  "raw": 0.7611111111111112
+ },
+ "WallTwoMmeNB": {
+  "tex": "0.03",
+  "raw": 0.030222222222222223
+ },
+ "WallTwoMmeNBMinus": {
+  "tex": "0.00",
+  "raw": 0.0015555555555555555
+ },
+ "WallMmeNC": {
+  "tex": "0.03",
+  "raw": 0.026333333333333334
+ },
+ "WallMmeNCMinus": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "WallMmeNCPlus": {
+  "tex": "1.00",
+  "raw": 1.0
+ },
+ "WallTwoMmeNC": {
+  "tex": "0.02",
+  "raw": 0.017666666666666667
+ },
+ "WallTwoMmeNCMinus": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "WallSfmNA": {
+  "tex": "0.04",
+  "raw": 0.042
+ },
+ "WallSfmNAMinus": {
+  "tex": "0.04",
+  "raw": 0.041666666666666664
+ },
+ "WallSfmNAPlus": {
+  "tex": "0.16",
+  "raw": 0.15588888888888888
+ },
+ "WallTwoSfmNA": {
+  "tex": "0.04",
+  "raw": 0.04377777777777778
+ },
+ "WallTwoSfmNAMinus": {
+  "tex": "0.03",
+  "raw": 0.025444444444444447
+ },
+ "WallSfmNB": {
+  "tex": "0.05",
+  "raw": 0.04577777777777777
+ },
+ "WallSfmNBMinus": {
+  "tex": "0.03",
+  "raw": 0.03122222222222222
+ },
+ "WallSfmNBPlus": {
+  "tex": "0.47",
+  "raw": 0.47044444444444444
+ },
+ "WallTwoSfmNB": {
+  "tex": "0.04",
+  "raw": 0.041
+ },
+ "WallTwoSfmNBMinus": {
+  "tex": "0.01",
+  "raw": 0.008666666666666666
+ },
+ "WallSfmNC": {
+  "tex": "0.04",
+  "raw": 0.04155555555555556
+ },
+ "WallSfmNCMinus": {
+  "tex": "0.02",
+  "raw": 0.01622222222222222
+ },
+ "WallSfmNCPlus": {
+  "tex": "0.94",
+  "raw": 0.9413333333333332
+ },
+ "WallTwoSfmNC": {
+  "tex": "0.04",
+  "raw": 0.038111111111111116
+ },
+ "WallTwoSfmNCMinus": {
+  "tex": "0.00",
+  "raw": 0.0008888888888888888
+ },
+ "WallCldnnNA": {
+  "tex": "0.04",
+  "raw": 0.04377777777777778
+ },
+ "WallCldnnNAMinus": {
+  "tex": "0.01",
+  "raw": 0.012444444444444444
+ },
+ "WallCldnnNAPlus": {
+  "tex": "0.51",
+  "raw": 0.513
+ },
+ "WallTwoCldnnNA": {
+  "tex": "0.03",
+  "raw": 0.03311111111111111
+ },
+ "WallTwoCldnnNAMinus": {
+  "tex": "0.00",
+  "raw": 0.0031111111111111114
+ },
+ "WallSeeds": {
+  "tex": "3",
+  "raw": 3
+ },
+ "WallSurrBelowMax": {
+  "tex": "0.02",
+  "raw": 0.017555555555555557
+ },
+ "WallSurrxBelowMax": {
+  "tex": "0.02",
+  "raw": 0.020888888888888887
+ },
+ "WallSurrxmBelowMax": {
+  "tex": "0.02",
+  "raw": 0.021333333333333333
+ },
+ "WallWhiteBelowMax": {
+  "tex": "0.01",
+  "raw": 0.012888888888888889
+ },
+ "WallPfMax": {
+  "tex": "6.2\\%",
+  "raw": 0.062
+ },
+ "PfLpfWhiteNA": {
+  "tex": "34\\%",
+  "raw": 0.34009999999999996
+ },
+ "PfLpfWhiteNB": {
+  "tex": "73\\%",
+  "raw": 0.7296666666666667
+ },
+ "PfLpfWhiteNC": {
+  "tex": "99.5\\%",
+  "raw": 0.9954999999999999
+ },
+ "PfRtlWhiteNA": {
+  "tex": "16\\%",
+  "raw": 0.15909999999999996
+ },
+ "PfRtlWhiteNB": {
+  "tex": "34\\%",
+  "raw": 0.33908333333333335
+ },
+ "PfRtlWhiteNC": {
+  "tex": "77\\%",
+  "raw": 0.7678333333333333
+ },
+ "LongNetSurrxmNC": {
+  "tex": "0.12",
+  "raw": 0.12066666666666666
+ },
+ "LongNetTwoSurrxmNC": {
+  "tex": "0.51",
+  "raw": 0.5111666666666667
+ },
+ "LongNetSurrxmND": {
+  "tex": "0.19",
+  "raw": 0.18583333333333332
+ },
+ "LongNetTwoSurrxmND": {
+  "tex": "0.80",
+  "raw": 0.8023333333333333
+ },
+ "LongNetSurrxmNE": {
+  "tex": "0.37",
+  "raw": 0.37483333333333335
+ },
+ "LongNetTwoSurrxmNE": {
+  "tex": "0.97",
+  "raw": 0.9711666666666666
+ },
+ "LongNetWhiteMax": {
+  "tex": "0.09",
+  "raw": 0.08533333333333333
+ },
+ "LongNetSurrxmBelowMax": {
+  "tex": "0.02",
+  "raw": 0.01833333333333333
+ },
+ "ComputeRuns": {
+  "tex": "232",
+  "raw": 232
+ },
+ "ComputeGpuHours": {
+  "tex": "8.6",
+  "raw": 8.597963019013404
+ },
+ "ComputeCpuHours": {
+  "tex": "0.7",
+  "raw": 0.7012130427360534
+ },
+ "ComputeWallHours": {
+  "tex": "2.5",
+  "raw": 2.541111111111111
+ },
+ "ComputeVram": {
+  "tex": "3.1",
+  "raw": 3123.78271484375
+ },
+ "ThConfigs": {
+  "tex": "24",
+  "raw": 24
+ },
+ "ThMaxBelow": {
+  "tex": "0.053",
+  "raw": 0.053
+ },
+ "ThDeltaRangeNE": {
+  "tex": "0.24--0.83",
+  "raw": [
+   0.24,
+   0.83
+  ]
+ },
+ "ThDeltaRangeND": {
+  "tex": "0.25--1.47",
+  "raw": [
+   0.25,
+   1.47
+  ]
+ },
+ "ThFlatExcessRange": {
+  "tex": "1.4--1.5",
+  "raw": [
+   1.4400000000000013,
+   1.54
+  ]
+ },
+ "ThEdGainRange": {
+  "tex": "2.2--9.1",
+  "raw": [
+   2.19,
+   9.149999999999999
+  ]
+ },
+ "ReceiverWallMinResidual": {
+  "tex": "5.6\\%",
+  "raw": 0.05628315417009552
+ },
+ "EmpSplitHalfMedianHf": {
+  "tex": "0.51",
+  "raw": 0.5109836944191245
+ },
+ "EmpSplitHalfPninetyHf": {
+  "tex": "0.66",
+  "raw": 0.6630642748937194
+ },
+ "EmpSteadyDriftMedianHf": {
+  "tex": "0.49",
+  "raw": 0.4916887065192352
+ },
+ "EmpSteadyDriftPninetyHf": {
+  "tex": "0.98",
+  "raw": 0.9836611202158283
+ },
+ "EmpStartupMedianHf": {
+  "tex": "1.34",
+  "raw": 1.3440212202645476
+ },
+ "EmpStartupMaxHf": {
+  "tex": "6.61",
+  "raw": 6.605422151774634
+ },
+ "EmpSessionMedianHf": {
+  "tex": "0.39",
+  "raw": 0.3904888116563793
+ },
+ "EmpSessionPninetyHf": {
+  "tex": "1.51",
+  "raw": 1.5127709178770887
+ },
+ "EmpRetuneMedianHf": {
+  "tex": "3.49",
+  "raw": 3.487191640672086
+ },
+ "EmpRetunePninetyHf": {
+  "tex": "6.28",
+  "raw": 6.280828905545754
+ },
+ "EmpWallSameFreqDb": {
+  "tex": "$-21.1$",
+  "raw": -21.09824016116409
+ },
+ "EmpRetuneResidMedian": {
+  "tex": "14.9\\%",
+  "raw": 0.14898746089777892
+ },
+ "EmpSplitHalfMedianTt": {
+  "tex": "0.43",
+  "raw": 0.425084982387692
+ },
+ "EmpSteadyDriftMedianTt": {
+  "tex": "0.44",
+  "raw": 0.43872147797110217
+ },
+ "EmpSessionMedianTt": {
+  "tex": "0.37",
+  "raw": 0.3721709720145872
+ },
+ "EmpCrossRecMedian": {
+  "tex": "2.61",
+  "raw": 2.6146726850832613
+ },
+ "EmpCrossRecPninety": {
+  "tex": "2.79",
+  "raw": 2.7902382236741117
+ },
+ "EmpCrossRecResidMin": {
+  "tex": "13.2\\%",
+  "raw": 0.13207777498119683
+ },
+ "EmpCrossRecResidMedian": {
+  "tex": "14.6\\%",
+  "raw": 0.1457013841575606
+ },
+ "WallLongBandNC": {
+  "tex": "0.05",
+  "raw": 0.04716666666666667
+ },
+ "WallLongBandNCMinus": {
+  "tex": "0.00",
+  "raw": 0.00016666666666666666
+ },
+ "WallLongCycNC": {
+  "tex": "0.06",
+  "raw": 0.058166666666666665
+ },
+ "WallLongCycNCMinus": {
+  "tex": "0.05",
+  "raw": 0.049999999999999996
+ },
+ "WallLongBandND": {
+  "tex": "0.04",
+  "raw": 0.0405
+ },
+ "WallLongBandNDMinus": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "WallLongCycND": {
+  "tex": "0.17",
+  "raw": 0.16516666666666666
+ },
+ "WallLongCycNDMinus": {
+  "tex": "0.09",
+  "raw": 0.09349999999999999
+ },
+ "WallLongBandNE": {
+  "tex": "0.04",
+  "raw": 0.04083333333333333
+ },
+ "WallLongBandNEMinus": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "WallLongCycNE": {
+  "tex": "0.61",
+  "raw": 0.6096666666666667
+ },
+ "WallLongCycNEMinus": {
+  "tex": "0.26",
+  "raw": 0.256
+ },
+ "WallLongSeeds": {
+  "tex": "3",
+  "raw": 3
+ },
+ "EscapeBandWallND": {
+  "tex": "0.04",
+  "raw": 0.0405
+ },
+ "EscapeBandBelowND": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "EscapeCycWallND": {
+  "tex": "0.17",
+  "raw": 0.16516666666666666
+ },
+ "EscapeCycBelowND": {
+  "tex": "0.09",
+  "raw": 0.09349999999999999
+ },
+ "EscapeWhiteNCWallND": {
+  "tex": "0.05",
+  "raw": 0.0545
+ },
+ "EscapeWhiteNCBelowND": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "EscapeWhiteWallND": {
+  "tex": "0.04",
+  "raw": 0.042666666666666665
+ },
+ "EscapeWhiteBelowND": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "EscapeSurrxmWallND": {
+  "tex": "0.22",
+  "raw": 0.22399999999999998
+ },
+ "EscapeSurrxmBelowND": {
+  "tex": "0.00",
+  "raw": 0.001666666666666667
+ },
+ "EscapePairedWallND": {
+  "tex": "0.29",
+  "raw": 0.29083333333333333
+ },
+ "EscapePairedBelowND": {
+  "tex": "0.08",
+  "raw": 0.07733333333333332
+ },
+ "EscapeCycNetWallND": {
+  "tex": "0.44",
+  "raw": 0.44083333333333335
+ },
+ "EscapeCycNetBelowND": {
+  "tex": "0.16",
+  "raw": 0.15766666666666665
+ },
+ "EscapeBandWallNE": {
+  "tex": "0.04",
+  "raw": 0.04083333333333333
+ },
+ "EscapeBandBelowNE": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "EscapeCycWallNE": {
+  "tex": "0.61",
+  "raw": 0.6096666666666667
+ },
+ "EscapeCycBelowNE": {
+  "tex": "0.26",
+  "raw": 0.256
+ },
+ "EscapeWhiteNCWallNE": {
+  "tex": "0.06",
+  "raw": 0.058166666666666665
+ },
+ "EscapeWhiteNCBelowNE": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "EscapeWhiteWallNE": {
+  "tex": "0.04",
+  "raw": 0.04033333333333333
+ },
+ "EscapeWhiteBelowNE": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "EscapeSurrxmWallNE": {
+  "tex": "0.51",
+  "raw": 0.5119999999999999
+ },
+ "EscapeSurrxmBelowNE": {
+  "tex": "0.00",
+  "raw": 0.00016666666666666666
+ },
+ "EscapePairedWallNE": {
+  "tex": "0.61",
+  "raw": 0.6061666666666666
+ },
+ "EscapePairedBelowNE": {
+  "tex": "0.15",
+  "raw": 0.15216666666666667
+ },
+ "EscapeCycNetWallNE": {
+  "tex": "0.97",
+  "raw": 0.972
+ },
+ "EscapeCycNetBelowNE": {
+  "tex": "0.63",
+  "raw": 0.6283333333333333
+ },
+ "EscapeTwoBandWallND": {
+  "tex": "0.03",
+  "raw": 0.02666666666666667
+ },
+ "EscapeTwoBandBelowND": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "EscapeTwoCycWallND": {
+  "tex": "0.60",
+  "raw": 0.5951666666666666
+ },
+ "EscapeTwoCycBelowND": {
+  "tex": "0.27",
+  "raw": 0.26666666666666666
+ },
+ "EscapeTwoWhiteWallND": {
+  "tex": "0.02",
+  "raw": 0.024166666666666666
+ },
+ "EscapeTwoWhiteBelowND": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "EscapeTwoSurrxmWallND": {
+  "tex": "0.72",
+  "raw": 0.7196666666666666
+ },
+ "EscapeTwoSurrxmBelowND": {
+  "tex": "0.09",
+  "raw": 0.08816666666666667
+ },
+ "EscapeTwoPairedWallND": {
+  "tex": "0.72",
+  "raw": 0.7244999999999999
+ },
+ "EscapeTwoPairedBelowND": {
+  "tex": "0.39",
+  "raw": 0.38533333333333336
+ },
+ "EscapeTwoCycNetWallND": {
+  "tex": "0.95",
+  "raw": 0.9548333333333332
+ },
+ "EscapeTwoCycNetBelowND": {
+  "tex": "0.61",
+  "raw": 0.6106666666666668
+ },
+ "EscapeTwoBandWallNE": {
+  "tex": "0.03",
+  "raw": 0.025666666666666667
+ },
+ "EscapeTwoBandBelowNE": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "EscapeTwoCycWallNE": {
+  "tex": "1.00",
+  "raw": 0.9978333333333333
+ },
+ "EscapeTwoCycBelowNE": {
+  "tex": "0.86",
+  "raw": 0.8574999999999999
+ },
+ "EscapeTwoWhiteWallNE": {
+  "tex": "0.02",
+  "raw": 0.02366666666666667
+ },
+ "EscapeTwoWhiteBelowNE": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "EscapeTwoSurrxmWallNE": {
+  "tex": "0.94",
+  "raw": 0.9418333333333333
+ },
+ "EscapeTwoSurrxmBelowNE": {
+  "tex": "0.27",
+  "raw": 0.26666666666666666
+ },
+ "EscapeTwoPairedWallNE": {
+  "tex": "0.94",
+  "raw": 0.9383333333333335
+ },
+ "EscapeTwoPairedBelowNE": {
+  "tex": "0.75",
+  "raw": 0.7493333333333333
+ },
+ "EscapeTwoCycNetWallNE": {
+  "tex": "1.00",
+  "raw": 1.0
+ },
+ "EscapeTwoCycNetBelowNE": {
+  "tex": "1.00",
+  "raw": 0.9981666666666666
+ },
+ "EscapeSeeds": {
+  "tex": "3",
+  "raw": 3
+ },
+ "ThmChkWall": {
+  "tex": "$-10.9$",
+  "raw": -10.896727018534559
+ },
+ "ThmChkRho": {
+  "tex": "0.169",
+  "raw": 0.169
+ },
+ "ThmChkNFirst": {
+  "tex": "512",
+  "raw": 512
+ },
+ "ThmChkNLast": {
+  "tex": "32\\,768",
+  "raw": 32768
+ },
+ "ThmChkPfFirst": {
+  "tex": "0.34",
+  "raw": 0.34395801331285203
+ },
+ "ThmChkPfLast": {
+  "tex": "0.005",
+  "raw": 0.005
+ },
+ "ThmChkPdFirst": {
+  "tex": "0.63",
+  "raw": 0.6281362007168458
+ },
+ "ThmChkPdLast": {
+  "tex": "1.00",
+  "raw": 1.0
+ },
+ "ThmChkPdWallFirst": {
+  "tex": "0.34",
+  "raw": 0.33819764464925756
+ },
+ "ThmChkPdWallLast": {
+  "tex": "0.00",
+  "raw": 0.0
+ },
+ "CiGapCnnWhiteSurGap": {
+  "tex": "$[-0.6, +0.7]$",
+  "raw": [
+   -0.6236798728007708,
+   0.7134895673852072
+  ]
+ },
+ "CiGapCnnSurrxSurGap": {
+  "tex": "$[+7.7, +15.5]$",
+  "raw": [
+   7.699938867897351,
+   15.51132778495245
+  ]
+ },
+ "CiSurrxmGainLpf": {
+  "tex": "$+26.8$",
+  "raw": 26.789999999999996
+ },
+ "CiSurrxmGainLpfCi": {
+  "tex": "$[+20.2, +33.5]$",
+  "raw": [
+   20.219250000000002,
+   33.460499999999996
+  ]
+ },
+ "CiSurrxmGainLpfChi": {
+  "tex": "2333.8",
+  "raw": 2333.7728603970063
+ },
+ "CiSurrxmGainLpfP": {
+  "tex": "$p < 10^{-300}$",
+  "raw": 0.0
+ },
+ "CiRandmGainLpf": {
+  "tex": "$+16.7$",
+  "raw": 16.689999999999998
+ },
+ "CiRandmGainLpfCi": {
+  "tex": "$[+13.9, +20.3]$",
+  "raw": [
+   13.899999999999999,
+   20.270000000000003
+  ]
+ },
+ "CiRandmGainLpfChi": {
+  "tex": "1667.0",
+  "raw": 1667.0005991611743
+ },
+ "CiRandmGainLpfP": {
+  "tex": "$p < 10^{-300}$",
+  "raw": 0.0
+ },
+ "CiPinkmGainPinkGap": {
+  "tex": "$+24.2$",
+  "raw": 24.220000000000002
+ },
+ "CiPinkmGainPinkGapCi": {
+  "tex": "$[+22.1, +26.4]$",
+  "raw": [
+   22.06,
+   26.4105
+  ]
+ },
+ "CiPinkmGainPinkGapChi": {
+  "tex": "2420.0",
+  "raw": 2420.000412881916
+ },
+ "CiPinkmGainPinkGapP": {
+  "tex": "$p < 10^{-300}$",
+  "raw": 0.0
+ },
+ "CiPinkmGainPinkCldnn": {
+  "tex": "$+56.3$",
+  "raw": 56.279999999999994
+ },
+ "CiPinkmGainPinkCldnnCi": {
+  "tex": "$[+30.7, +82.6]$",
+  "raw": [
+   30.699749999999998,
+   82.64524999999996
+  ]
+ },
+ "CiPinkmGainPinkCldnnChi": {
+  "tex": "5620.0",
+  "raw": 5620.008697195598
+ },
+ "CiPinkmGainPinkCldnnP": {
+  "tex": "$p < 10^{-300}$",
+  "raw": 0.0
+ },
+ "DetMaxAbsDiff": {
+  "tex": "2.6",
+  "raw": 0.026000000000000023
+ },
+ "DetMaxAbsDiffRange": {
+  "tex": "1.3--2.6",
+  "raw": [
+   0.02199999999999991,
+   0.026000000000000023,
+   0.01924999999999999,
+   0.012999999999999998,
+   0.014750000000000013
+  ]
+ },
+ "RealSigNclasses": {
+  "tex": "6",
+  "raw": [
+   "ADS_B",
+   "FM_broadcast",
+   "FRS_GMRS",
+   "ISM_sensors",
+   "NOAA_weather",
+   "pager"
+  ]
+ },
+ "RealSigNcombos": {
+  "tex": "8",
+  "raw": [
+   [
+    "trevtron_R828D",
+    "FM_broadcast"
+   ],
+   [
+    "trevtron_R828D",
+    "NOAA_weather"
+   ],
+   [
+    "trevtron_R828D",
+    "pager"
+   ],
+   [
+    "trevtron_R828D",
+    "ISM_sensors"
+   ],
+   [
+    "trevtron_R828D",
+    "FRS_GMRS"
+   ],
+   [
+    "hf_composite",
+    "ADS_B"
+   ],
+   [
+    "hf_composite",
+    "FM_broadcast"
+   ],
+   [
+    "hf_composite",
+    "ISM_sensors"
+   ]
+  ]
+ },
+ "RealSigAprsFiles": {
+  "tex": "40",
+  "raw": 40
+ },
+ "RealSigAprsUsed": {
+  "tex": "0",
+  "raw": 0
+ },
+ "RealSigCnnBandMaxDiff": {
+  "tex": "2",
+  "raw": 0.019600000000000062
+ },
+ "RealSigNdMax": {
+  "tex": "0.07",
+  "raw": 0.0668
+ },
+ "RealSigNdMaxAll": {
+  "tex": "0.07",
+  "raw": 0.073
+ },
+ "RealSigStftNoaa": {
+  "tex": "0.96",
+  "raw": null
+ },
+ "RealSigFmTtCnnMax": {
+  "tex": "0.13",
+  "raw": null
+ },
+ "RealSigFmTtBandMax": {
+  "tex": "0.12",
+  "raw": null
+ },
+ "RealSigFmHfCnnMax": {
+  "tex": "0.99",
+  "raw": null
+ },
+ "RealSigFmTtSurrxMax": {
+  "tex": "0.08",
+  "raw": null
+ },
+ "RealSigFmTtKappaLoMax": {
+  "tex": "0.85",
+  "raw": null
+ },
+ "RealSigOwnSnrFmTt": {
+  "tex": "11",
+  "raw": 10.607269144202252
+ },
+ "RealSigOwnSnrLowRange": {
+  "tex": "$-6$ to $1$",
+  "raw": {
+   "FM_broadcast": 10.607269144202252,
+   "NOAA_weather": 1.3631647844428052,
+   "pager": -3.132821987260142,
+   "FRS_GMRS": -6.436183540431578
+  }
+ },
+ "RealSigFmGapHfCi": {
+  "tex": "$[+0.8, +1.9]$",
+  "raw": [
+   0.007952182539682542,
+   0.018944791666666665
+  ]
+ },
+ "RealSigAdsbKappaGapHfCi": {
+  "tex": "$[+11.0, +17.8]$",
+  "raw": [
+   0.10954466276477146,
+   0.17812079400029285
+  ]
+ },
+ "RealSigKappaLoNegRange": {
+  "tex": "$-18$ to $-4$",
+  "raw": [
+   -0.08074999999999999,
+   -0.1765,
+   -0.03968750000000001
+  ]
+ },
+ "EmpResidFloor": {
+  "tex": "2.9\\%",
+  "raw": 0.028509263765533924
+ },
+ "EmpRetunePairs": {
+  "tex": "14\\,260",
+  "raw": 14260
+ },
+ "EmpRetunePairsWithin": {
+  "tex": "10",
+  "raw": 10
+ },
+ "EmpRetuneWallDb": {
+  "tex": "$-26.8$",
+  "raw": -26.816925746475736
+ },
+ "EmpRetuneResidMin": {
+  "tex": "2.6\\%",
+  "raw": 0.026482723428501085
+ },
+ "NoiseKappaGauss": {
+  "tex": "1.98",
+  "raw": 1.9843450595830683
+ },
+ "NoiseKappaGaussSd": {
+  "tex": "0.17",
+  "raw": 0.17081439903624657
+ },
+ "NoiseKappaMedHf": {
+  "tex": "2.02",
+  "raw": 2.020265308168069
+ },
+ "NoiseKappaRangeHf": {
+  "tex": "1.54--3.53",
+  "raw": [
+   1.5434200418607698,
+   3.5253487366484757
+  ]
+ },
+ "NoiseKappaMedTt": {
+  "tex": "2.83",
+  "raw": 2.830965512267322
+ },
+ "NoiseKappaFracTt": {
+  "tex": "64\\%",
+  "raw": 0.6405000000000001
+ },
+ "NoisePartialRolloff": {
+  "tex": "0.66",
+  "raw": 0.6607292275404711
+ },
+ "NoisePartialKappa": {
+  "tex": "0.31",
+  "raw": 0.31075453518481966
+ },
+ "NoiseKappaWhitenedRhoHf": {
+  "tex": "$-0.21$",
+  "raw": -0.2106627235020666
+ },
+ "NoiseKappaPfRhoTt": {
+  "tex": "$-0.13$",
+  "raw": -0.12902365886884112
+ },
+ "CycLagFiveBelowOne": {
+  "tex": "0.25",
+  "raw": 0.251
+ },
+ "CycLagSixteenBelowOne": {
+  "tex": "0.38",
+  "raw": 0.38466666666666666
+ },
+ "CycLagSixteenBelowTwo": {
+  "tex": "0.99",
+  "raw": 0.9896666666666666
+ },
+ "CycNetOverCycSixteen": {
+  "tex": "1.6",
+  "raw": 1.6334488734835355
+ },
+ "CtrlSeeds": {
+  "tex": "3",
+  "raw": 3
+ },
+ "CtrlPairedLinTwo": {
+  "tex": "0.38",
+  "raw": 0.3815555555555556
+ },
+ "CtrlCycNetLinTwo": {
+  "tex": "0.61",
+  "raw": 0.61
+ },
+ "CtrlSynthMaxDiff": {
+  "tex": "0.03",
+  "raw": 0.032888888888888856
+ },
+ "CtrlGsurMax": {
+  "tex": "0.05",
+  "raw": 0.05466666666666666
+ },
+ "CtrlGsurAboveRange": {
+  "tex": "0.05--0.10",
+  "raw": [
+   0.08466666666666667,
+   0.08377777777777777,
+   0.08777777777777777,
+   0.08644444444444445,
+   0.06066666666666667,
+   0.05311111111111111,
+   0.10088888888888888,
+   0.10066666666666667
+  ]
+ },
+ "AdaptEdPfRange": {
+  "tex": "13.5--18.4\\%",
+  "raw": [
+   0.18360687022900765,
+   0.13454729729729734
+  ]
+ },
+ "ObsRateMsps": {
+  "tex": "1.024",
+  "raw": 1024000.0
+ },
+ "ObsTimeND": {
+  "tex": "8",
+  "raw": 0.008
+ },
+ "ObsTimeNE": {
+  "tex": "32",
+  "raw": 0.032
+ },
+ "UoneKappaRatioRange": {
+  "tex": "0.30--0.40",
+  "raw": [
+   0.3979999999999999,
+   0.2957936277212485,
+   0.3000202813328887,
+   0.3026702381471488,
+   0.3006979247160118,
+   0.29992
+  ]
+ },
+ "UoneKappaRatioSnrs": {
+  "tex": "$-10$ to $0$",
+  "raw": [
+   -10,
+   -8,
+   -6,
+   -4,
+   -2,
+   0
+  ]
+ },
+ "UoneSecondOrderMaxAbs": {
+  "tex": "0.35",
+  "raw": 0.0035
+ },
+ "UoneIdealLmpiMax": {
+  "tex": "1.8",
+  "raw": 0.01816
+ },
+ "UoneN": {
+  "tex": "256",
+  "raw": 256
+ },
+ "ExactNcases": {
+  "tex": "136",
+  "raw": 136
+ },
+ "ExactNspectra": {
+  "tex": "34",
+  "raw": 34
+ },
+ "ExactMaxDiff": {
+  "tex": "$10^{-7}$",
+  "raw": 8.576548715666377e-08
+ },
+ "ExactPropTwoShortfall": {
+  "tex": "8.0",
+  "raw": 7.9719688961782165
+ },
+ "ExactBoundaryOk": {
+  "tex": "20 of 20",
+  "raw": "20/20"
+ },
+ "ExactDNFirst": {
+  "tex": "2\\,048",
+  "raw": 2048
+ },
+ "ExactDNLast": {
+  "tex": "32\\,768",
+  "raw": 32768
+ },
+ "ExactDNshapes": {
+  "tex": "43",
+  "raw": 43
+ },
+ "ExactDPfFirst": {
+  "tex": "0.40",
+  "raw": 0.402457757296467
+ },
+ "ExactDPfLast": {
+  "tex": "0.17",
+  "raw": 0.17
+ },
+ "ExactDPdFirst": {
+  "tex": "0.59",
+  "raw": 0.5873015873015873
+ },
+ "ExactDPdLast": {
+  "tex": "0.84",
+  "raw": 0.845
+ },
+ "ExactDPdWallFirst": {
+  "tex": "0.32",
+  "raw": 0.3159242191500256
+ },
+ "ExactDPdWallLast": {
+  "tex": "0.01",
+  "raw": 0.01
+ },
+ "ExactDWall": {
+  "tex": "$-7.57$",
+  "raw": -7.566590000121598
+ },
+ "ExactDPropTwo": {
+  "tex": "$-8.29$",
+  "raw": -8.29417767560453
+ },
+ "ExactDPropGap": {
+  "tex": "0.73",
+  "raw": 0.7275876754829316
+ },
+ "LmpiNmodels": {
+  "tex": "223",
+  "raw": 223
+ },
+ "LmpiRhoGapRange": {
+  "tex": "0.96--0.97",
+  "raw": [
+   0.964983288450439,
+   0.9627602156100136,
+   0.9661366815085424,
+   0.9632533824498913,
+   0.9621840554941058
+  ]
+ },
+ "LmpiCosPGapRange": {
+  "tex": "0.99",
+  "raw": [
+   0.9910408346966786,
+   0.9894144017939617,
+   0.9901573100036765,
+   0.9892700930283843,
+   0.9899488055016719
+  ]
+ },
+ "LmpiPdTenGapRange": {
+  "tex": "0.69--0.70",
+  "raw": [
+   0.69575,
+   0.698,
+   0.703,
+   0.6855,
+   0.688
+  ]
+ },
+ "LmpiRhoCldnnRange": {
+  "tex": "0.94--0.97",
+  "raw": [
+   0.9620985329401048,
+   0.9663478666123368,
+   0.9635771612235724,
+   0.9397938658564722,
+   0.9634846238254522
+  ]
+ },
+ "LmpiCosPCldnnRange": {
+  "tex": "0.98--0.99",
+  "raw": [
+   0.9864945597831253,
+   0.9920884932459981,
+   0.9881536407979563,
+   0.976035688262218,
+   0.9903839964291499
+  ]
+ },
+ "LmpiPdTenCldnnRange": {
+  "tex": "0.67--0.71",
+  "raw": [
+   0.68975,
+   0.70625,
+   0.70225,
+   0.66825,
+   0.68275
+  ]
+ },
+ "LmpiRhoCovRange": {
+  "tex": "0.94--0.95",
+  "raw": [
+   0.9482713624364102,
+   0.945958801747425,
+   0.9393136305196017,
+   0.9406372616721058,
+   0.9406125000511225
+  ]
+ },
+ "LmpiCosPCovRange": {
+  "tex": "0.99--1.00",
+  "raw": [
+   0.9951480689170484,
+   0.9940336774525127,
+   0.9875237407019753,
+   0.9891862415631495,
+   0.9898796538718762
+  ]
+ },
+ "LmpiPdTenCovRange": {
+  "tex": "0.66--0.69",
+  "raw": [
+   0.67175,
+   0.6855,
+   0.6865,
+   0.663,
+   0.6635
+  ]
+ },
+ "LmpiRhoResRange": {
+  "tex": "0.65--0.69",
+  "raw": [
+   0.6657592840474127,
+   0.6592804207050262,
+   0.6741368155710509,
+   0.6514227668985646,
+   0.6930789696936737
+  ]
+ },
+ "LmpiCosPResRange": {
+  "tex": "0.98",
+  "raw": [
+   0.9826436007073751,
+   0.9823069750307464,
+   0.9814976021229719,
+   0.9806226453616531,
+   0.9816715695780396
+  ]
+ },
+ "LmpiPdTenResRange": {
+  "tex": "0.47--0.50",
+  "raw": [
+   0.47875,
+   0.478,
+   0.49175,
+   0.471,
+   0.4975
+  ]
+ },
+ "LmpiRhoResEsRange": {
+  "tex": "0.90--0.92",
+  "raw": [
+   0.9223951144116818,
+   0.9094606578526719,
+   0.9233476840842302,
+   0.9054794698648553,
+   0.8960258672623679
+  ]
+ },
+ "LmpiCosPResEsRange": {
+  "tex": "0.99",
+  "raw": [
+   0.9936142199798496,
+   0.9911692154678627,
+   0.9872762137489552,
+   0.9915483484535395,
+   0.9913933494001133
+  ]
+ },
+ "LmpiPdTenResEsRange": {
+  "tex": "0.64--0.68",
+  "raw": [
+   0.6525,
+   0.65175,
+   0.68025,
+   0.642,
+   0.6455
+  ]
+ },
+ "LmpiRhoStftRange": {
+  "tex": "0.78--0.82",
+  "raw": [
+   0.7996463222341285,
+   0.8212770327673145,
+   0.7832795342049708,
+   0.7975381574521538,
+   0.8045488954847323
+  ]
+ },
+ "LmpiCosPStftRange": {
+  "tex": "0.93--0.96",
+  "raw": [
+   0.9384581067503842,
+   0.9547875068938495,
+   0.9269919907516219,
+   0.9544117095295593,
+   0.9583019760834561
+  ]
+ },
+ "LmpiPdTenStftRange": {
+  "tex": "0.55--0.59",
+  "raw": [
+   0.5745,
+   0.5875,
+   0.54675,
+   0.5685,
+   0.5745
+  ]
+ },
+ "LmpiRhoDetRange": {
+  "tex": "0.67--0.73",
+  "raw": [
+   0.7279336113083507,
+   0.7089830232196724,
+   0.6775941435063961,
+   0.6747386048285479,
+   0.6943572682736272
+  ]
+ },
+ "LmpiCosPDetRange": {
+  "tex": "0.98--0.99",
+  "raw": [
+   0.9857664117430118,
+   0.9868826274153834,
+   0.98492952372584,
+   0.9847597361831275,
+   0.9865885585251274
+  ]
+ },
+ "LmpiPdTenDetRange": {
+  "tex": "0.52--0.56",
+  "raw": [
+   0.54775,
+   0.56475,
+   0.53875,
+   0.5205,
+   0.528
+  ]
+ },
+ "LmpiRhoTfmRange": {
+  "tex": "0.73--0.76",
+  "raw": [
+   0.7395129008792208,
+   0.7537083178567698,
+   0.75563983051291,
+   0.7348036602753666,
+   0.7372989388378054
+  ]
+ },
+ "LmpiCosPTfmRange": {
+  "tex": "0.92--0.94",
+  "raw": [
+   0.9410620331848603,
+   0.9312299533571531,
+   0.9380876181439024,
+   0.9316983391910588,
+   0.9242690470997997
+  ]
+ },
+ "LmpiPdTenTfmRange": {
+  "tex": "0.51--0.53",
+  "raw": [
+   0.52675,
+   0.52075,
+   0.5105,
+   0.50525,
+   0.51825
+  ]
+ },
+ "LmpiRhoFourxRange": {
+  "tex": "0.94--0.97",
+  "raw": [
+   0.9520725832679147,
+   0.9702650123290631,
+   0.9427318804207424
+  ]
+ },
+ "LmpiCosPFourxRange": {
+  "tex": "0.99--1.00",
+  "raw": [
+   0.9955523834584378,
+   0.9958458832046714,
+   0.9942888191218879
+  ]
+ },
+ "LmpiPdTenFourxRange": {
+  "tex": "0.69--0.71",
+  "raw": [
+   0.69325,
+   0.7125,
+   0.69725
+  ]
+ },
+ "LmpiRhoStrongRange": {
+  "tex": "0.94--0.97",
+  "raw": null
+ },
+ "LmpiAgreeStrongRange": {
+  "tex": "0.89--0.92",
+  "raw": null
+ },
+ "LmpiCosPStrongRange": {
+  "tex": "0.976--0.995",
+  "raw": null
+ },
+ "LmpiCosBandStrongRange": {
+  "tex": "0.905--0.938",
+  "raw": null
+ },
+ "LmpiRtwoStrongRange": {
+  "tex": "0.83--0.90",
+  "raw": null
+ },
+ "LmpiDesignMax": {
+  "tex": "$-10$",
+  "raw": -10.0
+ },
+ "LmpiDesignAtLimit": {
+  "tex": "1",
+  "raw": 1
+ },
+ "LmpiPcloserCount": {
+  "tex": "24 of 25",
+  "raw": 24
+ },
+ "LmpiDstar": {
+  "tex": "$-12$",
+  "raw": -12
+ },
+ "LmpiMaxExcess": {
+  "tex": "0.5",
+  "raw": 0.004750000000000032
+ },
+ "LmpiLowMaxExcess": {
+  "tex": "0.7",
+  "raw": 0.007000000000000006
+ },
+ "LmpiAgreeNetNet": {
+  "tex": "0.87--0.94",
+  "raw": [
+   0.88875,
+   0.9215,
+   0.92125,
+   0.89775,
+   0.93875,
+   0.916,
+   0.89875,
+   0.9395,
+   0.91975,
+   0.871,
+   0.9055,
+   0.9225,
+   0.892,
+   0.934,
+   0.894
+  ]
+ },
+ "LmpiAgreeNetLmpi": {
+  "tex": "0.89--0.92",
+  "raw": [
+   0.9145,
+   0.90375,
+   0.9225,
+   0.92,
+   0.90475,
+   0.91675,
+   0.91675,
+   0.902,
+   0.92325,
+   0.89225,
+   0.90125,
+   0.91875,
+   0.91825,
+   0.89025,
+   0.91625
+  ]
+ },
+ "LmpiAgreeNetBand": {
+  "tex": "0.86--0.88",
+  "raw": [
+   0.86975,
+   0.8655,
+   0.87725,
+   0.87125,
+   0.864,
+   0.88,
+   0.86925,
+   0.8685,
+   0.87175
+  ]
+ },
+ "LmpiPfLpfNA": {
+  "tex": "30\\%",
+  "raw": 0.29874999999999996
+ },
+ "LmpiGapPfLpfNA": {
+  "tex": "34\\%",
+  "raw": null
+ },
+ "LmpiPfLpfNB": {
+  "tex": "68\\%",
+  "raw": 0.676
+ },
+ "LmpiGapPfLpfNB": {
+  "tex": "73\\%",
+  "raw": null
+ },
+ "LmpiPfLpfNC": {
+  "tex": "99\\%",
+  "raw": 0.9911
+ },
+ "LmpiGapPfLpfNC": {
+  "tex": "100\\%",
+  "raw": null
+ },
+ "LmpiPfLpfND": {
+  "tex": "100\\%",
+  "raw": 1.0
+ },
+ "LmpiGapPfLpfND": {
+  "tex": "100\\%",
+  "raw": null
+ },
+ "LmpiRhoEscapeMax": {
+  "tex": "0.06",
+  "raw": null
+ },
+ "LmpiCosPEscapeMax": {
+  "tex": "0.31",
+  "raw": null
+ },
+ "LmpiStftGapRange": {
+  "tex": "0.4--1.9",
+  "raw": null
+ },
+ "RealLmpiNcaps": {
+  "tex": "251",
+  "raw": 251
+ },
+ "RealLmpiMaxCurveDiff": {
+  "tex": "2.5",
+  "raw": null
+ },
+ "RealBandMaxCurveDiff": {
+  "tex": "11",
+  "raw": null
+ },
+ "RealLmpiNdMax": {
+  "tex": "0.07",
+  "raw": 0.07125
+ },
+ "EscLawKappaFive": {
+  "tex": "0.122",
+  "raw": 0.1215037010578944
+ },
+ "EscLawKappaSixteen": {
+  "tex": "0.308",
+  "raw": 0.3081835785864623
+ },
+ "EscLawKappaLow": {
+  "tex": "0.023",
+  "raw": 0.022737167197378817
+ },
+ "EscLawKappaHigh": {
+  "tex": "0.34",
+  "raw": 0.342938798802367
+ },
+ "EscLawNpts": {
+  "tex": "39",
+  "raw": 39
+ },
+ "EscLawMaxErr": {
+  "tex": "0.07",
+  "raw": null
+ },
+ "EscLawKappaImplied": {
+  "tex": "0.118",
+  "raw": 0.11776082109486605
+ },
+ "EscLawNptsC": {
+  "tex": "36",
+  "raw": 36
+ },
+ "EscLawMaxErrC": {
+  "tex": "0.06",
+  "raw": null
+ },
+ "EscLawBetaPdMeas": {
+  "tex": "0.09, 0.28, 0.73",
+  "raw": null
+ },
+ "EscLawBetaPdPred": {
+  "tex": "0.08, 0.28, 0.74",
+  "raw": null
+ },
+ "EscLawNescFive": {
+  "tex": "136k",
+  "raw": 136010.45175355772
+ },
+ "EscLawMsFive": {
+  "tex": "133",
+  "raw": 132.8227067905837
+ },
+ "EscLawNescWallFive": {
+  "tex": "56k",
+  "raw": 56402.36229986183
+ },
+ "EscLawMsWallFive": {
+  "tex": "55",
+  "raw": 55.08043193345882
+ },
+ "EscLawNescSixteen": {
+  "tex": "81k",
+  "raw": 81314.92507404373
+ },
+ "EscLawMsSixteen": {
+  "tex": "79",
+  "raw": 79.40910651762083
+ },
+ "EscLawNescWallSixteen": {
+  "tex": "34k",
+  "raw": 33720.59871341736
+ },
+ "EscLawMsWallSixteen": {
+  "tex": "33",
+  "raw": 32.93027218107164
+ },
+ "HwWithinPowNinetyHf": {
+  "tex": "0.86",
+  "raw": 0.8595165777832482
+ },
+ "HwWithinPowMedHf": {
+  "tex": "0.06",
+  "raw": 0.0582975328206562
+ },
+ "HwWithinEdWallNinetyHf": {
+  "tex": "$-7.0$",
+  "raw": -7.02821502560912
+ },
+ "HwWithinShapeWallNinetyHf": {
+  "tex": "$-12.4$",
+  "raw": -12.398524626515803
+ },
+ "HwWithinGainMedHf": {
+  "tex": "$-2.8$",
+  "raw": -2.8244630739597625
+ },
+ "HwWithinGainPosHf": {
+  "tex": "43\\%",
+  "raw": 0.42748091603053434
+ },
+ "HwPairsPowNinetyHf": {
+  "tex": "1.85",
+  "raw": 1.8547283334767832
+ },
+ "HwPairsPowMedHf": {
+  "tex": "0.14",
+  "raw": 0.13655361478195807
+ },
+ "HwPairsEdWallNinetyHf": {
+  "tex": "$-3.7$",
+  "raw": -3.6620861812798977
+ },
+ "HwPairsShapeWallNinetyHf": {
+  "tex": "$-10.4$",
+  "raw": -10.417173113580937
+ },
+ "HwPairsGainMedHf": {
+  "tex": "$+0.5$",
+  "raw": 0.510709095285506
+ },
+ "HwPairsGainPosHf": {
+  "tex": "52\\%",
+  "raw": 0.5169675090252708
+ },
+ "HwWithinPowNinetyTt": {
+  "tex": "0.51",
+  "raw": 0.5113066168495812
+ },
+ "HwWithinPowMedTt": {
+  "tex": "0.15",
+  "raw": 0.14579194036083598
+ },
+ "HwWithinEdWallNinetyTt": {
+  "tex": "$-9.3$",
+  "raw": -9.288521043215436
+ },
+ "HwWithinShapeWallNinetyTt": {
+  "tex": "$-15.3$",
+  "raw": -15.277022929529103
+ },
+ "HwWithinGainMedTt": {
+  "tex": "$+1.2$",
+  "raw": 1.240444835365504
+ },
+ "HwWithinGainPosTt": {
+  "tex": "58\\%",
+  "raw": 0.581081081081081
+ },
+ "HwPairsPowNinetyTt": {
+  "tex": "0.66",
+  "raw": 0.6636757234048176
+ },
+ "HwPairsPowMedTt": {
+  "tex": "0.27",
+  "raw": 0.2724572529930056
+ },
+ "HwPairsEdWallNinetyTt": {
+  "tex": "$-8.2$",
+  "raw": -8.154058744618405
+ },
+ "HwPairsShapeWallNinetyTt": {
+  "tex": "$-15.0$",
+  "raw": -14.965106595116403
+ },
+ "HwPairsGainMedTt": {
+  "tex": "$+4.5$",
+  "raw": 4.509504855013166
+ },
+ "HwPairsGainPosTt": {
+  "tex": "81\\%",
+  "raw": 0.8063680118474639
+ },
+ "HwGainNinetyRange": {
+  "tex": "5.4--6.8",
+  "raw": [
+   5.370309600906683,
+   6.7550869323010385,
+   5.988501886313667,
+   6.811047850497998
+  ]
+ },
+ "HwGainMedRange": {
+  "tex": "$-3.2$ to $+4.7$",
+  "raw": [
+   -3.220816319302509,
+   1.4936638658430148,
+   1.2641604603555976,
+   4.705826744734782
+  ]
+ },
+ "HwPairsHf": {
+  "tex": "1\\,385",
+  "raw": null
+ },
+ "HwPairsTt": {
+  "tex": "2\\,701",
+  "raw": null
+ },
+ "OffMaeRange": {
+  "tex": "1.4--2.6",
+  "raw": [
+   0.01481113939940346,
+   0.014114215546370034,
+   0.014624662133524266,
+   0.02333631624546714,
+   0.02161720077283118,
+   0.025807534227181808,
+   0.017222589307879534,
+   0.01783605712705449,
+   0.020303244605790905,
+   0.01670157705827853,
+   0.014212481868781721,
+   0.015779131614509462,
+   0.020071333056616323,
+   0.020591571543086922,
+   0.0199695672828376
+  ]
+ },
+ "OffMaeStft": {
+  "tex": "4.2--9.5",
+  "raw": null
+ },
+ "OffMaeLmpi": {
+  "tex": "1.5",
+  "raw": 0.014789590336535699
+ },
+ "OffNegPdMax": {
+  "tex": "0.043",
+  "raw": 0.0435
+ },
+ "OffNegN": {
+  "tex": "729",
+  "raw": 729
+ },
+ "OffNcells": {
+  "tex": "72",
+  "raw": 72
+ },
+ "GceilLossStrongMax": {
+  "tex": "0.4",
+  "raw": 0.36305423498593115
+ },
+ "GceilLossWeakRange": {
+  "tex": "0.7--1.9",
+  "raw": [
+   1.8654276757725032,
+   1.7707833985114156,
+   1.7502720803683545,
+   1.9214061800268691,
+   1.8559354106219246,
+   1.756550858099624,
+   1.6974921630094038,
+   1.72347672511669,
+   1.641439933026371,
+   1.6695029108822208,
+   1.7707833985114156,
+   1.8151527835914614,
+   1.680698611733094,
+   1.5689415920272474,
+   1.5933026370866479,
+   1.0201522615315728,
+   0.9815659260696616,
+   0.9565371525808288,
+   0.9100211714890616,
+   0.7293101775492374,
+   0.8643647192285879,
+   1.3056426332288407,
+   1.1936419830957483,
+   1.1809962327333619,
+   0.8659139026111511,
+   1.0296455153273616,
+   0.9990782756664771,
+   0.896788990825689,
+   0.9306296691568843,
+   0.9565371525808288,
+   1.2608598298253462,
+   1.1841806484168025,
+   1.1726245290916708,
+   1.4343931930138822,
+   1.1211050838905017,
+   1.0303055671829213,
+   1.624720107478728,
+   1.3702535637693956,
+   1.2479698618668902,
+   1.501567398119123,
+   1.3797148984483414,
+   1.4007534533277521,
+   1.35602328705777,
+   1.3891762331272872,
+   1.3379656760150684
+  ]
+ },
+ "GceilCeilVsMpiTen": {
+  "tex": "0.686",
+  "raw": null
+ },
+ "GceilMpiSigTen": {
+  "tex": "0.709",
+  "raw": null
+ },
+ "GceilCertDetectors": {
+  "tex": "14",
+  "raw": null
+ },
+ "TfmSeeds": {
+  "tex": "5",
+  "raw": 5
+ },
+ "TfmGapRange": {
+  "tex": "0.1--1.2",
+  "raw": null
+ },
+ "TfmPdTenRange": {
+  "tex": "0.51--0.53",
+  "raw": null
+ },
+ "TfmPfLpfRange": {
+  "tex": "33--37\\%",
+  "raw": null
+ },
+ "TfmPfPinkMin": {
+  "tex": "100\\%",
+  "raw": null
+ },
+ "DynStepsToLmpi": {
+  "tex": "200",
+  "raw": [
+   200,
+   100,
+   100
+  ]
+ },
+ "DynWhiteGapMax": {
+  "tex": "3.1",
+  "raw": 0.030750000000000055
+ },
+ "DynMainGapTenRange": {
+  "tex": "$-0.8$ to $+1.2$",
+  "raw": [
+   -0.30000000000000027,
+   -0.8250000000000091,
+   1.2249999999999983,
+   0.12499999999999734,
+   -0.40000000000000036
+  ]
+ },
+ "DynPairedGapZeroRange": {
+  "tex": "60--61",
+  "raw": null
+ },
+ "DynPairedRhoRange": {
+  "tex": "0.48--0.53",
+  "raw": null
+ },
+ "DynSurrxmGapZeroRange": {
+  "tex": "52--56",
+  "raw": null
+ },
+ "DynStructGapTenRange": {
+  "tex": "4.6--6.4",
+  "raw": null
+ },
+ "DynStructStepMin": {
+  "tex": "50",
+  "raw": [
+   100,
+   200,
+   100,
+   50,
+   50,
+   200
+  ]
+ },
+ "DynStructStepMax": {
+  "tex": "200",
+  "raw": [
+   100,
+   200,
+   100,
+   50,
+   50,
+   200
+  ]
+ },
+ "DynStepsPerEpoch": {
+  "tex": "446",
+  "raw": 446
+ }
+}

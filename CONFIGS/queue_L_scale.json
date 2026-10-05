@@ -1,0 +1,41 @@
+[
+  {
+    "kind": "learned",
+    "arch": "GapCNN4X",
+    "recipe": "WHITE",
+    "N": 128,
+    "sps": 8,
+    "seed": 0,
+    "epochs": 12,
+    "ntrain": 600000,
+    "batch": 256,
+    "amp": true,
+    "tag": "scale4x_600k"
+  },
+  {
+    "kind": "learned",
+    "arch": "GapCNN4X",
+    "recipe": "WHITE",
+    "N": 128,
+    "sps": 8,
+    "seed": 1,
+    "epochs": 12,
+    "ntrain": 600000,
+    "batch": 256,
+    "amp": true,
+    "tag": "scale4x_600k"
+  },
+  {
+    "kind": "learned",
+    "arch": "GapCNN4X",
+    "recipe": "WHITE",
+    "N": 128,
+    "sps": 8,
+    "seed": 2,
+    "epochs": 12,
+    "ntrain": 600000,
+    "batch": 256,
+    "amp": true,
+    "tag": "scale4x_600k"
+  }
+]

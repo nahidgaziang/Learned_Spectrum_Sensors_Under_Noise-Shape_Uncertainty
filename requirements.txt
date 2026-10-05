@@ -1,0 +1,7 @@
+# Tested with Python 3.12.10, PyTorch 2.6.0 (CUDA 12.4), NumPy 2.5.3, SciPy 1.18.1, pandas 3.0.6, matplotlib 3.11.2
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+pymupdf>=1.23

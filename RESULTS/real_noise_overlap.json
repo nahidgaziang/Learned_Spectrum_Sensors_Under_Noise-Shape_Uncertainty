@@ -1,0 +1,11 @@
+{
+  "hf_noise_files": 160,
+  "tt_noise_files": 100,
+  "sha256_overlap_count": 0,
+  "hf_receiver": "R820T2 (Nooelec NESDR SMArt v5 / public RTL)",
+  "tt_receiver": "R828D (RTL-SDR Blog V4)",
+  "tt_center_freq_mhz": 145.0,
+  "tt_sample_rate_msps": 1.024,
+  "tt_license": "MIT",
+  "hf_license": "no license stated (evaluation only)"
+}

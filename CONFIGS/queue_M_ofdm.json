@@ -1,0 +1,93 @@
+[
+  {
+    "kind": "classical",
+    "detector": "ED",
+    "N": 128,
+    "sps": 8,
+    "seed": 0,
+    "signal": "OFDM"
+  },
+  {
+    "kind": "classical",
+    "detector": "BAND",
+    "N": 128,
+    "sps": 8,
+    "seed": 0,
+    "signal": "OFDM"
+  },
+  {
+    "kind": "learned",
+    "arch": "GapCNN",
+    "recipe": "WHITE",
+    "N": 128,
+    "sps": 8,
+    "seed": 0,
+    "signal": "OFDM",
+    "multipath": true,
+    "amp": true,
+    "ntrain": 60000,
+    "epochs": 12,
+    "lr": 0.001,
+    "batch": 128
+  },
+  {
+    "kind": "learned",
+    "arch": "GapCNN",
+    "recipe": "WHITE",
+    "N": 128,
+    "sps": 8,
+    "seed": 1,
+    "signal": "OFDM",
+    "multipath": true,
+    "amp": true,
+    "ntrain": 60000,
+    "epochs": 12,
+    "lr": 0.001,
+    "batch": 128
+  },
+  {
+    "kind": "learned",
+    "arch": "GapCNN",
+    "recipe": "WHITE",
+    "N": 128,
+    "sps": 8,
+    "seed": 2,
+    "signal": "OFDM",
+    "multipath": true,
+    "amp": true,
+    "ntrain": 60000,
+    "epochs": 12,
+    "lr": 0.001,
+    "batch": 128
+  },
+  {
+    "kind": "learned",
+    "arch": "GapCNN",
+    "recipe": "WHITE",
+    "N": 128,
+    "sps": 8,
+    "seed": 3,
+    "signal": "OFDM",
+    "multipath": true,
+    "amp": true,
+    "ntrain": 60000,
+    "epochs": 12,
+    "lr": 0.001,
+    "batch": 128
+  },
+  {
+    "kind": "learned",
+    "arch": "GapCNN",
+    "recipe": "WHITE",
+    "N": 128,
+    "sps": 8,
+    "seed": 4,
+    "signal": "OFDM",
+    "multipath": true,
+    "amp": true,
+    "ntrain": 60000,
+    "epochs": 12,
+    "lr": 0.001,
+    "batch": 128
+  }
+]

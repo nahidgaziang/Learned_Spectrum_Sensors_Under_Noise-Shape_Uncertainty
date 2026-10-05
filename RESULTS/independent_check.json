@@ -1,0 +1,696 @@
+{
+ "rows": [
+  {
+   "name": "A_rescoring",
+   "ok": true,
+   "independent": 0.0,
+   "paper": "stored metrics",
+   "note": "231 runs"
+  },
+  {
+   "name": "SurGapRange",
+   "ok": true,
+   "independent": [
+    -0.07,
+    0.83
+   ],
+   "paper": "$-0.1$ to $+0.8$ points",
+   "note": ""
+  },
+  {
+   "name": "SurGapAbsMax",
+   "ok": true,
+   "independent": 0.0154,
+   "paper": "1.5",
+   "note": ""
+  },
+  {
+   "name": "PfLpfEightRange",
+   "ok": true,
+   "independent": [
+    21.32,
+    39.78
+   ],
+   "paper": "21--40\\%",
+   "note": ""
+  },
+  {
+   "name": "PfRtlThreeRange",
+   "ok": true,
+   "independent": [
+    11.2,
+    16.04
+   ],
+   "paper": "11--16\\%",
+   "note": ""
+  },
+  {
+   "name": "PfPinkRange",
+   "ok": true,
+   "independent": [
+    100.0
+   ],
+   "paper": "100\\%",
+   "note": ""
+  },
+  {
+   "name": "PfArOneRange",
+   "ok": true,
+   "independent": [
+    17.4,
+    26.57
+   ],
+   "paper": "17--27\\%",
+   "note": ""
+  },
+  {
+   "name": "PfArMinusOneRange",
+   "ok": true,
+   "independent": [
+    0.44,
+    1.09
+   ],
+   "paper": "0--1\\%",
+   "note": ""
+  },
+  {
+   "name": "PfPowerUpRange",
+   "ok": true,
+   "independent": [
+    4.98
+   ],
+   "paper": "5\\%",
+   "note": ""
+  },
+  {
+   "name": "PdTenRange",
+   "ok": true,
+   "independent": [
+    48.34,
+    69.4
+   ],
+   "paper": "48--69\\%",
+   "note": ""
+  },
+  {
+   "name": "WcPdReceiverRange",
+   "ok": true,
+   "independent": [
+    17.37,
+    29.28
+   ],
+   "paper": "17--29\\%",
+   "note": ""
+  },
+  {
+   "name": "BandPdTen",
+   "ok": true,
+   "independent": 0.6599,
+   "paper": "66\\%",
+   "note": ""
+  },
+  {
+   "name": "EdPdTen",
+   "ok": true,
+   "independent": 0.3001,
+   "paper": "30\\%",
+   "note": ""
+  },
+  {
+   "name": "CycPdTen",
+   "ok": true,
+   "independent": 0.0566,
+   "paper": "6\\%",
+   "note": ""
+  },
+  {
+   "name": "CycSurGap",
+   "ok": true,
+   "independent": 0.0926,
+   "paper": "9.3",
+   "note": ""
+  },
+  {
+   "name": "EdPfPowerUp",
+   "ok": true,
+   "independent": 0.8315,
+   "paper": "83\\%",
+   "note": ""
+  },
+  {
+   "name": "PfLpfWhiteNA",
+   "ok": true,
+   "independent": 0.3401,
+   "paper": "34\\%",
+   "note": "n=5"
+  },
+  {
+   "name": "WcRecWhiteNA",
+   "ok": true,
+   "independent": 0.2318,
+   "paper": "0.23",
+   "note": ""
+  },
+  {
+   "name": "PfLpfWhiteNB",
+   "ok": true,
+   "independent": 0.7297,
+   "paper": "73\\%",
+   "note": "n=3"
+  },
+  {
+   "name": "WcRecWhiteNB",
+   "ok": true,
+   "independent": 0.641,
+   "paper": "0.64",
+   "note": ""
+  },
+  {
+   "name": "PfLpfWhiteNC",
+   "ok": true,
+   "independent": 0.9955,
+   "paper": "99.5\\%",
+   "note": "n=3"
+  },
+  {
+   "name": "WcRecWhiteNC",
+   "ok": true,
+   "independent": 0.9863,
+   "paper": "0.99",
+   "note": ""
+  },
+  {
+   "name": "OccGainEight",
+   "ok": true,
+   "independent": 0.394,
+   "paper": "$+39$",
+   "note": ""
+  },
+  {
+   "name": "OccGainFour",
+   "ok": true,
+   "independent": 0.1628,
+   "paper": "$+16$",
+   "note": ""
+  },
+  {
+   "name": "OccGainTwo",
+   "ok": true,
+   "independent": -0.0748,
+   "paper": "$-7$",
+   "note": ""
+  },
+  {
+   "name": "MaskPinkPdPink",
+   "ok": true,
+   "independent": [
+    0.38,
+    2.04
+   ],
+   "paper": "0--2\\%",
+   "note": ""
+  },
+  {
+   "name": "MaskRandPdLpf",
+   "ok": true,
+   "independent": 0.0051,
+   "paper": "1\\%",
+   "note": ""
+  },
+  {
+   "name": "PdCalLpfRand",
+   "ok": true,
+   "independent": 0.1,
+   "paper": "10\\%",
+   "note": ""
+  },
+  {
+   "name": "PdCalLpfRandm",
+   "ok": true,
+   "independent": 0.478,
+   "paper": "48\\%",
+   "note": ""
+  },
+  {
+   "name": "PdCalLpfSurrx",
+   "ok": true,
+   "independent": 0.1614,
+   "paper": "16\\%",
+   "note": ""
+  },
+  {
+   "name": "PdCalLpfSurrxm",
+   "ok": true,
+   "independent": 0.3867,
+   "paper": "39\\%",
+   "note": ""
+  },
+  {
+   "name": "PdCalLpfWhiteRange",
+   "ok": true,
+   "independent": [
+    40.76,
+    55.1
+   ],
+   "paper": "41--55\\%",
+   "note": ""
+  },
+  {
+   "name": "RealNoiseNrec",
+   "ok": true,
+   "independent": 131,
+   "paper": "131",
+   "note": ""
+  },
+  {
+   "name": "RealNoiseNctrl",
+   "ok": true,
+   "independent": 10,
+   "paper": "10",
+   "note": ""
+  },
+  {
+   "name": "PfRealRange",
+   "ok": true,
+   "independent": [
+    16.63,
+    29.62
+   ],
+   "paper": "17--30\\%",
+   "note": ""
+  },
+  {
+   "name": "PfRealControlMax",
+   "ok": true,
+   "independent": [
+    5.77
+   ],
+   "paper": "5.8\\%",
+   "note": ""
+  },
+  {
+   "name": "PfRealWhitenedRange",
+   "ok": true,
+   "independent": [
+    5.1,
+    5.82
+   ],
+   "paper": "5.1--5.8\\%",
+   "note": ""
+  },
+  {
+   "name": "PfRealWhitenedRangeVTwo",
+   "ok": true,
+   "independent": [
+    6.01,
+    7.49
+   ],
+   "paper": "6.0--7.5\\%",
+   "note": ""
+  },
+  {
+   "name": "RealDoseRho",
+   "ok": true,
+   "independent": 0.8778,
+   "paper": "0.88",
+   "note": "rank correlation, own implementation"
+  },
+  {
+   "name": "TrevNoiseNrec",
+   "ok": true,
+   "independent": 74,
+   "paper": "74",
+   "note": ""
+  },
+  {
+   "name": "TrevNoiseNtotal",
+   "ok": true,
+   "independent": 100,
+   "paper": "100",
+   "note": ""
+  },
+  {
+   "name": "TrevRolloff",
+   "ok": true,
+   "independent": 2.4316,
+   "paper": "2.4",
+   "note": ""
+  },
+  {
+   "name": "AdaptAcePfMeanHf",
+   "ok": true,
+   "independent": 0.0549,
+   "paper": "5.5\\%",
+   "note": ""
+  },
+  {
+   "name": "AdaptAcePfMeanTrev",
+   "ok": true,
+   "independent": 0.049,
+   "paper": "4.9\\%",
+   "note": ""
+  },
+  {
+   "name": "AdaptAmfPfMeanHf",
+   "ok": true,
+   "independent": 0.1247,
+   "paper": "12.5\\%",
+   "note": ""
+  },
+  {
+   "name": "AdaptKellyPfMeanHf",
+   "ok": true,
+   "independent": 0.1172,
+   "paper": "11.7\\%",
+   "note": ""
+  },
+  {
+   "name": "RealSigFmGapTt",
+   "ok": true,
+   "independent": [
+    -0.02
+   ],
+   "paper": "0.0",
+   "note": ""
+  },
+  {
+   "name": "RealSigFmGapHf",
+   "ok": true,
+   "independent": [
+    1.35
+   ],
+   "paper": "$+$1.3",
+   "note": ""
+  },
+  {
+   "name": "RealSigFmKappaLoGapTt",
+   "ok": true,
+   "independent": [
+    20.9
+   ],
+   "paper": "$+$20.9",
+   "note": ""
+  },
+  {
+   "name": "RealSigFmKappaLoGapHf",
+   "ok": true,
+   "independent": [
+    23.82
+   ],
+   "paper": "$+$23.8",
+   "note": ""
+  },
+  {
+   "name": "RealSigAdsbGapHf",
+   "ok": true,
+   "independent": [
+    5.03
+   ],
+   "paper": "$+$5.0",
+   "note": ""
+  },
+  {
+   "name": "EmpSplitHalfMedianHf",
+   "ok": true,
+   "independent": 0.511,
+   "paper": "0.51",
+   "note": ""
+  },
+  {
+   "name": "EmpSteadyDriftMedianHf",
+   "ok": true,
+   "independent": 0.4917,
+   "paper": "0.49",
+   "note": ""
+  },
+  {
+   "name": "EmpStartupMedianHf",
+   "ok": true,
+   "independent": 1.344,
+   "paper": "1.34",
+   "note": ""
+  },
+  {
+   "name": "EmpSessionMedianHf",
+   "ok": true,
+   "independent": 0.3905,
+   "paper": "0.39",
+   "note": ""
+  },
+  {
+   "name": "EmpRetuneMedianHf",
+   "ok": true,
+   "independent": 3.4872,
+   "paper": "3.49",
+   "note": ""
+  },
+  {
+   "name": "EmpWallSameFreqDb",
+   "ok": true,
+   "independent": -21.0982,
+   "paper": "$-21.1$",
+   "note": ""
+  },
+  {
+   "name": "EmpSplitHalfMedianTt",
+   "ok": true,
+   "independent": 0.4251,
+   "paper": "0.43",
+   "note": ""
+  },
+  {
+   "name": "EmpCrossRecMedian",
+   "ok": true,
+   "independent": 2.6147,
+   "paper": "2.61",
+   "note": ""
+  },
+  {
+   "name": "WallWhiteNAMinus",
+   "ok": true,
+   "independent": 0.0129,
+   "paper": "0.01",
+   "note": "3 seeds"
+  },
+  {
+   "name": "WallSurrxmNA",
+   "ok": true,
+   "independent": 0.054,
+   "paper": "0.05",
+   "note": ""
+  },
+  {
+   "name": "WallTwoSurrxmNA",
+   "ok": true,
+   "independent": 0.0872,
+   "paper": "0.09",
+   "note": ""
+  },
+  {
+   "name": "WallWhiteNBMinus",
+   "ok": true,
+   "independent": 0.0032,
+   "paper": "0.00",
+   "note": "3 seeds"
+  },
+  {
+   "name": "WallSurrxmNB",
+   "ok": true,
+   "independent": 0.0678,
+   "paper": "0.07",
+   "note": ""
+  },
+  {
+   "name": "WallTwoSurrxmNB",
+   "ok": true,
+   "independent": 0.191,
+   "paper": "0.19",
+   "note": ""
+  },
+  {
+   "name": "WallWhiteNCMinus",
+   "ok": true,
+   "independent": 0.0,
+   "paper": "0.00",
+   "note": "3 seeds"
+  },
+  {
+   "name": "WallSurrxmNC",
+   "ok": true,
+   "independent": 0.1041,
+   "paper": "0.10",
+   "note": ""
+  },
+  {
+   "name": "WallTwoSurrxmNC",
+   "ok": true,
+   "independent": 0.4813,
+   "paper": "0.48",
+   "note": ""
+  },
+  {
+   "name": "WallLongCycNC",
+   "ok": true,
+   "independent": 0.0582,
+   "paper": "0.06",
+   "note": "3 seeds"
+  },
+  {
+   "name": "WallLongBandNC",
+   "ok": true,
+   "independent": 0.0472,
+   "paper": "0.05",
+   "note": ""
+  },
+  {
+   "name": "WallLongCycND",
+   "ok": true,
+   "independent": 0.1652,
+   "paper": "0.17",
+   "note": "3 seeds"
+  },
+  {
+   "name": "WallLongBandND",
+   "ok": true,
+   "independent": 0.0405,
+   "paper": "0.04",
+   "note": ""
+  },
+  {
+   "name": "WallLongCycNE",
+   "ok": true,
+   "independent": 0.6097,
+   "paper": "0.61",
+   "note": "3 seeds"
+  },
+  {
+   "name": "WallLongBandNE",
+   "ok": true,
+   "independent": 0.0408,
+   "paper": "0.04",
+   "note": ""
+  },
+  {
+   "name": "EscapePairedWallND",
+   "ok": true,
+   "independent": 0.2908,
+   "paper": "0.29",
+   "note": ""
+  },
+  {
+   "name": "EscapePairedBelowND",
+   "ok": true,
+   "independent": 0.0773,
+   "paper": "0.08",
+   "note": ""
+  },
+  {
+   "name": "EscapeCycNetWallND",
+   "ok": true,
+   "independent": 0.4408,
+   "paper": "0.44",
+   "note": ""
+  },
+  {
+   "name": "EscapeCycNetBelowND",
+   "ok": true,
+   "independent": 0.1577,
+   "paper": "0.16",
+   "note": ""
+  },
+  {
+   "name": "EscapePairedWallNE",
+   "ok": true,
+   "independent": 0.6062,
+   "paper": "0.61",
+   "note": ""
+  },
+  {
+   "name": "EscapePairedBelowNE",
+   "ok": true,
+   "independent": 0.1522,
+   "paper": "0.15",
+   "note": ""
+  },
+  {
+   "name": "EscapeCycNetWallNE",
+   "ok": true,
+   "independent": 0.972,
+   "paper": "0.97",
+   "note": ""
+  },
+  {
+   "name": "EscapeCycNetBelowNE",
+   "ok": true,
+   "independent": 0.6283,
+   "paper": "0.63",
+   "note": ""
+  },
+  {
+   "name": "ThConfigs",
+   "ok": true,
+   "independent": 24,
+   "paper": "24",
+   "note": ""
+  },
+  {
+   "name": "ThMaxBelow",
+   "ok": true,
+   "independent": 0.0533,
+   "paper": "0.053",
+   "note": ""
+  },
+  {
+   "name": "CiSurrxmGainLpf",
+   "ok": true,
+   "independent": 26.79,
+   "paper": "$+26.8$",
+   "note": ""
+  },
+  {
+   "name": "CiRandmGainLpf",
+   "ok": true,
+   "independent": 16.69,
+   "paper": "$+16.7$",
+   "note": ""
+  },
+  {
+   "name": "CiPinkmGainPinkGap",
+   "ok": true,
+   "independent": 24.22,
+   "paper": "$+24.2$",
+   "note": ""
+  },
+  {
+   "name": "CiPinkmGainPinkCldnn",
+   "ok": true,
+   "independent": 56.28,
+   "paper": "$+56.3$",
+   "note": ""
+  },
+  {
+   "name": "EscLawKappaFive",
+   "ok": true,
+   "independent": 0.1215,
+   "paper": "0.122",
+   "note": "frequency-domain spectral correlation of the pulse"
+  },
+  {
+   "name": "ExactDWall",
+   "ok": true,
+   "independent": -7.5666,
+   "paper": "$-7.57$",
+   "note": "bisection on pair feasibility, Gaussian bump + floor, u = 1 dB"
+  },
+  {
+   "name": "EscLawMaxErr",
+   "ok": true,
+   "independent": [
+    0.07
+   ],
+   "paper": "0.07",
+   "note": "39 points"
+  }
+ ],
+ "fails": []
+}
